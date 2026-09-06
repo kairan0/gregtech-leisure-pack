@@ -1,0 +1,59 @@
+# Local runtime and launcher state
+.DS_Store
+.tools/
+backups/
+compat/
+crash-reports/
+extra/
+ext_mods/
+ftbrequests/
+local/
+logs/
+modernfix/
+natives-*/
+questpatch1/
+questpatch2/
+saves/
+screenshots/
+wd_filehost/
+
+# Local Minecraft/HMCL state
+GregTech Leisure.jar
+GregTech Leisure.json
+hmclversion.cfg
+manifest.json
+modpack.cfg
+options.txt
+patchouli_data.json
+rhino.local.properties
+servers.dat*
+usercache.json
+usernamecache.json
+wd_next.txt
+
+# JAR payloads are represented by mods/*.pw.toml
+mods/*.jar
+mods/*.jar.disabled
+
+# Generated release output
+dist/
+*.mrpack
+
+# Planning notes stay local to this workspace
+task_plan.md
+findings.md
+progress.md
+
+# Runtime-generated model cache
+config/yes_steve_model/cache/
+config/resourceful-config-web.json
+config/voicechat/category-volumes.properties
+config/voicechat/player-volumes.properties
+config/voicechat/username-cache.json
+config/voicechat/voicechat-client.properties
+
+# KubeJS/Probe generated output
+kubejs/.cache/
+kubejs/exported/
+kubejs/logs/
+kubejs/probe/

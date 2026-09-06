@@ -1,0 +1,75 @@
+
+[general]
+	#Whether to display disclaimer GUI
+	DisclaimerShow = false
+	#Whether to print animation roulette play message
+	PrintAnimationRouletteMsg = false
+	#Prevents rendering of self player's model
+	DisableSelfModel = false
+	#Prevents rendering of other player's model
+	DisableOtherModel = false
+	#Prevents rendering of self player's hand
+	DisableSelfHands = false
+	#Prevents rendering of projectile model
+	DisableProjectileModel = false
+	#Prevents rendering of vehicle model
+	DisableVehicleModel = false
+	#Disable first person animation from other mods.
+	DisableExternalFirstPersonAnim = false
+	#If rendering errors occur, try turning on this.
+	UseCompatibilityRenderer = false
+	#Test renderer.
+	UseGpuRenderer = false
+	#Allowed Values: MODERN, CLASSIC
+	RouletteSettingsMode = "MODERN"
+	#Allowed Values: MODERN, CLASSIC
+	RouletteMode = "CLASSIC"
+	BlurGui = true
+	#Allowed Values: MODERN, CLASSIC
+	TextureScreenMode = "MODERN"
+	#Allowed Values: MODERN, CLASSIC
+	ModelInfoScreenMode = "MODERN"
+	#The amount of volume when the animation is played.
+	#Range: 0.0 ~ 100.0
+	SoundVolume = 100.0
+	#Whether to display model ID first in the model selection screen, instead of the model name filled in by the model author.
+	ShowModelIdFirst = false
+	LazyModelLoading = true
+	#Always use client-only mode
+	ForceClientMode = false
+	#Seconds to wait for the server to answer the handshake.
+	#Range: 1.0 ~ 60.0
+	HandshakeTimeout = 5.0
+	#Maximum entries shown at search list.
+	#Range: 1.0 ~ 30.0
+	SearchSuggestionCount = 8.0
+
+[Integration]
+	SophisticatedBackpack = true
+	Parcool = true
+
+[extra_player_render]
+	#Whether to display player
+	DisablePlayerRender = false
+	#Player position x in screen
+	#Range: > 0
+	PlayerPosX = 10
+	#Player position y in screen
+	#Range: > 0
+	PlayerPosY = 10
+	#Player scale in screen
+	#Range: 8.0 ~ 360.0
+	PlayerScale = 40.0
+	#Player yaw offset in screen
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	PlayerYawOffset = 5.0
+	#Hide the HUD model preview while in third person view
+	DisablePlayerRenderThirdPerson = false
+
+[loading_state_screen]
+	#Whether to disable loading state screen
+	DisableLoadingStateScreen = false
+	#Loading state screen position
+	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
+	LoadingStatePosition = "TOP_CENTER"
+

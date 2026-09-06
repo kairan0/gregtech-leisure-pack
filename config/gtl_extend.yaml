@@ -1,0 +1,27 @@
+# 开启永恒蓝梦和蓝梦主机合成表的注册，注意这可能会影响游戏平衡（修改后请退出重进）
+enableInfinityDreamAndDreamHostCrafting: false
+
+# 开启黑洞物质解压器实体渲染,当延迟过大时关闭此项(未实装)
+enableBlackHoleMatterDecompressor: false
+
+# 开启超维度发电机实体渲染,当延迟过大时关闭此项(未实装)
+enableHyperDimensionalPower: false
+
+# 开启通用蒸汽机（修改后请退出重进）
+enableGeneralPurposeSteamEngine: true
+
+# 开启通用AE制造机（修改后请退出重进）
+enableGeneralAEManufacturingMachine: false
+
+# 最大配方线程数逻辑使用更改 AUTO为Integer.MAX*2，ADD为gtladd的线程计算逻辑，SET为设置线程数
+max_threads_type: AUTO
+
+# ADD配方默认携带线程数，可以与天球叠加
+addmax_threads: 2048
+
+# SET配方线程数修改
+max_threads: 2048
+
+# 实体加速
+ticktime: false
+

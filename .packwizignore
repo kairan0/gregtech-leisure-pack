@@ -1,0 +1,62 @@
+# Repository/development files
+/.nojekyll
+/.github/**
+/.tools/**
+/scripts/**
+/README.md
+/CHANGELOG.md
+/task_plan.md
+/findings.md
+/progress.md
+
+# Launcher/runtime files
+/.DS_Store
+/GregTech Leisure.jar
+/GregTech Leisure.json
+/hmclversion.cfg
+/manifest.json
+/modpack.cfg
+/options.txt
+/patchouli_data.json
+/rhino.local.properties
+/servers.dat
+/servers.dat_old
+/usercache.json
+/usernamecache.json
+/wd_next.txt
+/wd_filehost/**
+
+# Runtime/generated directories
+/backups/**
+/compat/**
+/crash-reports/**
+/dist/**
+/extra/**
+/ext_mods/**
+/ftbrequests/**
+/gtcalcboard/**
+/local/**
+/logs/**
+/modernfix/**
+/natives-macos-arm64/**
+/questpatch1/**
+/questpatch2/**
+/saves/**
+/screenshots/**
+
+# JAR payloads are represented by metafiles
+/mods/*.jar
+/mods/*.jar.disabled
+
+# Per-user/generated configuration state
+/config/yes_steve_model/cache/**
+/config/jei/world/**
+/config/resourceful-config-web.json
+/config/voicechat/category-volumes.properties
+/config/voicechat/player-volumes.properties
+/config/voicechat/username-cache.json
+/config/voicechat/voicechat-client.properties
+/kubejs/.cache/**
+/kubejs/exported/**
+/kubejs/logs/**
+/kubejs/probe/**

@@ -1,0 +1,73 @@
+{
+  "modPriorities": [
+    "gtceu",
+    "minecraft",
+    "kubejs",
+    "crafttweaker",
+    "create",
+    "thermal",
+    "immersiveengineering",
+    "mekanism",
+    "neoecoae"
+  ],
+  "stoneStrata": [
+    "stone",
+    "andesite",
+    "deepslate",
+    "diorite",
+    "granite",
+    "nether",
+    "end"
+  ],
+  "tags": [
+    "forge:nuggets/{material}",
+    "forge:dusts/{material}",
+    "forge:gears/{material}",
+    "forge:ingots/{material}",
+    "forge:plates/{material}",
+    "forge:rods/{material}",
+    "forge:wires/{material}",
+    "forge:storage_blocks/{material}",
+    "forge:dusts/iron",
+    "forge:ores/aluminium",
+    "forge:raw_materials/aluminium",
+    "forge:storage_blocks/raw_aluminium"
+  ],
+  "materials": [
+    "aluminium",
+    "tungsten"
+  ],
+  "priorityOverrides": {},
+  "customTags": {},
+  "tagOwnerships": {
+    "forge:dusts/aluminium": [
+      "forge:dusts/aluminum"
+    ],
+    "forge:ingots/aluminium": [
+      "forge:ingots/aluminum"
+    ],
+    "forge:ores/aluminium": [
+      "forge:ores/aluminum"
+    ],
+    "forge:raw_materials/aluminium": [
+      "forge:raw_materials/aluminum"
+    ],
+    "forge:storage_blocks/aluminium": [
+      "forge:storage_blocks/aluminum"
+    ],
+    "forge:storage_blocks/raw_aluminium": [
+      "forge:storage_blocks/raw_aluminum"
+    ]
+  },
+  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritance": {},
+  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritance": {},
+  "ignoredTags": [],
+  "ignoredItems": [],
+  "ignoredRecipeTypes": [
+    "cucumber:shaped_tag"
+  ],
+  "ignoredRecipes": [],
+  "itemsHidingJeiRei": true
+}

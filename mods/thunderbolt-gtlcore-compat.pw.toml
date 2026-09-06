@@ -1,0 +1,8 @@
+name = "Thunderbolt GTLCore Compat"
+filename = "thunderbolt-forge-1.20.1-2.0.0-beta.3-gtlcore-compat.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/thunderbolt-forge-1.20.1-2.0.0-beta.3-gtlcore-compat.2.jar"
+hash-format = "sha256"
+hash = "c25df5cff8de89e901476a939b842c27ac76bb577a21162e2bef684098742da1"

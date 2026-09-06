@@ -1,0 +1,8 @@
+name = "Simple Voice Chat"
+filename = "voicechat-forge-1.20.1-2.6.23.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/voicechat-forge-1.20.1-2.6.23.jar"
+hash-format = "sha256"
+hash = "c9628f1770f22e4c56a0d2d51c1a4171249596410c0fec0e8997ae25760ca528"

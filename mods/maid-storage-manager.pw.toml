@@ -1,0 +1,13 @@
+name = "Maid Storage Manager"
+filename = "1.20.1-maid_storage_manager-1.15.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc1d147663446679735728f77c7b1179eccf2837"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7976861
+project-id = 1210244

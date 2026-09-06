@@ -1,0 +1,8 @@
+name = "OpenYSM"
+filename = "openysm-forge-2.6.6.6.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/openysm-forge-2.6.6.6.jar"
+hash-format = "sha256"
+hash = "86a1b0161df2c8f803f9ccbc53bd0583414c18b1d628e0bec42f2a2297a0aabb"

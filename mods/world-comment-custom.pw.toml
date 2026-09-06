@@ -1,0 +1,8 @@
+name = "WorldComment"
+filename = "WorldComment-0.3.2+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/worldcomment-0.3.2-1.20.1.jar"
+hash-format = "sha256"
+hash = "f89d12d9e2765a3b8e8cdbeccc904c5fb9f7255616a72c3655ecdd52f22c7a13"

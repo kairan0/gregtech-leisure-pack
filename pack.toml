@@ -1,0 +1,13 @@
+name = "GregTech Leisure"
+author = "kairan0"
+version = "1.4.5.1-kairan.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b5f305d70874b8436b21774fb16734c13f0cc53d8ea00df027f3600fda40f1e1"
+
+[versions]
+forge = "47.4.16"
+minecraft = "1.20.1"

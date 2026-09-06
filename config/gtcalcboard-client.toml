@@ -1,0 +1,7 @@
+
+#Client-side configurations for GregTech Calculator Board
+[general]
+	#Whether to show a one-time welcome chat message upon first joining a world/server.
+	#If false, the welcome message will never be shown.
+	showWelcomeChatMessage = true
+

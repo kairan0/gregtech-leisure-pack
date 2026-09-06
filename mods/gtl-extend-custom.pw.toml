@@ -1,0 +1,8 @@
+name = "GTL Extend No Planetary Engine"
+filename = "gtl_extend-3.2.1-NoPlanetaryEngine-pre1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/gtl-extend-3.2.1-no-planetary-engine-pre1.jar"
+hash-format = "sha256"
+hash = "a018e4d0136b575cb05bafc9b76e1805bf02a26c4508b6c677c565adb0426cec"

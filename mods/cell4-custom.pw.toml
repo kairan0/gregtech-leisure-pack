@@ -1,0 +1,8 @@
+name = "Cell4"
+filename = "Cell4-1.20.1-1.0.3+datapack-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/cell4-1.20.1-1.0.3-datapack-0.0.1.jar"
+hash-format = "sha256"
+hash = "0ae83d2b0eadea1117abce5b649961858a4bc31d41d65ce34fe2557daf56578e"

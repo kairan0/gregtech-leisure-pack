@@ -1,0 +1,1418 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:lv_electric_motor"
+	id: "393DD40CAFBB69A5"
+	order_index: 1
+	quest_links: [{
+		id: "0B8B2F7F6C5F0B43"
+		linked_quest: "4C591AA4F1D907C1"
+		x: -2.0d
+		y: -4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"后面三个部件还可以用作覆盖版"
+				"{@pagebreak}"
+				"电动马达是一种将电能转换为机械能的装置。它的工作原理基于电磁感应，当电流通过电动机的线圈时，会在磁场中产生力，这个力使得电动机的转子旋转，从而驱动负载工作。电动马达广泛应用于各种工业、商业和家用电器中。"
+				"{@pagebreak}"
+				"电力活塞是由电力驱动的往复运动装置，可以将电动机的旋转运动转换为直线往复运动。这样的装置可以用于各种应用，如压缩机、气动执行器、机械臂等。"
+				"{@pagebreak}"
+				"机械臂是一种模仿人类手臂功能的机械装置，通常由一系列连杆和关节组成，能够进行一系列复杂的运动，包括旋转、弯曲和伸展。机械臂可以通过编程或远程控制来执行各种任务，如搬运、组装、焊接、喷涂、测量和探索等。"
+				"{@pagebreak}"
+				"传送带是一种运输机械，用于将材料或产品从一个地点搬运到另一个地点。它由一个或多个连续的带状结构组成，围绕两个滚筒旋转，这些滚筒作为驱动和支撑点。传送带可以水平运行，也可以倾斜或垂直运行，以适应不同的搬运需求。"
+			]
+			id: "2D6BB32B642AE8BA"
+			rewards: [{
+				id: "544735BB21DE9B9D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5DBFDA1AF623D088"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "31B636C7F831CBD3"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "6B73DE9C2DD2D8F1"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "29F8DEDDA3A8411F"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "58065362C30CB627"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+			]
+			title: "五件套"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7CB85061F0822830"
+				"553B2D61416792DC"
+			]
+			description: ["第一次玩建议额外浏览《电力》《机器》这两个章节"]
+			id: "51B9A72C19F84F0E"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "13DADE13289E59D0"
+				title: "低压LV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["让你更加高效的获得导线和细导线"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "0CF19CAFB3355075"
+			rewards: [{
+				id: "2AC3B6BF675F4682"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "588BCA87500214EF"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["让你更高效的获得板和箔，一锭出一板，一锭出四箔"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "3DC0B933936357B3"
+			rewards: [{
+				id: "5722F9FCDB566036"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "137AFD6CB3927548"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["让你更高效的获得杆和螺丝：一锭出两杆，一螺栓出一螺丝"]
+			icon_scale: 2.0d
+			id: "048455FFC9BDC82A"
+			rewards: [{
+				id: "4B27D0AEB350794A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "57EDE3A779842162"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["用它将物品磁化"]
+			hide_dependency_lines: true
+			id: "51F0CE5F1BCC78D1"
+			rewards: [{
+				id: "6F1E030D11A09345"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DA43E9650F117DD"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"32CE144D9A9F0943"
+				"3F38CC8C8D650202"
+				"198ED0A20800F3ED"
+				"20F6BF1EDC6EBDC1"
+			]
+			description: [
+				"你需要在高炉上放两个&7LV&r能源仓以将高炉升压到&bMV&r，这样它就可以&o&6运行&bMV&r&o&6的配方&r（电压间的功率换算关系例子如下：4A LV=1A MV，以此类推）"
+				""
+				"除了电压之外，配方能否运作实际上并不取决于线圈，而是电力高炉的热容/温度！"
+			]
+			icon_scale: 1.3d
+			id: "07D0D7005DA4F446"
+			rewards: [{
+				id: "59A5761D2A7FD87D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0BAFA129FC209B2A"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3117BF8E4782DB2A"]
+			description: [
+				"这是为多方块结构供电的方块"
+				""
+				"实际上一个普通能源仓的容量为2A 当前电压"
+				""
+				"对应的，机器外壳的容量为1A 当前电压"
+			]
+			id: "32CE144D9A9F0943"
+			rewards: [{
+				id: "00234C85463FBBF3"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66CE417A92BDA931"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"这是高炉需要的仓室"
+				""
+				"维护仓&4并不能&r被多方块结构共用"
+				""
+				"拿着胶带右键维护仓可快速维护维护仓"
+			]
+			hide_dependency_lines: true
+			id: "3F38CC8C8D650202"
+			rewards: [
+				{
+					id: "62C270080F8D4EF8"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "483D9851469E85ED"
+					item: "gtceu:duct_tape"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7DD304EE89C9B95E"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "2CD0C7B93136636E"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0814DB1EBFD42A5B"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0338C31DFA586B4D"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "一些仓室"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3E50EE376968519F"
+				"18C2AB18B354F774"
+				"7F9F473B8C508676"
+				"36E33432C72763C8"
+			]
+			description: ["可以被多个多方块结构共用"]
+			icon_scale: 2.0d
+			id: "20F6BF1EDC6EBDC1"
+			rewards: [{
+				id: "0368C7A8382A16D9"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "你的第一套线圈"
+			tasks: [{
+				count: 16L
+				id: "022D8EB7519F65E1"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			title: "白铜线圈"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: [
+				"&l&c&n组装机是组装机，电路组装机是电路组装机，不要看错了！！！"
+				"&l&c&n组装机是组装机，电路组装机是电路组装机，不要看错了！！！"
+				"&l&c&n组装机是组装机，电路组装机是电路组装机，不要看错了！！！"
+			]
+			icon_scale: 2.0d
+			id: "3E50EE376968519F"
+			min_width: 240
+			rewards: [{
+				id: "2DF768F56128A868"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "不能组装电路"
+			tasks: [{
+				id: "0A32B247C01822D2"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["将物品转换成流体"]
+			icon_scale: 2.0d
+			id: "63C2FA96C708C125"
+			rewards: [{
+				id: "00F71B34C31D9DD1"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "061EC839843C4CDA"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13DADE13289E59D0"]
+			description: ["用搅拌机制作粉再熔炼得到，也可以直接用蒸汽铸造炉做"]
+			id: "7CC28185463F24C2"
+			rewards: [{
+				id: "1B049A74A1F581C4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B0AD5C6137AEFCE"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63C2FA96C708C125"]
+			icon: "gtceu:tin_alloy_bucket"
+			id: "18C2AB18B354F774"
+			rewards: [{
+				id: "39AA63FFC2362D94"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3674584BA72776DA"
+				item: "gtceu:tin_alloy_bucket"
+				type: "item"
+			}]
+			title: "液态锡铁合金"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["用搅拌机制作粉再熔炼得到，也可以直接用蒸汽铸造炉做"]
+			hide_dependency_lines: true
+			id: "198ED0A20800F3ED"
+			rewards: [{
+				id: "2684D5389A34E1FD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CB9DD3F4D92C8FD"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0CF19CAFB3355075"
+				"7CC28185463F24C2"
+			]
+			id: "7F9F473B8C508676"
+			rewards: [{
+				id: "79ECDB061254A027"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75A397E09A1E76A7"
+				item: "gtceu:cupronickel_double_wire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3DC0B933936357B3"]
+			id: "36E33432C72763C8"
+			rewards: [{
+				id: "291856E74A9E5F26"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC54740C4BEE22C"
+				item: "gtceu:bronze_foil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["电解矿物粉获得材料"]
+			hide_dependency_lines: true
+			id: "6E3B42BCBA6064F5"
+			rewards: [{
+				id: "5CE4F17667F7FBCE"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FE273B543714BD1"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3B42BCBA6064F5"]
+			description: ["{ \"text\": \"LV阶段你的铝粉只能通过电解蓝宝石或者绿色蓝宝石粉获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"]
+			hide_dependency_lines: false
+			id: "73EFFB71A1A827D6"
+			rewards: [{
+				id: "069723A603517148"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E83C5426C90F1A6"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73EFFB71A1A827D6"
+				"07D0D7005DA4F446"
+			]
+			id: "11B60450D7F3C188"
+			rewards: [{
+				id: "7B15E06A86D475E2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "298A039260B352D6"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0877362A9EE36FB3"
+				"006BBE4D312A2E2E"
+			]
+			icon_scale: 2.0d
+			id: "7D399E31506924A0"
+			rewards: [{
+				id: "005FED5AFFB39EE8"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "你的第一块MV电路"
+			tasks: [{
+				id: "0F9DE31D5976C043"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D399E31506924A0"]
+			description: ["这个是便宜的MV电路"]
+			icon_scale: 2.0d
+			id: "40C39645B1DE2488"
+			rewards: [{
+				id: "520AD95C373E9472"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "348825C79AD479CA"
+				item: "kubejs:elite_control_circuit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E50EE376968519F"]
+			id: "3A97E85643D2F8AC"
+			rewards: [{
+				id: "1C7F382616F0B1B4"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "395F73DF4EA428B0"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A97E85643D2F8AC"
+				"1BF78ABAD1FF993F"
+			]
+			id: "006BBE4D312A2E2E"
+			rewards: [{
+				id: "556A75455225A1FC"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E8A56A18EA1888B"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CF19CAFB3355075"]
+			id: "1BF78ABAD1FF993F"
+			rewards: [{
+				id: "19C6BCAF6C93F813"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D16B78D90582E29"
+				item: "gtceu:silver_single_wire"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6D63FB02A50F8249"
+				"06F767F4EFFD5DC6"
+			]
+			description: ["后面可以用硅晶圆和聚乙烯制作"]
+			id: "0877362A9EE36FB3"
+			rewards: [{
+				id: "13E6DA5EABE53D58"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "632999DA643003E5"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"{ \"text\": \"镓粉的早期来源是热离闪锌矿\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
+				""
+				"{ \"text\": \"砷粉的早期来源则是雄黄\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4826DCD2FC457EA5\" } }"
+			]
+			id: "6D63FB02A50F8249"
+			rewards: [{
+				id: "243137AFBD25F931"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DBD74652FB4B8BF"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"用它烧制退火铜和锻铁"
+				""
+				"还能回收没用的机器"
+			]
+			hide_dependency_lines: true
+			id: "524AC325E68AEB3A"
+			rewards: [{
+				id: "658C1C586BC53BC0"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F2FF11089D97406"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51F0CE5F1BCC78D1"]
+			hide_dependent_lines: true
+			id: "18DC7021FF2C7EEB"
+			rewards: [{
+				id: "59DCAAF6EF76D2DD"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06EC3C1BF7D124CB"
+				item: "gtceu:magnetic_steel_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["524AC325E68AEB3A"]
+			description: ["退火铜可以在很多地方取代铜，而且某些时候效率更高"]
+			id: "31B5C9A6F8FB0BA2"
+			rewards: [{
+				id: "25EAB2420E51D496"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C8DEF275C16A96E"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["帮助你获取氮气和氧气"]
+			hide_dependency_lines: true
+			id: "5C12B96341807611"
+			rewards: [{
+				id: "403B511B96D6568D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13AD3E7E937E345D"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C12B96341807611"]
+			description: ["推荐用大型蒸汽离心机离心（记得放&b&l两个&r输出仓！）"]
+			icon: "gtceu:nitrogen_bucket"
+			id: "05707E2FF325F723"
+			rewards: [{
+				id: "7F852A16D5EF1FEF"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34EEC000DAD79557"
+				title: "氮气和氧气"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["{ \"text\": \"你可以还去小市场买点线缆\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AF2865F9C88CBFD\" } }"]
+			hide_dependency_lines: true
+			id: "44DD16023AF842F1"
+			rewards: [{
+				id: "4FE417BAAE55F825"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			subtitle: "这个是LV阶段的便宜超导材料"
+			tasks: [{
+				id: "001139BEE7311878"
+				item: "gtceu:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["自动化的好帮手，还有升级版本"]
+			hide_dependency_lines: true
+			id: "3D8CF0C08F6A3075"
+			optional: true
+			rewards: [{
+				id: "38BBC47CD4D1C340"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "785EB9D4772FE036"
+				item: "gtceu:lv_buffer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"54034055F57DDAA5"
+				"49ABB341017BAE85"
+			]
+			icon_scale: 1.3d
+			id: "388E5C1034C54D19"
+			rewards: [{
+				id: "2DC114FA32688047"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "08CFFDE3C82C9FCF"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35F31D71CC8B67CF"]
+			description: ["{ \"text\": \"你需要用组装机做\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
+			id: "49ABB341017BAE85"
+			rewards: [{
+				id: "3694138B038CCF53"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B0294376308A36D"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11B60450D7F3C188"]
+			id: "54034055F57DDAA5"
+			rewards: [{
+				id: "78F1A4EDCA1788D5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A2D5C286E8A31E"
+				item: "gtceu:aluminium_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"27A9D4E765101CB9"
+				"5D4ADE3F2E57635C"
+			]
+			description: [
+				"用硫粉和生橡胶末在化学反应釜里面反应，也可以使用蒸汽铸造炉制作橡胶条然后提取"
+				""
+				"远海鲸吞之桶可以当作每格槽位2.1MB，槽位几乎用不完的流体单元（与ME网络互动时有可能把ME网络的电耗干净）；对着空气右键可以切换流体"
+			]
+			id: "35F31D71CC8B67CF"
+			rewards: [{
+				id: "40AA3B1525E39A70"
+				item: "avaritia:infinity_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C49A402D20FE1B1"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			title: "液态橡胶"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			hide_dependency_lines: true
+			id: "27A9D4E765101CB9"
+			rewards: [{
+				id: "633A0E4549008312"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "708FD829786614CE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["335ED39019FC62E7"]
+			description: [
+				"{ \"text\": \"硫来自于远古世界\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
+				""
+				"生橡胶末来自于离心黏性树脂"
+			]
+			id: "5D4ADE3F2E57635C"
+			rewards: [{
+				id: "47DA92AD0AF8469A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F83D0A9E7203CB7"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "40CDF40EC6D4E24F"
+					item: "gtceu:raw_rubber_dust"
+					type: "item"
+				}
+			]
+			title: "硫粉和生橡胶"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E50EE376968519F"]
+			id: "3117BF8E4782DB2A"
+			rewards: [{
+				id: "7A61C3136C8C309B"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A00FC384A33FB54"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"40C39645B1DE2488"
+				"0037D6BA6A4ABB72"
+				"06F767F4EFFD5DC6"
+				"128671E4DC47EF55"
+			]
+			description: ["{ \"text\": \"聚氯乙烯的性价比更高\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BF89185AEB4D1D5\" } }"]
+			icon_scale: 2.0d
+			id: "033DE57F0D91698C"
+			tasks: [{
+				id: "139820782C4C2E96"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"40C39645B1DE2488"
+				"54034055F57DDAA5"
+			]
+			id: "0D3122E318CB119D"
+			rewards: [{
+				id: "7D96687C8585EE02"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60A911126CE7DD9B"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07D0D7005DA4F446"]
+			description: [
+				"正经的&8LV&r超导体"
+				""
+				"{ \"text\": \"磷的来源见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70252B72F7728EFD\" } }"
+				""
+				"{ \"text\": \"这里则是锰的来源\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C75A50B17AA9AF1\" } }"
+			]
+			id: "4EBCDD1E943F7350"
+			rewards: [{
+				count: 4
+				id: "3578D6E34AD7CFF0"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A0E245BCDBBC3D3"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4EBCDD1E943F7350"]
+			id: "0BBC0C3FB2E8C800"
+			tasks: [{
+				id: "193D5046F8A8CD47"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BBC0C3FB2E8C800"]
+			description: [
+				"{ \"text\": \"具体产出见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D339F25E824A2C\" } }"
+				""
+				"不要尝试进到屠宰场内部，会每隔一秒受到来自/kill的即死伤害"
+				""
+				"世界加速器&c并不能加速&rGT机器，只能加速作物生长、无尽贪婪的机器等"
+			]
+			icon_scale: 2.0d
+			id: "62B5D5669A535245"
+			shape: "rsquare"
+			subtitle: "电力刷怪塔"
+			tasks: [{
+				id: "41EE54C0336928F8"
+				item: "gtceu:slaughterhouse"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D3122E318CB119D"]
+			description: [
+				"用法在AE自带指南里，非常详细"
+				""
+				"在打开样板编码终端的前提下，对着多方块主机按U可以按加号直接将所有建筑材料写入样板"
+				""
+				"除非你真的知道自己在做什么，否则建议&c将样板里的副产物全部删除&r，避免出现副产物参与合成导致卡合成的情况"
+			]
+			id: "1715EF3BF00D33B7"
+			tasks: [
+				{
+					id: "46326B05CE78E329"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "58B5C7D22108C263"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "下单！启动！"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1715EF3BF00D33B7"]
+			description: ["建议断开网络写，写好再连接网络"]
+			id: "07758FA2615B7559"
+			rewards: [{
+				id: "5425C8B8A676E77A"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BAF8D0B28FC21AE"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27A9D4E765101CB9"]
+			description: [
+				"{ \"text\": \"可以通过处理石油获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5785F2E43E76E624\" } }"
+				""
+				"你也可以用硫酸和乙醇反应获得"
+			]
+			hide_dependency_lines: true
+			id: "0037D6BA6A4ABB72"
+			rewards: [{
+				id: "23021EEA7BDB8553"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "你的第一条产线"
+			tasks: [{
+				id: "41803FDFF0B25EBC"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			title: "液态聚乙烯"
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"51B9A72C19F84F0E"
+				"18DC7021FF2C7EEB"
+			]
+			description: ["拿在手上潜行右键切换开关状态"]
+			hide_dependency_lines: true
+			id: "72D27369AF243A34"
+			optional: true
+			rewards: [{
+				id: "79B177EC0D35395A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "需要充电"
+			tasks: [{
+				id: "28B5B9642C4C6326"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"覆盖板可以安装在各种GT的机器、仓室甚至管道上，实现不同的功能，使用&b&l螺丝刀&r可以快速打开覆盖板配置界面"
+				""
+				"传送带和机械臂可以抽取和弹出物品，电动泵和流体校准器则对应流体；装载过滤卡后可以过滤输入/输出"
+				""
+				"无线物品和流体覆盖板甚至可以跨纬度传输（两端均需要处于加载的区块）"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:computer_monitor_cover"
+			id: "3A726EDBF7AC5E5B"
+			rewards: [
+				{
+					id: "6194693C72F6F2AC"
+					item: "gtmthings:wireless_item_transfer_cover"
+					type: "item"
+				}
+				{
+					id: "559543CCE485C5C5"
+					item: "gtmthings:wireless_fluid_transfer_cover"
+					type: "item"
+				}
+				{
+					id: "6139A740691B0F27"
+					item: "gtceu:item_filter"
+					type: "item"
+				}
+				{
+					id: "05AA2F27244C2A21"
+					item: "gtceu:fluid_filter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69E2A810A09B2B6A"
+				title: "覆盖板"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C591AA4F1D907C1"]
+			description: [
+				"输入，输出，维护 ，动力，你都放了吗"
+				""
+				"发电机放入主机GUI右下角，且最多堆叠&b&l十六&r个"
+				""
+				"无线电网模式可以&6绕过动力仓&r"
+				"{ \"text\": \"直接将能量导入无线电网\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D4874CA93B567A3\" } }"
+				""
+				"无线电网模式下建议动力仓容量至少为一台发电机的基础功率，且有自动消耗动力仓内缓存电力的途径，以免发电阵列因动力仓电力缓存满了导致停机"
+			]
+			id: "1486FC9F82B2E56E"
+			subtitle: "双倍效率"
+			tasks: [{
+				id: "5EE2778F62F08653"
+				item: "gtceu:generator_array"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"巨型输入总线/成&c不能通过外界输入编程电路的方法修改仓室本身的电路设置"
+				""
+				"巨型输入总线/成的可用物品槽位实际上比物品描述里的&c少一个&r"
+				""
+				"巨型输入总线/成并不能手动放入物品，需要通过存储容器（箱子，me接口，样板供应器等）进行交互"
+				""
+				"除了容量变大，巨型输入总线还拥有4格&b物品催化剂&r槽位，巨型输入总成则有9格物品催化剂槽位以及9格&b流体催化剂&r槽位"
+				""
+				"对着巨型输入总线/成Shift+右键会将物品放入催化剂槽"
+			]
+			hide_dependency_lines: true
+			id: "62A978538C87ED8A"
+			rewards: [
+				{
+					id: "3EB43CAB76F633F2"
+					item: "gtceu:lv_dual_input_hatch"
+					type: "item"
+				}
+				{
+					id: "506F16048E7BF22A"
+					item: "gtceu:lv_dual_output_hatch"
+					type: "item"
+				}
+				{
+					id: "1A9D527C5A373229"
+					item: "gtmthings:lv_huge_dual_hatch"
+					type: "item"
+				}
+				{
+					id: "685DAB5FD4532DA6"
+					item: "gtceu:lv_huge_input_hatch"
+					type: "item"
+				}
+				{
+					id: "77BBA1AB2A6798F1"
+					item: "gtmthings:lv_huge_item_import_bus"
+					type: "item"
+				}
+				{
+					id: "5875F6DCE7FCFBE5"
+					item: "gtmthings:lv_huge_item_export_bus"
+					type: "item"
+				}
+				{
+					id: "1BC8C68C5F1E49A2"
+					item: "gtceu:lv_huge_output_hatch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "56F0995B11FD33AD"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7B55CA973EEB87DD"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "12DB7C28A7759197"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "38C67FC15CAE487E"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "总成"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63C2FA96C708C125"]
+			hide_dependency_lines: true
+			icon: "gtceu:glass_bucket"
+			id: "06F767F4EFFD5DC6"
+			tasks: [{
+				id: "1E2946FB6D74C148"
+				type: "checkmark"
+			}]
+			title: "液态玻璃"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"66DC685BEC00E4A6"
+				"4357DF535061C2E5"
+			]
+			description: [
+				"安装在小机器上从而使机器直接从无线电网获得能源"
+				""
+				"{ \"text\": \"初期无线电来源是发电阵列\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1486FC9F82B2E56E\" } }"
+				""
+				"多方块机器要等到&6HV&r才能使用无线能源仓，你可以用机器外壳/电池箱+普通能源仓的组合做替代（外壳只有1安，电池箱有高安，只有红色的面能输出能源；电池箱名字里面的Nx代表输出电流为N安，1个电池对应1安输出电流）"
+			]
+			id: "1FA24513965B09A8"
+			rewards: [{
+				id: "77595952A08DE8D5"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			subtitle: "无线电之力"
+			tasks: [{
+				id: "36AFB28F70862E5B"
+				item: "gtmthings:lv_wireless_energy_receive_cover"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["还可以用于制作闪电处理机，稳定获得液态末影珍珠"]
+			id: "4357DF535061C2E5"
+			rewards: [{
+				id: "32B350A25034F919"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BE7A6F90F9E6751"
+					item: "gtceu:lv_emitter"
+					type: "item"
+				}
+				{
+					id: "7C678EAE6E1244AF"
+					item: "gtceu:lv_sensor"
+					type: "item"
+				}
+			]
+			title: "LV传感器与发射器"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FA24513965B09A8"]
+			description: ["无线能量接口可以将接受到的电力导入无线电网"]
+			icon: "gtmthings:wireless_energy_monitor"
+			icon_scale: 2.0d
+			id: "2658C31A89CF5B24"
+			rewards: [{
+				id: "4E72F88862B88E73"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "你可以知道你的无线电网络的具体情况了"
+			tasks: [
+				{
+					id: "44E7E15F401C1EBD"
+					item: "gtmthings:wireless_energy_monitor"
+					type: "item"
+				}
+				{
+					id: "6D00B8C9524FE833"
+					item: "gtmthings:wireless_energy_interface"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "无线电监控"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"推荐先使用屠宰场获得，也可以用闪电处理机获得"
+				""
+				"提取末影珍珠粉，接着固化液态末影珍珠为块，然后拆解末影珍珠块（锻造锤或者分子装配）可以&l&b无损&r&r获得珍珠"
+				""
+				"还能使用聚爆压缩机（有损）"
+			]
+			id: "66DC685BEC00E4A6"
+			rewards: [{
+				id: "06B013BBB4442F41"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04ABF24908220C1E"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2658C31A89CF5B24"]
+			description: ["从无线电网获取能量，对着机器潜行右键以&68倍的电力消耗&r为代价加速机器"]
+			id: "1F0CED23E64D8DB5"
+			rewards: [{
+				id: "6EB5ABC55B15A326"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "时间直接减半"
+			tasks: [{
+				id: "66CF95DF328B6E71"
+				item: "kubejs:time_twister_wireless"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: [
+				"荧石的来源可以是屠宰场或者闪电处理机"
+				""
+				"{ \"text\": \"还有33个无限编程电路元件，使用16K ME存储元件制作\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51A6B6CDC90D7E76\" } }"
+			]
+			hide_dependency_lines: true
+			id: "26FF330CEEDDDDF1"
+			rewards: [{
+				id: "74B9300C4B54B01E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "无限的来源"
+			tasks: [
+				{
+					id: "20D35ABCBEB82A35"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9577EAA5C5DCCF"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "无限水/圆石元件"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4357DF535061C2E5"]
+			description: ["通过模拟高能闪电将普通材料转换为比较有用的材料，比如福鲁伊斯特水晶、充能赛特斯石英、末影珍珠粉、荧石粉等"]
+			id: "5C831396310E6546"
+			rewards: [{
+				id: "314AAA3E7631AAA5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68056D9427DD774E"
+				item: "gtceu:lv_lightning_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Tier1-LV"]
+	title: "低压"
+}

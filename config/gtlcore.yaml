@@ -1,0 +1,119 @@
+disableDrift: true
+
+enableSkyBlokeMode: true
+
+oreMultiplier: 4
+
+cellType: 4
+
+spacetimePip: 2147483647
+
+durationMultiplier: 0.05
+
+travelStaffCD: 2
+
+# 更大的数值会让界面显示有问题，推荐在样板管理终端管理
+exPatternProvider: 360
+
+# Pattern box pages; each page stores 36 encoded patterns
+patternBoxPages: 2
+
+enablePrimitiveVoidOre: true
+
+# 连锁黑名单,支持通配符*
+blackBlockList:
+
+# 可能会极小地影响性能
+enableSmoothAnimations: true
+
+# ME样板总成输出最小间隔
+MEPatternOutputMin: 5
+
+# ME样板总成输出最大间隔
+MEPatternOutputMax: 20
+
+# 是否启用ME库存极限拉取模式(保证机器不会停机, 但是会大幅降低TPS!)
+enableUltimateMEStocking: false
+
+# AE2合成更新间隔(tick), 值越大性能越好但响应越慢, 必须是2的幂次(1,2,4,8,16)
+ae2CraftingServiceUpdateInterval: 4
+
+# AE2库存更新间隔(tick), 值越大性能越好但响应越慢, 必须是2的幂次(1,2,4,8,16)
+ae2StorageServiceUpdateInterval: 16
+
+# AE2合成计算模式: LEGACY(原版), FAST(快速), ULTRA_FAST(极快), MAX_FAST(需求聚合)
+ae2CalculationMode: ULTRA_FAST
+
+# 是否启用 MAX_FAST 独立计算性能日志
+enableMaxFastCalculationLogging: false
+
+# 新放置的普通 AE2 / 扩展样板供应器是否默认开启智能翻倍（ME 样板总成仍强制开启）
+ae2PatternProviderAutoExpandDefault: false
+
+# 编写多方块结构样板过滤的仓室
+filterHatch:
+  - input_bus
+  - output_bus
+  - item_import_bus
+  - item_export_bus
+  - input_hatch
+  - output_hatch
+  - energy_input_hatch
+  - energy_output_hatch
+  - laser_target_hatch
+  - laser_source_hatch
+  - computation_transmitter_hatch
+  - computation_receiver_hatch
+  - data_transmitter_hatch
+  - data_receiver_hatch
+  - maintenance
+  - muffler
+  - rotor_holder
+  - me_super_pattern_buffer_proxy
+  - configurable_fluid_hatch_input
+  - configurable_fluid_hatch_output
+
+# 连锁挖掘（不连续模式）时，检查相邻方块的范围
+# The range to check adjacent blocks during chain mining (non-continuous mode)
+ftbUltimineRange: 4
+
+sendUpdateMessages: false
+
+mobList1:
+  - chicken
+  - rabbit
+  - sheep
+  - cow
+  - horse
+  - pig
+  - donkey
+  - skeleton_horse
+  - iron_golem
+  - wolf
+  - goat
+  - parrot
+  - camel
+  - cat
+  - fox
+  - llama
+  - panda
+  - polar_bear
+
+mobList2:
+  - ghast
+  - zombie
+  - pillager
+  - zombie_villager
+  - skeleton
+  - drowned
+  - witch
+  - spider
+  - creeper
+  - husk
+  - wither_skeleton
+  - blaze
+  - zombified_piglin
+  - slime
+  - vindicator
+  - enderman
+

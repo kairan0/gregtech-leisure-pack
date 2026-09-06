@@ -1,0 +1,8 @@
+name = "GTL Additions Custom SubSpace"
+filename = "[Custom-亚空间]gtladditions-3.2Custom_SubSpace.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/gtladditions-3.2-custom-subspace.jar"
+hash-format = "sha256"
+hash = "9f0e5d54f711712efd1276da3242e970fa4d53c109a530c5f4088d787e1b8bd2"

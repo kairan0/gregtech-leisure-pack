@@ -1,0 +1,6 @@
+// See here for more information:
+// https://wiki.chaotictrials.de/docs/1.20.x/wiki/skyblock-builder/packdev/config/inventory#starting-inventory
+// If this page isn't available, go to the project page (where you downloaded the file), and click on the wiki
+{
+  "items": []
+}

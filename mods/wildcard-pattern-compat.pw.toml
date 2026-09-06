@@ -1,0 +1,8 @@
+name = "Wildcard Pattern AE2LT Compat"
+filename = "wildcard_pattern-0.1.2-gtl-ae2lt-compat.4.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/wildcard-pattern-0.1.2-gtl-ae2lt-compat.4.jar"
+hash-format = "sha256"
+hash = "3d8f6b01dcf7dff1e1922c4efdbe02b78caaf6a36434a2a5efbcdb17bb092d61"

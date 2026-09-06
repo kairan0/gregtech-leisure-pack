@@ -1,0 +1,602 @@
+{
+	autofocus_id: "761B7C90CD2944B9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gtladd"
+	group: ""
+	icon: "gtladditions:astral_array"
+	id: "5C1B88FF417AC122"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"安装了GTLadd后的一些机器和方块"
+				"不展示星门"
+				"ps:写这篇的作者对add的了解也不足，如有错误，自行修改（硬气）"
+			]
+			id: "761B7C90CD2944B9"
+			shape: "heart"
+			size: 1.0d
+			tasks: [{
+				id: "145BFE602BB0B891"
+				title: "这是GTLadd篇"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23B2AEDACA654645"]
+			description: ["EV时期的东西"]
+			id: "70F2B9B1E4F15E61"
+			tasks: [{
+				id: "7FEA6EAC7DC18E90"
+				item: "gtladditions:huge_steam_input_hatch"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			description: ["大型集气室的激光版本"]
+			id: "535CFFCDE9B4A2EE"
+			tasks: [{
+				id: "070EC9858A231B2E"
+				item: "gtladditions:quantum_syphon_matrix"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			description: ["大型化工厂的激光版本"]
+			id: "2377E321BF7B3EBE"
+			tasks: [{
+				id: "5C5B64F1809C1293"
+				item: "gtladditions:dimensionally_transcendent_chemical_plant"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"可以获取一些稀有资源（？）"
+				"寰宇支配之剑的配方需要不再是菜鸟的证明"
+			]
+			id: "0AFF60ADCB4B4B3B"
+			tasks: [{
+				id: "1FB9F3FA1ED25522"
+				item: "gtladditions:biological_simulation_laboratory"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: ["聚合装置的激光版本"]
+			id: "13E5942985D9EC30"
+			tasks: [{
+				id: "3830FD1C4B342234"
+				item: "gtladditions:draconic_collapse_core"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"通用工厂的超级升级版，拥有138个安装模块，仓室仅能替换高能机器方块，需要输入总线设置1号电路（还能看大太阳）"
+				"只需要一个能源仓"
+				"模块的安装主要在底层的电梯链接模块区域"
+				"允许安装星阵"
+			]
+			id: "79810E8C649C38B7"
+			rewards: [{
+				id: "1AF5560CE415D842"
+				item: {
+					Count: 1
+					id: "gtlcore:ultimate_terminal"
+					tag: {
+						IsFlipped: 0b
+						NoHatchMode: 1b
+						RepeatCount: 0
+						ReplaceMode: 1b
+						Tier: 16
+						blocks: "coil"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B811201F6F6F32B"
+				item: "gtladditions:subspace_corridor_hub_industrial_array"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			description: ["对部分机器安装能提升并行效率"]
+			id: "4FBC8E3804B0CEEB"
+			tasks: [{
+				id: "32C5638AC7DEF30D"
+				item: "gtladditions:astral_array"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79810E8C649C38B7"]
+			description: [
+				"不能安装在太空链接方块那面"
+				"需要输入总线，不用设置电路"
+			]
+			id: "1DED725ED01DFC46"
+			tasks: [{
+				id: "02D81699FB6B7879"
+				item: "gtladditions:nexus_satellite_factory_mk1"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["79810E8C649C38B7"]
+			description: [
+				"不能安装在太空链接方块那面"
+				"需要输入总线，不用设置电路"
+			]
+			id: "3FC845B0A52DD76C"
+			tasks: [{
+				id: "5A3CBB751411314A"
+				item: "gtladditions:nexus_satellite_factory_mk2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["79810E8C649C38B7"]
+			description: [
+				"不能安装在太空链接方块那面"
+				"需要输入总线，不用设置电路"
+			]
+			id: "0CE7536C720A723B"
+			tasks: [{
+				id: "36E15B499B8038BA"
+				item: "gtladditions:nexus_satellite_factory_mk3"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["79810E8C649C38B7"]
+			description: [
+				"不能安装在太空链接方块那面"
+				"需要输入总线，不用设置电路"
+			]
+			id: "7E9ECAF06733434B"
+			tasks: [{
+				id: "679366493E36D029"
+				item: "gtladditions:nexus_satellite_factory_mk4"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			description: ["基岩钻机的激光版本，不用放置基岩了"]
+			id: "3A4A209E6DCE54B6"
+			tasks: [{
+				id: "2AAB718E37B72411"
+				item: "gtladditions:titan_crip_earthbore"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			description: ["可以安装在一些机器上，使用星阵可以提高并行"]
+			id: "2CCE2DD773A509BC"
+			tasks: [{
+				id: "7BD09A7430E7FAA6"
+				item: "gtladditions:thread_modifier_hatch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			description: ["大型打包机的激光版本"]
+			id: "1D4BF6EABD9D5574"
+			tasks: [{
+				id: "182F2C3A41D8A6CF"
+				item: "gtladditions:arcane_cache_vault"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			description: ["热解炉和裂化机的激光版本，如果出现下单了没反应，可以开关机试一下"]
+			id: "443B4881DEC4F363"
+			tasks: [{
+				id: "7C0E9BFE6A5F16AC"
+				item: "gtladditions:inferno_cleft_smelting_vault"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			description: ["蚀刻矩阵的更好版本，能减少大量原料"]
+			id: "05AAEED0D98D6679"
+			tasks: [{
+				id: "527BEF01733E82F0"
+				item: "gtladditions:lucid_etchdreamer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "4AEB3E9A297DB832"
+			tasks: [{
+				id: "44DDBF46D4218D4C"
+				title: "一些很厉害的机器"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4AEB3E9A297DB832"]
+			dependency_requirement: "all_started"
+			description: [
+				"深度化学扭曲，奇点压缩，量子操纵者的更好版本"
+				"可以直接100%输出概率产出的配方,同时将消耗输入物的概率降为10分之一"
+			]
+			id: "0A54F0AF33DDD764"
+			tasks: [{
+				id: "004E6DF13910599C"
+				item: "gtladditions:apocalyptic_torsion_quantum_matrix"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AEB3E9A297DB832"]
+			description: [
+				"终极物质锻造，超维度熔炼，恒星热能熔炼的最好版本"
+				"还能安装一些模块"
+				"建议不停机"
+				"至于怎么安装模块，把它想象成羽毛球拍，模块安装在手把的内部"
+			]
+			id: "6364279AB09DB9CB"
+			tasks: [{
+				id: "75199F59FA2F8DD4"
+				item: "gtladditions:forge_of_the_antichrist"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6364279AB09DB9CB"]
+			description: ["一些更好的配方"]
+			id: "4962FFEDF57C7999"
+			tasks: [{
+				id: "0810230D5F081B58"
+				item: "gtladditions:heliofusion_exoticizer"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6364279AB09DB9CB"]
+			description: ["电路，电力高炉，合金炼治，合金炼治炉的更好版本"]
+			id: "518F1FD20A616ABD"
+			tasks: [{
+				id: "4ACB0721761B4102"
+				item: "gtladditions:helioflare_power_forge"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6364279AB09DB9CB"]
+			description: ["作用有点像提取机和合金炼治炉"]
+			id: "505ED2A2E30036B0"
+			tasks: [{
+				id: "12FB8F4C9B92E015"
+				item: "gtladditions:heliofluix_melting_core"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6364279AB09DB9CB"]
+			description: ["最好的核聚变，粒子对撞，还能优化大量的等离子配方"]
+			id: "2644B54469D1957F"
+			tasks: [{
+				id: "78763E675CD0BF8E"
+				item: "gtladditions:heliothermal_plasma_fabricator"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4AEB3E9A297DB832"]
+			description: [
+				"最强发电，具体多少我也不知道"
+				"建议使用无线电网输出终端"
+			]
+			id: "17EE047A2B872524"
+			tasks: [{
+				id: "466907218CA8A38E"
+				item: "gtladditions:heart_of_the_universe"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4AEB3E9A297DB832"]
+			description: [
+				"可以安装到分子操纵者上（不是量子操纵者）"
+				"更方便合成鱼大（"
+			]
+			id: "57EEE614A35F1508"
+			tasks: [{
+				id: "393B5016CDEAA3BF"
+				item: "gtladditions:dimension_focus_infinity_crafting_array"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AEB3E9A297DB832"]
+			description: [
+				"世界碎片采集和元素复制机的最强版本"
+				"手持星阵潜行加右键主机可以加强并行"
+				"使用元素复制时，需要永恒线圈和256个星阵"
+				"元素复制下为无限并行"
+			]
+			id: "4DE706A989C37F68"
+			tasks: [{
+				id: "47078B1224169414"
+				item: "gtladditions:macro_atomic_resonant_fragment_stripper"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AEB3E9A297DB832"]
+			description: [
+				"可以理解为线圈等级和电压等级越高，产出概率就越高"
+				"可以放入蜂群提升速度"
+				"放入星阵获得100%的概率产出，还能提高并行"
+				"蜂群和星阵最多放入64个"
+			]
+			id: "30DF1C19A7437F28"
+			tasks: [{
+				id: "2F95CDB656501797"
+				item: "gtladditions:taixu_turbid_array"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23B2AEDACA654645"]
+			description: ["24个槽位"]
+			id: "6E8BE461B4B02697"
+			tasks: [{
+				id: "082058F47442AB4C"
+				item: "gtladditions:super_input_dual_hatch"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23B2AEDACA654645"]
+			description: ["超级样板总成可以在配置文件中更改页数，注意，一旦更改，存档内样板总成内的样板会全部消失"]
+			id: "6C6C70EC43B36741"
+			tasks: [
+				{
+					id: "47556932C6690195"
+					item: "gtladditions:me_super_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "60FA2D5673F7B713"
+					item: "gtladditions:me_super_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23B2AEDACA654645"]
+			description: ["无线电网强化版"]
+			id: "0D42DD429B3E81A3"
+			tasks: [
+				{
+					id: "40FCAF9B8864CE1D"
+					item: "gtladditions:wireless_energy_network_output_terminal"
+					type: "item"
+				}
+				{
+					id: "1DA6AC0E2B720814"
+					item: "gtladditions:wireless_energy_network_input_terminal"
+					type: "item"
+				}
+			]
+			title: "无线电网"
+			x: -15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23B2AEDACA654645"]
+			description: ["21亿并行"]
+			id: "207F8A07600C2BC3"
+			tasks: [{
+				id: "7C2D262E11D202C0"
+				item: "gtladditions:super_parallel_hatch"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			description: ["大型方块转换室的激光版本，不需要方块总线，很方便"]
+			id: "270046B09C756776"
+			tasks: [{
+				id: "3529F3C5F53357BE"
+				item: "gtladditions:atomic_transmutation_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "23B2AEDACA654645"
+			tasks: [{
+				id: "4E3FB5FFD93F69AF"
+				title: "数值这一块"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17EE047A2B872524"]
+			description: ["燃料其一"]
+			id: "503DAEA87CDEFE92"
+			tasks: [{
+				id: "6F040D2E10F1D836"
+				item: "gtladditions:strange_annihilation_fuel_rod"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["17EE047A2B872524"]
+			description: ["燃料其一"]
+			id: "25C00645E471485E"
+			tasks: [{
+				id: "0D0871315910E43C"
+				item: "gtladditions:black_hole_seed"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			description: ["衰变加速的激光版本"]
+			id: "5C6863019D4441FF"
+			tasks: [{
+				id: "367243E220BB99E6"
+				item: "gtladditions:skeleton_shift_rift_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: ["可以理解为一些配方的优化机器"]
+			id: "3EFD95FFD6F5143B"
+			tasks: [{
+				id: "2F09F0E1F289B084"
+				item: "gtladditions:fuxi_bagua_heaven_forging_furnace"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			description: ["等离子冷凝和真空冷冻机的更强版本，运行前需要提供凛冰粉"]
+			id: "3EE127A95C7E4D22"
+			tasks: [{
+				id: "07BCA66B71E949A1"
+				item: "gtladditions:antientropy_condensation_center"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["home之眼的升级版,允许使用星阵提高并行"]
+			id: "7CC04781CACCECA7"
+			tasks: [{
+				id: "25A1257AFE023B62"
+				item: "gtladditions:arcanic_astrograph"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7DA6DA0780F3DDA3"
+				"31EDE3D976DE5A33"
+				"7ADB50ACF5AE1D13"
+			]
+			description: ["太空组装和太空采矿的激光版本"]
+			id: "693D276453FFE262"
+			tasks: [
+				{
+					id: "0C0CD433E5C48CCB"
+					item: "gtladditions:astral_convergence_nexus"
+					type: "item"
+				}
+				{
+					id: "2D472B73ABA39BDA"
+					item: "gtladditions:nebula_reaper"
+					type: "item"
+				}
+			]
+			title: "太空电梯的激光模块"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			description: ["集成矿石处理工厂的最强版本,运行前需要提供星能火箭燃料"]
+			id: "00B305EC29BDAC3C"
+			tasks: [{
+				id: "0178987700C3776E"
+				item: "gtladditions:space_infinity_integrated_ore_processor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23B2AEDACA654645"]
+			description: ["无限槽位"]
+			id: "19C02FC0BD0811C4"
+			tasks: [{
+				id: "43459BA3455FCBDE"
+				item: "gtladditions:infinity_input_dual_hatch"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+	]
+	title: "GTLadd篇"
+}

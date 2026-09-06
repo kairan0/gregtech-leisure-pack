@@ -1,0 +1,8 @@
+name = "GTM Advanced Hatch fix2"
+filename = "GTMAdvancedHatch-1.20.1-0.1.10 fix2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/gtmadvancedhatch-1.20.1-0.1.10-fix2.jar"
+hash-format = "sha256"
+hash = "e5351799eac5ab70a61696e073557293e6e3921c2e3eb9253d33791c40701a68"

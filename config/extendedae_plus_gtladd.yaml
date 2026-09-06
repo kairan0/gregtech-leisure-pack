@@ -1,0 +1,3 @@
+# 开启后，合成样板将优先自动上传到分子操纵者
+restrictCraftingPatternToMolecular: true
+

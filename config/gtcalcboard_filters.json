@@ -1,0 +1,11 @@
+{
+  "excludedCategories": [
+    "fluid_encapsulation",
+    "world_interaction",
+    "fluid_canning",
+    "gtceu:fluid_canning",
+    "gtceu:world_interaction",
+    "gtceu:fluid_encapsulation"
+  ],
+  "includeUnsupported": true
+}

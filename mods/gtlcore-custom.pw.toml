@@ -1,0 +1,8 @@
+name = "GTLCore fix1"
+filename = "gtlcore-1.2.3.1-fix1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/gtlcore-1.2.3.1-fix1.jar"
+hash-format = "sha256"
+hash = "8df1917ecc591d15276e7ddbbbc7286449fa08da07760b0b09adb61da874696b"

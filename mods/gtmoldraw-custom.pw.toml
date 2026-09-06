@@ -1,0 +1,8 @@
+name = "GTMolDraw coldfix"
+filename = "[化学结构式显示]gtmoldraw-1.2coldfix1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/gtmoldraw-1.2-coldfix1.jar"
+hash-format = "sha256"
+hash = "e8f85f65a55f6a9fecec9e8149cf8bcef2e4c14253befc54f8adbfddadae16e8"

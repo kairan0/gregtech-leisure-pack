@@ -1,0 +1,13 @@
+name = "Useful Clipboard"
+filename = "usclb-0.0.26.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aed2d2203857482732f4bd6a2b2569410ec493c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6664039
+project-id = 664224

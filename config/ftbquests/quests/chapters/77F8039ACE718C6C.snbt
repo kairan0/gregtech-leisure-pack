@@ -1,0 +1,1725 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77F8039ACE718C6C"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:primitive_robot_arm"
+	id: "77F8039ACE718C6C"
+	order_index: 0
+	quest_links: [{
+		id: "4E8ED4704A82F154"
+		linked_quest: "376F6857ABEF60BF"
+		x: -2.0d
+		y: 4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["46F82A0A3D57C225"]
+			description: [
+				"拿到青铜锭你就可以开始蒸汽时代了"
+				"鼓起勇气迈向格雷科技的第一个电压吧！"
+			]
+			id: "5F5F348E3A34827E"
+			rewards: [{
+				id: "41A3ACD4F54D9969"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "47D6C464DF34C115"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "蒸汽时代ULV"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [
+				"钻石是耐烧王，推荐烧钻石"
+				""
+				"锅炉干烧时通入水会爆炸"
+				""
+				"液体燃料锅炉以熔岩作为燃料；太阳能锅炉在白天自然升温，在夜晚/被遮挡温度会下降"
+			]
+			id: "4BFC342697BDE75A"
+			rewards: [{
+				count: 64
+				id: "5EB3FB5E5FAF9235"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_shulker_box"
+					tag: {
+						accentColor: 16383998
+						mainColor: 16383998
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70DE0442DB10C914"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "低压锅炉"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"记得在使用时用扳手蹲下右键锁定流向"
+				""
+				"还可以用于合成更大的管道，当作一个大号储罐"
+				""
+				"如果你不想被蒸汽或者其他热流体烫，可以给管道套上框架（用杆做的那些方块）"
+			]
+			icon: "gtceu:spacetime_tiny_fluid_pipe"
+			id: "781417A4FA36101D"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "6CF397F913CDAA81"
+				item: "gtceu:spacetime_tiny_fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02A2DDC03475574B"
+				title: "送你一点管道"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A49197309D1F09"]
+			description: [
+				"你可以开始炼钢了"
+				""
+				"你也可以直接做&5超维度等泥土锻炉&r"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			icon_scale: 2.0d
+			id: "5CE50DDC960340D8"
+			rewards: [
+				{
+					id: "2D8761085E458691"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6BF8F26BE81E1228"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6649B915F2C7704F"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "42BD89429E9AAD22"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["它是用来压缩东西的"]
+			id: "5C936EF307594737"
+			rewards: [{
+				id: "704DF16EECC15BD8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E7B6F2A5F20C06"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["直接用研钵磨粉，然后直接合成"]
+			icon: "gtceu:fireclay_dust"
+			id: "36A49197309D1F09"
+			rewards: [{
+				id: "777E0B3B0A58DE1A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35AB6D0569B73FB7"
+					item: "gtceu:brick_dust"
+					type: "item"
+				}
+				{
+					id: "3F0F3F0437100ADB"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+				{
+					id: "3AC2D6A0AAB107FA"
+					item: "gtceu:fireclay_dust"
+					type: "item"
+				}
+			]
+			title: "耐火黏土粉"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["前期推荐直接用压缩机做"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "79E81CC078F246C0"
+			rewards: [{
+				count: 128
+				id: "289E9D4B6242976B"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A519A3A397BBD45"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			title: "你的第一片橡胶"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			id: "388BD32463FA905D"
+			rewards: [{
+				id: "57B2E9912F4375C3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADD8EEFE40F5663"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "你的第一块钢锭"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02375F5D54E5F347"
+				"43DE0784E5D32B46"
+			]
+			description: [
+				"用来制作电力机器，还可以制作仓室"
+				""
+				"甚至能用来&c储&r&e存&r&a电&b力&r&r以及&3连&r&9接&r&1ME&r&5网&r&d络&r！"
+			]
+			icon_scale: 1.3d
+			id: "7CB85061F0822830"
+			rewards: [{
+				id: "0D14C938E01BD29D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "你绝对需要天马行空的想象力来使用它"
+			tasks: [{
+				id: "6500863B6A64DE2F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["利用合金炉混合金属"]
+			id: "30F031CD02425ED7"
+			rewards: [{
+				count: 64
+				id: "4FB6BBE01DEAFC93"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7E7EBAB75A2F8D"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00579BDA1FA1BEC6"]
+			description: [
+				"{ \"text\": \"远古世界有一些有用的矿\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FFD20E53A9DF62A\" } }"
+				""
+				"如果JEI中显示配方右下角有个代表维度的方块，意思是这个配方只能在对应维度制作（比如大马士革钢粉只能在远古世界做）"
+			]
+			icon: "kubejs:reactor_core"
+			icon_scale: 2.0d
+			id: "335ED39019FC62E7"
+			rewards: [
+				{
+					id: "0AB3A8A039EB840F"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					id: "120C3F2CEC94168B"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1436494559DCBE1B"
+					item: {
+						Count: 1
+						id: "gtceu:avanced_nanomuscle_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "542A36C70B6D39A1"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "4A5E920CBD312AF2"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "kubejs:ancient_world"
+					id: "7B798A358D3DA56B"
+					optional_task: true
+					title: "远古世界"
+					type: "dimension"
+				}
+				{
+					id: "5570EF3E7801BFD4"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["ULV的超导材料，但是现在先用它做远古反应核"]
+			id: "3D65D9712DFB63D9"
+			rewards: [{
+				id: "7FAA57A862B018AE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DE17D3F21E3C195"
+				item: "gtceu:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D65D9712DFB63D9"]
+			description: [
+				"现在你可以用它前往远古世界"
+				""
+				"关于结构：中心放核心，相邻4个方块为钢块，角落4个方块为钻石块，平放"
+				"右击核心即可前往远古世界"
+				""
+				"当你在&5EV&r做出三阶火箭后还会需要用它前往下界"
+			]
+			icon: "kubejs:reactor_core"
+			id: "00579BDA1FA1BEC6"
+			rewards: [{
+				id: "51AF08C499E8329A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C71CBD9FE0DC224"
+					item: "kubejs:reactor_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1CB49FF2229A3D77"
+					item: "gtceu:steel_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3542128803577207"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["它可以将三个锭锤成两个板，比手搓利用率更高"]
+			hide_dependency_lines: true
+			id: "6525C9DE2A276238"
+			rewards: [{
+				id: "6B3DEE9FC411E85C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BB0DC594040BE2"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6525C9DE2A276238"
+				"388BD32463FA905D"
+			]
+			description: ["用锻造锤机器的利用率高一点"]
+			id: "02375F5D54E5F347"
+			rewards: [{
+				id: "1A0B2145C6BEAD5B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78729EFD5CE8CD48"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79E81CC078F246C0"]
+			id: "43DE0784E5D32B46"
+			rewards: [{
+				id: "61C758028D9C9DB9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8D0D8D101E1641"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			title: "锡线缆"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			id: "707E5114B7979898"
+			rewards: [{
+				id: "255AB427616C13EB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CD30ADFD9B58AE"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"707E5114B7979898"
+				"388BD32463FA905D"
+			]
+			description: ["你的第一颗ULV电路，你需要用它帮忙做更便宜的，做几个就够了"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "5CD26DECB937FC71"
+			rewards: [{
+				id: "327EC9AD42261D00"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16EA9C62F6D609A0"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["这个你不能像青铜一样手动混合，你只能借助机器的力量合成"]
+			id: "3C91E284A9A03B1B"
+			rewards: [{
+				id: "08462119775B14A3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15717008A6B7F20E"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["研磨木头得到木浆"]
+			id: "1FAB9EF48D8D9258"
+			rewards: [{
+				count: 128
+				id: "6333E0136E33F27A"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F9E85F4FF39EB70"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["335ED39019FC62E7"]
+			description: [
+				"拿着魔能双生之镐潜行右键可以在时运III和精准采集之间切换"
+				"&m(你甚至可以用这个功能刷经验)&r"
+			]
+			id: "12FE2B59FA86381C"
+			rewards: [
+				{
+					id: "0D834802BFD2366F"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33B6A4577EB69E5A"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			subtitle: "这比母岩高效多了"
+			tasks: [
+				{
+					id: "456D397A52A6D291"
+					item: "gtceu:certus_quartz_gem"
+					type: "item"
+				}
+				{
+					id: "5E645191AA6CD3ED"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "来自远古世界的矿"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"12FE2B59FA86381C"
+				"664C46D5C12E7255"
+			]
+			description: ["自动版工作台/锻造台/切石机，不过你得做出样板才能用，现在只是作为合成材料"]
+			id: "3C071C0542CF935D"
+			rewards: [{
+				id: "4304D0C677F66D9B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5738459D5168A55F"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3C071C0542CF935D"
+				"5CD26DECB937FC71"
+			]
+			description: ["原始人也要组装电路"]
+			icon_scale: 2.0d
+			id: "34FCFA114E75D770"
+			rewards: [{
+				id: "0C0731B2ACDDCE0D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6255EA9A7B4B58EC"
+				item: "gtceu:large_steam_circuit_assembler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"依靠它可以制作一些超强的蒸汽多方块结构"
+				"它们有着很高的并行，而且当有了不锈钢后还能超频和升压（MV）"
+				"前往多方块结构章节了解更多"
+			]
+			hide_dependent_lines: true
+			id: "5276CA8FA5262C9B"
+			rewards: [{
+				id: "7A6E4F26CB4EC8FB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72CA64283A8A3E34"
+				item: "kubejs:precision_steam_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5276CA8FA5262C9B"
+				"38CC43F7A6A39BB4"
+			]
+			description: ["不要忘了放输出仓"]
+			icon_scale: 2.0d
+			id: "2585418910B6798A"
+			rewards: [{
+				id: "372783FB309C5A6A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5F47C1E28CF33F84"
+				item: "gtceu:large_steam_centrifuge"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7CB85061F0822830"]
+			description: [
+				"可以共用"
+				""
+				"实际上除了个别机器，所有需要消声仓的多方块机器都可以使用LV消声仓，高级的消声仓并没有什么用处"
+				""
+				"消声仓即使充满了灰烬仍然不影响机器工作"
+			]
+			hide_dependent_lines: true
+			id: "38CC43F7A6A39BB4"
+			rewards: [{
+				id: "3354D072C3B1F387"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "切勿堵塞出烟口"
+			tasks: [{
+				id: "6FF18125E551DB42"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5CD26DECB937FC71"
+				"740C2D1F3F420480"
+				"6D729450ED86BDAF"
+				"3C91E284A9A03B1B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"不需要做很多，做几个就行了"
+				""
+				"后续可以用大型蒸汽电路组装机制作"
+			]
+			icon_scale: 2.0d
+			id: "5065BEDC95AE564E"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "58F5C373D0AE0142"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "011218464BCA60AC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "你的第一块电路"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79D4AD9908A4578A"]
+			description: ["比原版的麻烦一点"]
+			id: "77A1011F608079C9"
+			rewards: [{
+				id: "11D6ADD9CE28FA57"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36895A43C9C125F4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["77A1011F608079C9"]
+			description: ["电阻有很多配方，细导线的性价比更高"]
+			id: "6D729450ED86BDAF"
+			rewards: [{
+				id: "108CAF7D675F876A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F7066EE104AACE"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FAB9EF48D8D9258"]
+			hide_dependency_lines: true
+			id: "051710FFC9907807"
+			rewards: [{
+				id: "765C29DBBBD61E54"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8641531625E4B7"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["051710FFC9907807"]
+			id: "740C2D1F3F420480"
+			rewards: [{
+				id: "0C13652D6A0B6866"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6354CE91F0CF6378"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2585418910B6798A"]
+			description: ["离心粘性树脂"]
+			id: "06285BE2396AB639"
+			rewards: [{
+				id: "2AEAC8B8E1C1EBB2"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48597AE64D4B6F49"
+				item: "gtceu:glue_bucket"
+				type: "item"
+			}]
+			title: "胶水"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"34FCFA114E75D770"
+				"06285BE2396AB639"
+			]
+			description: ["非常便宜的电路，这个系列一直到EV"]
+			icon_scale: 2.0d
+			id: "08B7D8F835DFE214"
+			size: 1.0d
+			tasks: [{
+				id: "344BB3250C20E4FB"
+				item: "kubejs:basic_control_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"08B7D8F835DFE214"
+				"5065BEDC95AE564E"
+			]
+			description: ["这个是便宜的LV电路"]
+			icon_scale: 2.0d
+			id: "553B2D61416792DC"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "41CA550B62F920A6"
+				item: "kubejs:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: [
+				"AE2是一个非常好用的自动化mod"
+				""
+				"在《AE2调整》这一章节中查看AE2的改动"
+				""
+				"指南里面是详细的AE2介绍，推荐阅读"
+				""
+				"对着AE2的物品长按G能直接查看对应的介绍说明（前提是你已经把开关饰品栏的绑定键位改掉）"
+				""
+				"不建议使用ME输入/输出总线，ME接口性能和效率更佳（格雷科技的机器都有自动输出，配合覆盖板可以主动抽取ME接口内容，仓室则有主动输入/输出，且ME接口的存储空间被大幅度加强）"
+			]
+			icon: "ae2:guide"
+			id: "6E69F45AEA66D5ED"
+			rewards: [
+				{
+					id: "5C30500B7291441C"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "6CE1DC92795F5890"
+					item: "ae2:guide"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31A932E5D9F650C0"
+					table_id: 2505965930486456479L
+					type: "choice"
+				}
+				{
+					id: "1D99840CFCD12862"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+				{
+					id: "1DFA26133A6F203D"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76E9DDCCC307F224"
+				title: "AE2"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			description: [
+				"大型蒸汽锅炉们经过了史诗级加强，你可以不需要思考用蒸汽发电到HV（HV需要多堆几台）"
+				""
+				"维护仓在前期需要手动维护"
+				""
+				"底层放置输入仓/总线/总成、维护仓、消声仓，第二到四层放置输出仓"
+				""
+				"注意不要在锅炉中使用巨型输入总成，可能会引发&4崩溃&r"
+			]
+			icon_scale: 2.0d
+			id: "328D5CF265FCCCA3"
+			rewards: [
+				{
+					id: "02EE5681EA132E6A"
+					item: "avaritia:star_fuel"
+					type: "item"
+				}
+				{
+					id: "38F3639A0D9D9BBB"
+					item: "kubejs:diamond_compressed_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "31B3E7B10BBA0EDD"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"蒸汽机器需要&a&d设置排气口&r，运行一次后就需要排气，排气口需对着空气，否则就无法工作"
+				""
+				"使用扳手右键以设置排气口"
+				""
+				"排出的气体会造成伤害"
+			]
+			icon: "gtceu:lp_steam_rock_crusher"
+			id: "7736F74AEBCB914E"
+			rewards: [{
+				id: "25A3A90A72A7835D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FF020A8688728E6"
+				title: "我的蒸汽机器为什么运行一次就停了"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			description: [
+				"有且仅有底层的耐火砖块可以替换为输入输出总线"
+				""
+				"请确保输入总线和输出总线空间足够锻炉运作"
+				"（&c&l不能使用蒸汽总线&r&r）"
+				""
+				"这不是蒸汽机器，&c&l不需要蒸汽输入仓"
+				""
+				"繁茂洞穴里有大量粘土，杜鹃树所在区域的下方为繁茂洞穴"
+			]
+			icon_scale: 1.3d
+			id: "0662E205D1783D31"
+			rewards: [
+				{
+					count: 2100
+					id: "739BBFD8B3216A13"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 1200
+					id: "2898894E21E5801A"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "315AFCCED70ADF27"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "瞬间获得产物"
+			tasks: [{
+				id: "2BE6A835D6EF790C"
+				item: "gtceu:dimensionally_transcendent_dirt_forge"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1AB03D24332B722E"]
+			description: [
+				"强力熔炉，蒸汽消耗也少"
+				""
+				"&b&l可以&r使用蒸汽总线"
+			]
+			icon_scale: 1.3d
+			id: "0532330B52D98469"
+			rewards: [{
+				id: "142C72A3F57D1D8C"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5AC94C8C8DEF4A0E"
+				item: "gtceu:dimensionally_transcendent_steam_oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: ["蒸汽时代的熔炉，速度实际上比普通的熔炉还慢"]
+			hide_dependency_lines: true
+			id: "10750DEB64B4BF89"
+			rewards: [{
+				id: "5931B37625BB11BB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12742633AB7C6E1F"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10750DEB64B4BF89"]
+			description: ["8并行，还可以继续升级"]
+			id: "1AB03D24332B722E"
+			rewards: [{
+				id: "26F40D0C80FD0D34"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE97C5270D5F402"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"蒸汽一般来说是烧水来的"
+				""
+				"蒸汽与电力的转换关系为2mb/t=1eu/t"
+			]
+			icon: "gtceu:steam_bucket"
+			id: "2B9D62FB6BF39201"
+			rewards: [{
+				id: "7E1DBDCD0B82F6E6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61D5BA33A860F807"
+				title: "蒸汽来源"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"蒸汽多方块需要放入&b蒸汽输入仓&r来提供蒸汽（大型蒸汽输入仓是&cMV末&r的物品，你现在做不出来的，使用普通的蒸汽输入仓即可）"
+				""
+				"&b蒸汽输入总线&r和&b蒸汽输出总线&r（增强至16个槽位！）可以为蒸汽多方块输入输出物品（蒸汽输入总线&c并不能设置编程电路&r，如有需求请使用其他输入总线/总成）"
+				""
+				"流体则使用输入仓和输出仓；普通的输入输出仓只能容纳&c一种流体&r；普通输出仓以及LV巨型输出仓可以通过标记从上到下第二个槽位达到锁定流体输出的效果（从JEI拖拽、用装有流体的桶标记等）"
+				""
+				"大型的蒸汽多方块都有&664&r的并行，&b可运行LV的配方&r，并且处理速度是LV机器的2倍；非大型的蒸汽多方块为&68&r并行，也&b可以运行LV配方&r"
+				""
+				"{ \"text\": \"蒸汽多方块的外壳可以到小市场购买\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E6BC2F76ED6F531\" } }"
+				""
+				"大型蒸汽多方块满并行工作时蒸汽消耗特别大，需要用时空管道或激光节点等高速流体传输手段来提供蒸汽，否则会跳蒸汽"
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:steam_piston_hammer"
+			icon_scale: 2.0d
+			id: "05BB1E1E38478F26"
+			rewards: [
+				{
+					id: "2D8751AF3B8B1D6A"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "3BC641A02C9D4998"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "38DB793439A26752"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "58C24B68D0260EBD"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5C377797179ABF3E"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "08E592312C7CBF11"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "蒸汽研磨并不会有副产物，要等到HV才有副产"
+			tasks: [{
+				id: "6ACDB1E4B636D7F0"
+				title: "蒸汽多方块"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: [
+				"激光物流的合成都被加强了，在没AE之前可以使用这个模组来物流"
+				""
+				"用扳手潜行右键绑定节点或连接器，右键其他节点或连接器以建立连接，对着非节点或连接器方块以及空气潜行右键清除绑定"
+				""
+				"进阶激光连接器可以&b跨纬度连接&r"
+				""
+				"卡超频元件安装在激光卡中，最多4张；节点超频元件安装在激光节点中，最多8张"
+				""
+				"不能在大于1堆叠的卡中安装超频元件和过滤器"
+				""
+				"能量卡并不能传输EU"
+				""
+				"Card Cloner可以快速复制黏贴卡配置（左键要复制的卡，然后右键黏贴配置；需要在激光节点的GUI中操作），卡存储器可以存储卡和超频元件"
+				""
+				"默认Shift、Crtl、Crtl+Shift可以快速调整数值配置（从左往右速度依次增加）"
+			]
+			icon: "laserio:laser_wrench"
+			id: "7B38A7C2643C6766"
+			optional: true
+			rewards: [
+				{
+					id: "42242771F67681FC"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "58583204BED26590"
+					item: "laserio:card_cloner"
+					type: "item"
+				}
+				{
+					id: "3413625607E9471E"
+					item: "laserio:card_holder"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B7F433768CE2A64"
+					item: "laserio:overclocker_card"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "60EB885295924B29"
+					item: "laserio:overclocker_node"
+					type: "item"
+				}
+			]
+			subtitle: "甚至可以跨纬度"
+			tasks: [
+				{
+					id: "1B1773B40FB9AB2F"
+					item: "laserio:laser_connector"
+					type: "item"
+				}
+				{
+					id: "2D87329069B3E34F"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "5B2CA5034DD7A34B"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+				{
+					id: "184937C5AEE643FD"
+					item: "laserio:laser_connector_advanced"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "激光物流"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"没有电的时候可以先用手摇曲柄供能"
+				""
+				"或者做一个谐振仓烧钻石"
+				""
+				"后面可以用&6冲压机床&r取代压印器，更加高效的制作处理器"
+			]
+			id: "664C46D5C12E7255"
+			rewards: [
+				{
+					id: "3753CAA23389F755"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4293BEFEC83DEFB3"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46DB998969DFD278"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+				"能源接收器可以将EU转换为AE/FE供ME网络使用"
+				""
+				"用GT导线连接发电机和能源接收器容易把导线烧断，建议将发电机直接贴到能源接收器上"
+				""
+				"CRG只有底面可以连接ME网络，整个网络（包括通过石英纤维连接的其他网络）只能有一台"
+			]
+			icon: "ae2:drive"
+			id: "007BBB3D4E349869"
+			optional: true
+			rewards: [
+				{
+					id: "6B14C1D1A61EFD20"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "27C330BF86FCD4DA"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "52A2B395450AF309"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "28C68B3244898F58"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+				{
+					id: "0A4B9AC78642D6A8"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "1A7FA662F18A00CA"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "307806F3D4DEE9BE"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_64k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "49539E3D27493D9F"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "07F17172D1EB66D0"
+					item: "ae2:vibration_chamber"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "34FA7A3FDCEEFF9C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "划算的买卖"
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:fluix_crystal"
+			id: "3C4577BA6C01FD37"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "4D53D6781FE064EF"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "3ECB4C0EB5E8F595"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "嫌麻烦可以买一点1"
+			x: 13.75d
+			y: 2.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:logic_processor"
+			id: "54A70F547E4F87C2"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "15293996D8FA5F0C"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "29ED502848D5ECAA"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "嫌麻烦可以买一点2"
+			x: 14.25d
+			y: 2.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:calculation_processor"
+			id: "3D4B2ED043BAF8E4"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "25D2B5A2963C5701"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "52F04A057F457538"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "嫌麻烦可以买一点3"
+			x: 13.75d
+			y: 3.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:engineering_processor"
+			id: "49265178B29A2A51"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "6887FB040E263E04"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "7734AD7C5393BBC4"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "嫌麻烦可以买一点4"
+			x: 14.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: ["装上存储元件之后还能用来产物质球和奇点"]
+			id: "144AC3BC2AA25E63"
+			optional: true
+			rewards: [{
+				id: "037A6AECE7DF8FF6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3450B32B0DB406C7"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "这是垃圾桶"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08B7D8F835DFE214"]
+			description: [
+				"{ \"text\": \"具体用法见<覆盖板>任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"
+				""
+				"搭配ME接口可以达到惊人的传输效率"
+			]
+			hide_dependency_lines: true
+			id: "205B11E482DDF464"
+			optional: true
+			rewards: [{
+				id: "5C0BF363979378F9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "原始科技，震撼人心"
+			tasks: [
+				{
+					id: "08A0A7ABDCC61BFB"
+					item: "gtlcore:primitive_robot_arm"
+					type: "item"
+				}
+				{
+					id: "31170C895B9A9E5C"
+					item: "gtlcore:primitive_fluid_regulator"
+					type: "item"
+				}
+			]
+			title: "原始两件套"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+				"较为便捷的EU传输方式（它可不会自适应调整电压！）"
+				""
+				"用有电量存储的GT工具调谐ME P2P通道获得"
+				""
+				"多节点P2P的绑定方式：先用内存卡右键一个想要作为输入端的通道，然后将内存卡放置在副手，右键其他想要作为输入端的通道，最后放置回主手右键想要作为输出端的通道（可以多个输出端），这样就能创建多对一乃至多对多P2P通道"
+			]
+			hide_dependency_lines: true
+			icon: "mae2:eu_p2p_tunnel"
+			id: "4B66FAB975B2C7D2"
+			optional: true
+			rewards: [{
+				id: "2CC3618D4DDD6383"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A2F1ED90BB8F670"
+					item: "mae2:eu_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "7A2181B89E5C7ADD"
+					item: "mae2:eu_multi_p2p_tunnel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "EU P2P通道"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02375F5D54E5F347"]
+			description: [
+				"还可以用冲压机床复制"
+				""
+				"在编写样板时，模具和模头默认不会被写入样板"
+			]
+			icon: "gtceu:credit_casting_mold"
+			id: "7AAC7AB5F406C812"
+			optional: true
+			rewards: [
+				{
+					id: "10D25AF5C250664F"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+				{
+					id: "3960AE52ED06BEF4"
+					item: "gtceu:gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "0F02EAFFB25199B7"
+					item: "gtceu:credit_casting_mold"
+					type: "item"
+				}
+				{
+					id: "19912E483BC3B8F5"
+					item: "gtceu:bottle_casting_mold"
+					type: "item"
+				}
+				{
+					id: "43FF29BE17FF3127"
+					item: "gtceu:ingot_casting_mold"
+					type: "item"
+				}
+				{
+					id: "60CCE9C975A89524"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+				{
+					id: "4A96D40A67FD144C"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+				{
+					id: "22373C1DC9868666"
+					item: "gtceu:nugget_casting_mold"
+					type: "item"
+				}
+				{
+					id: "3161B7DDAB2832AA"
+					item: "gtceu:cylinder_casting_mold"
+					type: "item"
+				}
+				{
+					id: "5D3BEA454BCA5A08"
+					item: "gtceu:anvil_casting_mold"
+					type: "item"
+				}
+				{
+					id: "414AA40FF2A79254"
+					item: "gtceu:name_casting_mold"
+					type: "item"
+				}
+				{
+					id: "355AF34191458924"
+					item: "gtceu:small_gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "746D7FC6EE9B9291"
+					item: "gtceu:rotor_casting_mold"
+					type: "item"
+				}
+				{
+					id: "7775EF23FA550F52"
+					item: "gtceu:pill_casting_mold"
+					type: "item"
+				}
+				{
+					id: "1468A31CE65F0332"
+					item: "gtceu:plate_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "613BF7E5D7CC81C3"
+					item: "gtceu:rod_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "58E4D4F4C75B21AC"
+					item: "gtceu:bolt_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "7ABB058135BD5D9B"
+					item: "gtceu:ring_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5BB2CA9CAD0D26C3"
+					item: "gtceu:cell_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "243B0109EED4F30B"
+					item: "gtceu:ingot_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "15A841A413A36177"
+					item: "gtceu:wire_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "6F1CE5E56C3FAE5C"
+					item: "gtceu:tiny_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "71A4038C282B39C3"
+					item: "gtceu:small_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5A850610656A7D4E"
+					item: "gtceu:normal_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "023A1691F70CBB1C"
+					item: "gtceu:large_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "4B1D3F0A320970F1"
+					item: "gtceu:huge_pipe_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "31BA9869E7DD2139"
+					item: "gtceu:block_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5BB7A858F948BC5C"
+					item: "gtceu:gear_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "51B04924B3B591CD"
+					item: "gtceu:bottle_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "7F43025B1FB60FDA"
+					item: "gtceu:foil_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "500E483FC12BC04A"
+					item: "gtceu:small_gear_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "5A5A6B872BB2651F"
+					item: "gtceu:long_rod_extruder_mold"
+					type: "item"
+				}
+				{
+					id: "6D4894B2A8AF5CAF"
+					item: "gtceu:rotor_extruder_mold"
+					type: "item"
+				}
+			]
+			subtitle: "送你一整套模具和模头"
+			tasks: [{
+				id: "7BE713D4B18B2691"
+				title: "模具模头大礼包"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"51B9A72C19F84F0E"
+				"516AA655EF6CBBF0"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"可以理解为一个不消耗的物品（催化剂），但不需要真正的物品，只需要在机器/输入仓室里设置，具体位置在机器/输入仓室GUI左下角。"
+				""
+				"如果从外部输入编程电路物品，则会覆盖机器/仓室当前的电路设置，实现编程电路的自由变换。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			icon_scale: 2.0d
+			id: "51A6B6CDC90D7E76"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "7AFF24BD5E9724BE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7A6B0453CD49843F"
+				title: "编程电路"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["Tier0.5-ULV"]
+	title: "蒸汽时代"
+}

@@ -1,0 +1,16 @@
+# ME超级样板总成配置
+superPatternBuffer:
+  # 每行样板数量
+  patternsPerRow: 18
+
+  # 每页行数
+  rowsPerPage: 10
+
+  # 最大页数
+  maxPages: 10
+
+# AE2兼容配置
+ae2:
+  # 成型面板物品实体输出轮数。每轮最多输出一个对应物品的最大堆叠数量。
+  formationPlaneItemEntityOutputRounds: 1
+

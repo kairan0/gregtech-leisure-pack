@@ -1,0 +1,8 @@
+name = "GTMThings"
+filename = "gtmthings-1.3.5.b.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/gtmthings-1.3.5.b.jar"
+hash-format = "sha256"
+hash = "b230de569b0f4601c36153d668e3fee76728982ad9c1baef0ee32e69ad3349e4"

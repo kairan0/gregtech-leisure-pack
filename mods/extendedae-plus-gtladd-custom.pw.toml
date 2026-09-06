@@ -1,0 +1,8 @@
+name = "ExtendedAE Plus GTL Additions"
+filename = "extendedae_plus_gtladd-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/extendedae-plus-gtladd-1.0.2.jar"
+hash-format = "sha256"
+hash = "03e067b086985f6f6b2bcffd8e75c264afd020da2a598adecfa64e3b2c4d36f9"

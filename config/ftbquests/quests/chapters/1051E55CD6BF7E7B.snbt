@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1051E55CD6BF7E7B"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:max_electric_motor"
+	id: "1051E55CD6BF7E7B"
+	order_index: 14
+	quest_links: [{
+		id: "2B20C263CB41DBAD"
+		linked_quest: "296DE95F3BE7DC54"
+		shape: "hexagon"
+		size: 2.0d
+		x: -1.0d
+		y: 2.5d
+	}]
+	quests: [
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: ["借助了命令方块的力量"]
+			icon: {
+				Count: 1
+				id: "kubejs:magnetohydrodynamicallyconstrainedstarmatter_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67A81E3F7E247521"
+			tasks: [
+				{
+					id: "15D75BB0BB713D68"
+					item: {
+						Count: 1
+						id: "kubejs:magnetohydrodynamicallyconstrainedstarmatter_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "052DD5E4314038CA"
+					item: {
+						Count: 1
+						id: "kubejs:magnetohydrodynamicallyconstrainedstarmatter_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "414803F9595967FD"
+					item: {
+						Count: 1
+						id: "kubejs:magnetohydrodynamicallyconstrainedstarmatter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "633F0A3296C38CD5"
+					item: {
+						Count: 1
+						id: "kubejs:magnetohydrodynamicallyconstrainedstarmatter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "星体套"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67A81E3F7E247521"]
+			description: [
+				"穿戴&d星体套&r进入&6正常工作的创造之门&r以进入创造维度"
+				""
+				"若在创造维度脱下星体套或不穿星体套直接传送进入创造维度，你会先被踢出创造维度然后受到一次来自/kill的即死伤害"
+			]
+			id: "1416EAE88C9030C8"
+			subtitle: "未知之地"
+			tasks: [{
+				dimension: "kubejs:create"
+				id: "533527A60F7C2024"
+				type: "dimension"
+			}]
+			title: "前往创造维度"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["296DE95F3BE7DC54"]
+			description: ["交易获得的物品，但不知道如何使用"]
+			icon_scale: 2.0d
+			id: "470DDCCD8E017A4F"
+			shape: "rsquare"
+			tasks: [{
+				id: "6C1581BB60019E84"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C3C46AC660CC54E"]
+			description: ["包含多维空间的所有能量"]
+			id: "5AFEAD001EDA612D"
+			tasks: [{
+				id: "318A4B7F9925680F"
+				item: "kubejs:create_ultimate_battery"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0BF48314F3323108"
+				"38FFB6D2003C7EB4"
+				"4CF8E0618D65DD65"
+			]
+			description: ["二维展开"]
+			id: "1EB9F1815EB656B0"
+			tasks: [{
+				id: "453883277EF4A1B6"
+				item: "kubejs:two_way_foil"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"470DDCCD8E017A4F"
+				"1EB9F1815EB656B0"
+			]
+			description: ["打破命令方块后获得的物品"]
+			id: "48925ECBCC5D268D"
+			tasks: [{
+				id: "3DFC2C88970DA844"
+				item: "kubejs:command_block_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: [
+				"你可以放下和打破命令方块了，但还是不知道如何使用"
+				""
+				"命令方块只能放置在稳定核心上方"
+			]
+			hide_dependent_lines: true
+			id: "34DB07A64CD1439C"
+			tasks: [{
+				id: "7BD60E6DCA58004A"
+				item: "kubejs:command_wand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: ["有点慢"]
+			id: "338F629A694C7556"
+			tasks: [{
+				id: "16C8AA0E8A7E6784"
+				item: "gtlcore:create_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"338F629A694C7556"
+				"5AFEAD001EDA612D"
+			]
+			description: ["操纵引力实现聚爆"]
+			icon_scale: 2.0d
+			id: "7C4AD33299386B47"
+			shape: "rsquare"
+			tasks: [{
+				id: "29CE180A8857179D"
+				item: "gtceu:gravitation_shockburst"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C4AD33299386B47"]
+			hide_dependency_lines: true
+			id: "4C37CB772835CFD0"
+			subtitle: "引力震爆"
+			tasks: [{
+				id: "3456609519072452"
+				item: "kubejs:command_block_broken"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: [
+				"至少需要输入MAX级电压"
+				""
+				"如果接入网络交换机，请确保网络交换机只有创造计算机的输入，否则网络交换机不会工作"
+				""
+				"小提示：无线算力仓室并不能跨维度传输算力"
+			]
+			icon_scale: 2.0d
+			id: "30907D7231913ACB"
+			shape: "rsquare"
+			subtitle: "无穷的算力"
+			tasks: [{
+				id: "46A19A3E3D3CF4A9"
+				item: "gtceu:create_computation"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C4AD33299386B47"]
+			id: "429AEBE4BF55B1FF"
+			tasks: [{
+				id: "77BD91BF9EFBE178"
+				item: "kubejs:chain_command_block_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"429AEBE4BF55B1FF"
+				"1416EAE88C9030C8"
+				"30907D7231913ACB"
+			]
+			description: [
+				"耗能固定为16A MAX"
+				""
+				"需要&b用输入总线输入一号电路&r"
+				""
+				"有点像方块转换室，在&6创造聚合核心&r之间放置&b即将打破的命令方块&r，然后在&6输入总线&r放入&b命令方块核心&r以进行转换"
+				""
+				"建议先放置命令方块然后再放入核心，否则可能会吞核心"
+			]
+			icon_scale: 2.0d
+			id: "2F9392EF05DB11EF"
+			shape: "rsquare"
+			tasks: [{
+				id: "7AB830407E68C7F1"
+				item: "gtceu:create_aggregation"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2F9392EF05DB11EF"
+				"4C37CB772835CFD0"
+				"34DB07A64CD1439C"
+			]
+			description: ["手持命令权杖潜行右键来打破"]
+			id: "2D1F2793A396B322"
+			tasks: [{
+				id: "4C7140E1B28862FE"
+				item: "minecraft:chain_command_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["429AEBE4BF55B1FF"]
+			id: "5BA55D56C47EA2C4"
+			tasks: [{
+				id: "3C8BF60743D0FB97"
+				item: "kubejs:repeating_command_block_core"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5BA55D56C47EA2C4"
+				"435394EAA6536AA9"
+				"34DB07A64CD1439C"
+			]
+			description: ["手持命令权杖潜行右键来打破"]
+			id: "75CE99CD1614FB64"
+			tasks: [{
+				id: "065BE74992505A08"
+				item: "minecraft:repeating_command_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D1F2793A396B322"]
+			id: "435394EAA6536AA9"
+			tasks: [{
+				id: "5321FDC4FAA49862"
+				item: "kubejs:chain_command_block_broken"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AFEAD001EDA612D"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "2A19E7C6DC247B90"
+			subtitle: "需要创造电池"
+			tasks: [{
+				id: "00F2D831815D719F"
+				item: "kubejs:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75CE99CD1614FB64"]
+			description: ["放入数据库中以获得所有研究数据"]
+			icon_scale: 2.0d
+			id: "31B4B834D5DD87DB"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "毕业了"
+			tasks: [{
+				id: "6D68D65E443AE5FE"
+				item: "gtceu:creative_data_access_hatch"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2A19E7C6DC247B90"
+				"2D1F2793A396B322"
+			]
+			description: [
+				"{ \"text\": \"两种创造电源都可以放入有源变压器中以让无线电网获得无穷的电力\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B18900343C2F4E3\" } }"
+				""
+				"还可以将创造电源放入机器中，使机器获得远超于4194304A MAX的功率，最高可达&cM&r&aA&r&9X&r&e+&r&c16&r"
+				""
+				"创造电源放置时默认选择&cM&r&aA&r&9X&r&e+&r&c16&r"
+				""
+				"创造电源并不能被多个多方块结构共用"
+			]
+			icon_scale: 2.0d
+			id: "5F145D9019C4BC48"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "毕业了"
+			tasks: [
+				{
+					id: "02CCDE9B8302A71A"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					id: "4F47141E78EDAE2F"
+					item: "gtmthings:creative_energy_hatch"
+					type: "item"
+				}
+			]
+			title: "创造模式电源"
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5F145D9019C4BC48"
+				"31B4B834D5DD87DB"
+			]
+			description: ["你看着它好像看到了好多个银河年前泛银河格雷科技销售部货架上的那个大胡子玩偶"]
+			id: "516498830339A0A9"
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "附加题"
+			tasks: [{
+				id: "74404EE9AEC393D4"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			title: "我会永远陪着你的"
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["516498830339A0A9"]
+			description: [
+				"恭喜你完成了这个游戏，感谢你的游玩。"
+				""
+				"据说真正到达这里的人寥寥无几。"
+				"{@pagebreak}"
+				"其实还有其他手段获得茶和棉花糖，也是和鱼大有关"
+				"{@pagebreak}"
+				"有传言称创造储罐和创造箱子是鱼大吃饱喝足后随手制作的"
+			]
+			hide_dependency_lines: true
+			icon: "gtlcore:ultimate_tea"
+			id: "503A37C31E60684B"
+			invisible: true
+			rewards: [
+				{
+					id: "76A7B329CDF35304"
+					item: "gtlcore:ultimate_tea"
+					type: "item"
+				}
+				{
+					id: "1B03B8D7C87EF60B"
+					item: "kubejs:heartofthesmogus"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "休息一下吧"
+			tasks: [{
+				id: "334CC982B1A39C03"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			title: "终于，结束了"
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A29DA4239E6BA44"]
+			description: ["建议被动自动化生产"]
+			id: "4CF8E0618D65DD65"
+			tasks: [{
+				id: "043893C259EE2DA8"
+				item: "kubejs:hyper_stable_self_healing_adhesive"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Tier14-MAX"]
+	title: "上限压"
+}
