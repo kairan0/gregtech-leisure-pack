@@ -1,5 +1,6 @@
 # Local runtime and launcher state
 .DS_Store
+.abnormal
 .tools/
 backups/
 compat/
@@ -46,6 +47,7 @@ progress.md
 
 # Runtime-generated model cache
 config/yes_steve_model/cache/
+config/jei/world/
 config/resourceful-config-web.json
 config/voicechat/category-volumes.properties
 config/voicechat/player-volumes.properties

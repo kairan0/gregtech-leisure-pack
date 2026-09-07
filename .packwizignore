@@ -11,6 +11,7 @@
 
 # Launcher/runtime files
 /.DS_Store
+/.abnormal
 /GregTech Leisure.jar
 /GregTech Leisure.json
 /hmclversion.cfg
