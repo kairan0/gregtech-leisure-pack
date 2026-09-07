@@ -1,6 +1,7 @@
 # Local runtime and launcher state
 .DS_Store
 .abnormal
+.codexm/
 .tools/
 backups/
 compat/

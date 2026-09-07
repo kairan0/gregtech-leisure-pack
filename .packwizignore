@@ -1,6 +1,7 @@
 # Repository/development files
 /.nojekyll
 /.github/**
+/.codexm/**
 /.tools/**
 /scripts/**
 /README.md

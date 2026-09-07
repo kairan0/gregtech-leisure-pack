@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.5.1-kairan.3] - 2026-09-07
+
+### Fixed
+
+- Reserved UDP port 24455 for the GTL Simple Voice Chat server so pack synchronization no longer restores the conflicting 24454 client value.
+
 ## [1.4.5.1-kairan.2] - 2026-09-07
 
 ### Fixed

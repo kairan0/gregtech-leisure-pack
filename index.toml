@@ -766,7 +766,7 @@ hash = "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "8e60e903c0a5474fde3e2ffefb4889cb52bf008632dd60fe16b41217cd5e8434"
+hash = "f67c96443bfa80e39079992d9073ffda6a10fc9af554dc4ea4086fbd629bc818"
 
 [[files]]
 file = "config/waterconfig.toml"
