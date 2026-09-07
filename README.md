@@ -10,6 +10,12 @@
 
 包内固定 Minecraft 1.20.1 与 Forge 47.4.16。每次更新都会发布新的 `.mrpack`；服务器从同一份 packwiz 清单同步 `server`/`both` 文件。
 
+使用 Codex 的玩家可以把下面这一句话直接发给 Agent，让它按仓库内的版本化规程完成安装和启动前自动同步：
+
+```text
+请读取并执行 https://raw.githubusercontent.com/kairan0/gregtech-leisure-pack/main/CODEX_INSTALL.md
+```
+
 ## 本地维护
 
 当前游戏目录就是唯一编辑源。修改模组、配置或 KubeJS 后：

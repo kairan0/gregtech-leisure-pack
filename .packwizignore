@@ -5,6 +5,7 @@
 /.tools/**
 /scripts/**
 /README.md
+/CODEX_INSTALL.md
 /CHANGELOG.md
 /task_plan.md
 /findings.md
