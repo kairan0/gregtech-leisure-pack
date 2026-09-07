@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.5.1-kairan.2] - 2026-09-07
+
+### Fixed
+
+- Fixed the dedicated-server crash when opening a GTLCore ME Dual Input Hatch with LDLib 1.0.33.b.
+- Restored LDLib 1.0.33.b, which is required by Neo ECO 20.4.2, while retaining the repaired GTLCore client action behavior.
+
 ## [1.4.5.1-kairan.1] - 2026-09-07
 
 ### Added
