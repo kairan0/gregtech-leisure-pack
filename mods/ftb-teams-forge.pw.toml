@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "c49023f5d471aa1ba7fc624d2565fe9e82b7117e"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar"
 
 [update]
 [update.curseforge]

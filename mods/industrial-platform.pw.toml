@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "5f291f96a2cb7001978529ab9944769ed1433af3"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/8157/752/Industrial%20Platform-1.20.1-1.8.0.jar"
 
 [update]
 [update.curseforge]

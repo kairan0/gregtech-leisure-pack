@@ -36,6 +36,10 @@ wd_next.txt
 mods/*.jar
 mods/*.jar.disabled
 
+# Downloaded client resources are represented by *.pw.toml
+resourcepacks/*.zip
+shaderpacks/*.zip
+
 # Generated release output
 dist/
 *.mrpack
@@ -45,8 +49,11 @@ task_plan.md
 findings.md
 progress.md
 
-# Runtime-generated model cache
+# Server-distributed or runtime-generated model content
 config/yes_steve_model/cache/
+config/yes_steve_model/built/
+config/yes_steve_model/custom/
+tlm_custom_pack/
 config/jei/world/
 config/resourceful-config-web.json
 config/voicechat/category-volumes.properties

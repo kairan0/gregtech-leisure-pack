@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "37e62b3aebc73aa8830407cfaed588d582b28fc1"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/6816/947/invtweaks-1.20.1-1.2.2.jar"
 
 [update]
 [update.curseforge]

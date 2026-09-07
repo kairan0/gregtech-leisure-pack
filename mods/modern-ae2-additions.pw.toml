@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "89010618e856b356dbd95bbc1825ea2633359215"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/7084/998/mae2-2.0.0-beta.d.jar"
 
 [update]
 [update.curseforge]

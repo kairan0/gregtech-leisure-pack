@@ -3,11 +3,12 @@ filename = "ae2cs-1.20.1-1.2.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bc40f81af8c47fc35a6ba2a84fef433125036804"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "b77abf6936ca5352c54c9569bd3bcb94487dc126ee578176d20b2f8259c4dd9befdf6f4c515b0824211728be19d4e0e108852de5cac946fd904aa9b54a2ae787"
+mode = "url"
+url = "https://cdn.modrinth.com/data/uJ9afomy/versions/VGhHOKsP/ae2cs-1.20.1-1.2.0.jar"
 
 [update]
-[update.curseforge]
-file-id = 8324630
-project-id = 1435174
+[update.modrinth]
+mod-id = "uJ9afomy"
+version = "VGhHOKsP"

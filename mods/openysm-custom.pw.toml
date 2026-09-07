@@ -3,6 +3,12 @@ filename = "openysm-forge-2.6.6.6.jar"
 side = "both"
 
 [download]
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/openysm-forge-2.6.6.6.jar"
-hash-format = "sha256"
-hash = "86a1b0161df2c8f803f9ccbc53bd0583414c18b1d628e0bec42f2a2297a0aabb"
+hash-format = "sha512"
+hash = "0a206802a2dd59e7dc27e2aab76a37d63cbb72bb279eaded37fe7b4b6c1271c1de16192c756f61c696528b6a552fbd2fa18a0342be6879598a66f6e1296a0e9a"
+mode = "url"
+url = "https://cdn.modrinth.com/data/3I5zunBd/versions/Zt3PjPjn/openysm-forge-2.6.6.6.jar"
+
+[update]
+[update.modrinth]
+mod-id = "3I5zunBd"
+version = "Zt3PjPjn"

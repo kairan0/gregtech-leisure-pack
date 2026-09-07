@@ -1,0 +1,14 @@
+name = "AE2 Bright Assets and Redraws"
+filename = "AE2-bright-assets-and-redraws_V1.1.4.zip"
+side = "client"
+
+[download]
+hash-format = "sha512"
+hash = "7c908eb83331d49698c05e04c57467f599c9725fe2c0fec79bbd1092518261278c45196a0f1aac64ab6e3e72027358f2cd07d629fda4524f7b3e188ab5ad2ae8"
+mode = "url"
+url = "https://cdn.modrinth.com/data/uCLEvlqs/versions/std8Ma91/AE2-bright-assets-and-redraws_V1.1.4.zip"
+
+[update]
+[update.modrinth]
+mod-id = "uCLEvlqs"
+version = "std8Ma91"

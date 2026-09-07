@@ -11,6 +11,10 @@ if ! gh release view assets-v1 --repo kairan0/gregtech-leisure-pack >/dev/null 2
   echo "Required GitHub release assets-v1 does not exist; run scripts/publish-assets-v1.sh first." >&2
   exit 1
 fi
+if ! gh release view resources-v1 --repo kairan0/gregtech-leisure-pack >/dev/null 2>&1; then
+  echo "Required GitHub release resources-v1 does not exist; run scripts/publish-resources-v1.sh first." >&2
+  exit 1
+fi
 
 "$gtl_root/scripts/export-mrpack.sh"
 

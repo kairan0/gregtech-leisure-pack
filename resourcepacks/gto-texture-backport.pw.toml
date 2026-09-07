@@ -1,0 +1,9 @@
+name = "GTO Texture Backport GTL Coldfix"
+filename = "GToTextureBackportGTLv3.0coldfix.zip"
+side = "client"
+
+[download]
+hash-format = "sha256"
+hash = "1f0f28878a48978ba29c92e22847f174ec0f6859229012b633b4c4744192dd51"
+mode = "url"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/resources-v1/gto-texture-backport-gtl-v3.0-coldfix.zip"

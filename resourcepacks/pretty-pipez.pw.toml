@@ -1,0 +1,9 @@
+name = "Pretty Pipez"
+filename = "Pretty_Pipez_1_20_0-1.zip"
+side = "client"
+
+[download]
+hash-format = "sha256"
+hash = "0d85e897eacb99baee636209ccaf14464c62d12a92ca01e0314729cc9195b9e2"
+mode = "url"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/resources-v1/pretty-pipez-1.20.0-1.zip"

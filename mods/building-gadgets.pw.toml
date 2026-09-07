@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "d06a806e8ca84a9e96a69c32da4b43226a51e0c9"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/6850/495/buildinggadgets2-1.0.8.jar"
 
 [update]
 [update.curseforge]

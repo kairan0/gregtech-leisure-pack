@@ -3,11 +3,12 @@ filename = "gtceu-1.20.1-1.4.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ac965814b9aa85fc60e688454d9bf07a1ea3f8f3"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "5f9d3c7422064e5aa9dce89d188ba385c4833e653a03dcffb3464ecbceb4ebfb86d49ab119747ad36acd242a2b6944db84412a0c73cd04c6eff58b96032fad85"
+mode = "url"
+url = "https://cdn.modrinth.com/data/7tG215v7/versions/CC9c0z7p/gtceu-1.20.1-1.4.4.jar"
 
 [update]
-[update.curseforge]
-file-id = 5753724
-project-id = 890405
+[update.modrinth]
+mod-id = "7tG215v7"
+version = "CC9c0z7p"

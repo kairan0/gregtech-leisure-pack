@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "0b246b2648a2e463f243852fdd1ef8c2931da19c"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/5224/017/redirector-5.0.0.jar"
 
 [update]
 [update.curseforge]

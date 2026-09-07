@@ -3,11 +3,12 @@ filename = "extendedae_plus-1.5.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c38038f8d588ba0e7854ea7f6067a293f27e1529"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "abb444fe5282eb0e05e44211a3e0e9db19439d55a78f925d004c7297714fa090d2b6672cd237fb607a026f43ce5f060987f84ebfa4c885c52f2e9d9771bdb026"
+mode = "url"
+url = "https://cdn.modrinth.com/data/xr109llC/versions/pN9pMjiW/extendedae_plus-1.5.5.jar"
 
 [update]
-[update.curseforge]
-file-id = 8379834
-project-id = 1337639
+[update.modrinth]
+mod-id = "xr109llC"
+version = "pN9pMjiW"

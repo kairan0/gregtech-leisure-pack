@@ -3,11 +3,12 @@ filename = "Glodium-1.20-1.5-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c7534db3248adfcf39a6158b423dfc9bfc99a378"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "57ba996845f588191b12f5e4c578b6f33a2b431facd54176dc61abba0f08f86cbc03c39cf795c7d5dea4926a923ec88e646a25d1a9a3a5bb9508fcb79a661a5e"
+mode = "url"
+url = "https://cdn.modrinth.com/data/UhW5uCKw/versions/eoUaDkZf/Glodium-1.20-1.5-forge.jar"
 
 [update]
-[update.curseforge]
-file-id = 5226922
-project-id = 957920
+[update.modrinth]
+mod-id = "UhW5uCKw"
+version = "eoUaDkZf"

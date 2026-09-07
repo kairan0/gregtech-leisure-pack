@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "98fc9803159d69612168211ed690683b4ce5e9fb"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/5245/376/ad_astra_rocketed-forge-1.20.1-1.0.5.jar"
 
 [update]
 [update.curseforge]

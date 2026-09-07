@@ -3,11 +3,12 @@ filename = "1.20.1-maid_storage_manager-1.15.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bc1d147663446679735728f77c7b1179eccf2837"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "589c1a48e99b5a7b43eba135603e8b3f4f728467a80b8f1c2ebc523da6fa7e8f309ff3f9d91f4a46e0c4fe45a2fbc35cb5fb06a077cd28b9afece76dd915be70"
+mode = "url"
+url = "https://cdn.modrinth.com/data/5sIJPqAj/versions/xTNPlwGP/1.20.1-maid_storage_manager-1.15.6.jar"
 
 [update]
-[update.curseforge]
-file-id = 7976861
-project-id = 1210244
+[update.modrinth]
+mod-id = "5sIJPqAj"
+version = "xTNPlwGP"

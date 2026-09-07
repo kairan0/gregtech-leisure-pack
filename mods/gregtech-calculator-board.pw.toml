@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "26c8436f36ad566d5781e522d12e08e2b1e3f0c6"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/8815/900/gtcalcboard-1.20.1-2.2.0-alpha.2.jar"
 
 [update]
 [update.curseforge]

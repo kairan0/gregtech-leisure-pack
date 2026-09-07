@@ -1,0 +1,9 @@
+name = "Production Destroyer Textures"
+filename = "产线摧毁者附带材质.zip"
+side = "client"
+
+[download]
+hash-format = "sha256"
+hash = "3baa017984a95d40192b8224be3c89768a355807da7d08b057cff71609393eca"
+mode = "url"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/resources-v1/production-destroyer-textures.zip"

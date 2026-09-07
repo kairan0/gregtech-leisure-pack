@@ -12,8 +12,11 @@
 
 - Updated current FTB, Sophisticated Storage, Jade, ModernFix, MAE2 and ToolBelt metadata from the older launcher manifest.
 - Marked eleven client-only mods so they are excluded from dedicated-server installation.
+- Prefer exact SHA-512 Modrinth sources, then verified CurseForge CDN URLs; custom builds remain SHA-256 pinned on GitHub Releases.
+- Distribute resource packs and shaders as client-only downloads instead of embedding them in the pack.
 
 ### Fixed
 
 - Excluded obsolete duplicate JAR versions and runtime caches from distributed packs.
 - Kept the existing GTL compatibility fixes and KubeJS recipe/unification changes in the published configuration.
+- Removed client-side YSM model payloads and auto-downloaded TLM packs from the public archive, reducing the `.mrpack` to about 7.6 MB with zero embedded JAR/ZIP payloads.

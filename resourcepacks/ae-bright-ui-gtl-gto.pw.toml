@@ -1,0 +1,9 @@
+name = "AE Bright UI GTL and GTO"
+filename = "[适配GTL＆GTO]AE亮色UI-3.5fix(0.5.4)多模组覆盖⚠大量修改资源 与其他AE材质不能混合使用 .zip"
+side = "client"
+
+[download]
+hash-format = "sha256"
+hash = "f5a96a61b567c7ccae12c8bda7904169aa8d34d46e0a776f61fef963b919502a"
+mode = "url"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/resources-v1/ae-bright-ui-gtl-gto-3.5-fix.zip"

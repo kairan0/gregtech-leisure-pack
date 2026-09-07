@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar"
 
 [update]
 [update.curseforge]

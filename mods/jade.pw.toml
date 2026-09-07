@@ -3,11 +3,12 @@ filename = "Jade-1.20.1-Forge-11.13.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d08e64e66521d69e083c8525f1fc507f1c202384"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "72025c4ad6d26522bafe3d5d6ac9d4702c006a868312cb34df8a7a2398a4618205839607b129c167fd176e58cb7655f08e3afbf1993925c80d4fcc559c45a037"
+mode = "url"
+url = "https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar"
 
 [update]
-[update.curseforge]
-file-id = 8479276
-project-id = 324717
+[update.modrinth]
+mod-id = "nvQzSEkH"
+version = "xJQHCmWJ"

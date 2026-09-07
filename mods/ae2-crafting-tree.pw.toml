@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "e6c9d9c2cd9c52aec6364d87e78924f6165b7998"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/7182/165/ae2ct-1.20.1-1.1.1.jar"
 
 [update]
 [update.curseforge]

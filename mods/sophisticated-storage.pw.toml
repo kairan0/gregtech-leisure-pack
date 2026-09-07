@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "0140b377ccba3b932fd30386263e78413a0b96a9"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/8719/374/sophisticatedstorage-1.20.1-1.4.86.2131.jar"
 
 [update]
 [update.curseforge]

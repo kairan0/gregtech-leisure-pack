@@ -3,11 +3,12 @@ filename = "neoecoae-20.4.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8a765a12a478281f7cab603983d318989c505289"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "36ec97ef0d5b5226eaa58fa9e253a2fc24b8218207d12cd162ce913fb029be75bee8d2e4e352bbe64861c444e596bf50f5961b7c0bf028d86821544d2c2a1d8c"
+mode = "url"
+url = "https://cdn.modrinth.com/data/udZtKfzP/versions/Qm3GW128/neoecoae-20.4.2.jar"
 
 [update]
-[update.curseforge]
-file-id = 8739989
-project-id = 1460639
+[update.modrinth]
+mod-id = "udZtKfzP"
+version = "Qm3GW128"

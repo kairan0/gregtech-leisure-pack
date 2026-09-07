@@ -3,11 +3,12 @@ filename = "FastWorkbench-1.20.1-8.0.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1a322a85e7c7024b8a0715c12d27b5ed0930d729"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "c30dccece03fa9fa8de7bf0ec3b4988e7b2b0c214b5ab2142f13bcdced89c4ca8509244b9767df0903d55776ae2ada29b483af8dec649339b3f0c687ea18df76"
+mode = "url"
+url = "https://cdn.modrinth.com/data/5NYPwQRn/versions/ymC5ORfn/FastWorkbench-1.20.1-8.0.4.jar"
 
 [update]
-[update.curseforge]
-file-id = 5101229
-project-id = 288885
+[update.modrinth]
+mod-id = "5NYPwQRn"
+version = "ymC5ORfn"

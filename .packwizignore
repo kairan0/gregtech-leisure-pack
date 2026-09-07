@@ -49,8 +49,15 @@
 /mods/*.jar
 /mods/*.jar.disabled
 
+# Resource and shader ZIP payloads are represented by metafiles
+/resourcepacks/*.zip
+/shaderpacks/*.zip
+
 # Per-user/generated configuration state
 /config/yes_steve_model/cache/**
+/config/yes_steve_model/built/**
+/config/yes_steve_model/custom/**
+/tlm_custom_pack/**
 /config/jei/world/**
 /config/resourceful-config-web.json
 /config/voicechat/category-volumes.properties

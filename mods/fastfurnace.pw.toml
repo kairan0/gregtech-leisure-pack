@@ -3,11 +3,12 @@ filename = "FastFurnace-1.20.1-8.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b144b8599acd3fac3f8f9d31fa217a4a5b942f61"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "4f11c4871ba88d10c07a295b84632e97ce417489c091c69873bc749dd11947413e907a55125e1529bd3a7a859dd8b8ba44857693fbbef74154ff14fb8d3d1c2e"
+mode = "url"
+url = "https://cdn.modrinth.com/data/9X0318ev/versions/EYjcGdw1/FastFurnace-1.20.1-8.0.2.jar"
 
 [update]
-[update.curseforge]
-file-id = 5181098
-project-id = 299540
+[update.modrinth]
+mod-id = "9X0318ev"
+version = "EYjcGdw1"

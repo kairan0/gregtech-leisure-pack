@@ -3,11 +3,12 @@ filename = "AdvancedAE-1.3.5-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a1e43dd39a9a3de6df1dbe412ccc19adc729ac9c"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "2340740ab143d70131aea03047483bb6239031be8d019a7e7a3806ed2bb2191bae01640187dbefe2e86b0ea196fe285036dd8bb71eca5edc97944e437f8da344"
+mode = "url"
+url = "https://cdn.modrinth.com/data/rxYaglEe/versions/QwEY7zEa/AdvancedAE-1.3.5-1.20.1.jar"
 
 [update]
-[update.curseforge]
-file-id = 7939754
-project-id = 1084104
+[update.modrinth]
+mod-id = "rxYaglEe"
+version = "QwEY7zEa"

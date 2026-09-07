@@ -3,6 +3,12 @@ filename = "WorldComment-0.3.2+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/worldcomment-0.3.2-1.20.1.jar"
-hash-format = "sha256"
-hash = "f89d12d9e2765a3b8e8cdbeccc904c5fb9f7255616a72c3655ecdd52f22c7a13"
+hash-format = "sha512"
+hash = "f28de50e5b968cd182f3100898e95078812970bcb72a91b8167eba485fa181734d7aa9f7fa32964b4c09cc820b939045d0f033cc9364a9327021f5eade83d0c7"
+mode = "url"
+url = "https://cdn.modrinth.com/data/GNAofCJ3/versions/SebcJV8H/WorldComment-0.3.2%2B1.20.1.jar"
+
+[update]
+[update.modrinth]
+mod-id = "GNAofCJ3"
+version = "SebcJV8H"

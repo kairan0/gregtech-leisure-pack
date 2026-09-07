@@ -3,11 +3,12 @@ filename = "functionalstorage-1.20.1-1.2.14.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e651d29acc8f7d56c124a75afa6ff0d0ecea4854"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "f561c2fd4f223e22f485e192aa505ee29f7f4c3a7802c68ae90c698e70ab2c443d1407e0f35051a645926d03fc92380c2b9fa47f7edd5dcd604abfe8858bb486"
+mode = "url"
+url = "https://cdn.modrinth.com/data/cO40ZIg3/versions/XJ0p2eID/functionalstorage-1.20.1-1.2.14.jar"
 
 [update]
-[update.curseforge]
-file-id = 8412552
-project-id = 556861
+[update.modrinth]
+mod-id = "cO40ZIg3"
+version = "XJ0p2eID"

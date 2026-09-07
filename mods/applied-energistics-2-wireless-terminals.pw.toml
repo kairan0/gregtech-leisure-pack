@@ -3,11 +3,12 @@ filename = "ae2wtlib-15.3.3-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1a546af04844677542b6914191783c7de15364fc"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "f036f278e6d1360147b04f2090829154e75e456f3b2c0af7571b537bf0fd13e97f29211f7a044f9437a171a1c525195737860895118eab70b2b4af54485367d4"
+mode = "url"
+url = "https://cdn.modrinth.com/data/pNabrMMw/versions/z8QXeyI0/ae2wtlib-15.3.3-forge.jar"
 
 [update]
-[update.curseforge]
-file-id = 7251206
-project-id = 459929
+[update.modrinth]
+mod-id = "pNabrMMw"
+version = "z8QXeyI0"

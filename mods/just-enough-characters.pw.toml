@@ -3,11 +3,12 @@ filename = "[通用拼音搜索] jecharacters-1.20.1-forge-4.6.4.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "38367ae9f513bb2e82bd925df454f2e30ad1e801"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "7e3e0aa6341a4e94cec04b158d760d62a452604160a562d92bd75af7fe6cb0cf8e58935cd6a5a2bc592a8853ec0a0b01140a9e7089a21fa8f3a1ef72d66a3225"
+mode = "url"
+url = "https://cdn.modrinth.com/data/I7k4B65h/versions/BF9ffp3J/jecharacters-1.20.1-forge-4.6.4.jar"
 
 [update]
-[update.curseforge]
-file-id = 8117466
-project-id = 250702
+[update.modrinth]
+mod-id = "I7k4B65h"
+version = "BF9ffp3J"

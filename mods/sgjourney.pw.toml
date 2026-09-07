@@ -3,11 +3,12 @@ filename = "[星门之旅] Stargate Journey-1.20.1-0.6.44.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e6fd269effa2f9ea13a0faa0d5ea6e0424b8d8ff"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "431a62c73b53f09585f9f958366d82fa040d798a2e6a8cac77dd8bc0c955b7d850c5983e31aa7d517da4ac184a35f83d0f803a15226538ceb667292d26a494de"
+mode = "url"
+url = "https://cdn.modrinth.com/data/qlc8dxM6/versions/DfgorLCp/Stargate%20Journey-1.20.1-0.6.44.jar"
 
 [update]
-[update.curseforge]
-file-id = 7173638
-project-id = 689083
+[update.modrinth]
+mod-id = "qlc8dxM6"
+version = "DfgorLCp"

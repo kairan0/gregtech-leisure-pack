@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "0584f628d2bc6a612d79dee368324357ebae1423"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/6402/486/ftb-xmod-compat-forge-2.1.3.jar"
 
 [update]
 [update.curseforge]

@@ -3,11 +3,12 @@ filename = "touhoulittlemaid-1.5.3-forge+mc1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "9097a2a57e7ed639bca072dd62e4a9257e86db89"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "12f29c14e806bf3aeb4f8399ac02199b419426905a27c3b9c7e019ef9daace09bc40d9b2c5c41ee730ce4b67eda5d0e93e8a8f32879b96b70e6003952c651716"
+mode = "url"
+url = "https://cdn.modrinth.com/data/R0bDWFAW/versions/g1SKoGQJ/touhoulittlemaid-1.5.3-forge%2Bmc1.20.1.jar"
 
 [update]
-[update.curseforge]
-file-id = 8061847
-project-id = 355044
+[update.modrinth]
+mod-id = "R0bDWFAW"
+version = "g1SKoGQJ"

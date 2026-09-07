@@ -3,6 +3,12 @@ filename = "voicechat-forge-1.20.1-2.6.23.jar"
 side = "both"
 
 [download]
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v1/voicechat-forge-1.20.1-2.6.23.jar"
-hash-format = "sha256"
-hash = "c9628f1770f22e4c56a0d2d51c1a4171249596410c0fec0e8997ae25760ca528"
+hash-format = "sha512"
+hash = "79573f6070ee52e39e2c55466cc77ea6ddaed27cbbf1e115d003cd0982ea302fa184e945da2dcbbab563c02b130d59e79237d18c57e71c8985292ec813f14433"
+mode = "url"
+url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/8xl0SNZC/voicechat-forge-1.20.1-2.6.23.jar"
+
+[update]
+[update.modrinth]
+mod-id = "9eGKb6K1"
+version = "8xl0SNZC"

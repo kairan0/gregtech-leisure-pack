@@ -5,7 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "2747c58f439c37a01139d35cab59ca1a54114009"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/5057/220/JustEnoughResources-1.20.1-1.4.0.247.jar"
 
 [update]
 [update.curseforge]

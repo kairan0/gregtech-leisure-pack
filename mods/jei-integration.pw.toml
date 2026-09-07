@@ -5,7 +5,8 @@ side = "client"
 [download]
 hash-format = "sha1"
 hash = "0aa9c598105938ee0be35f1c1b31ab5d936b0ef6"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/4999/754/jeiintegration_1.20.1-10.0.0.jar"
 
 [update]
 [update.curseforge]

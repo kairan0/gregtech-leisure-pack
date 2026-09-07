@@ -5,7 +5,8 @@ side = "client"
 [download]
 hash-format = "sha1"
 hash = "f9949cf20abb021bcdc6a5865ccae47940c4fd1a"
-mode = "metadata:curseforge"
+mode = "url"
+url = "https://edge.forgecdn.net/files/5503/481/PackMenu-1.20.1-6.1.2.jar"
 
 [update]
 [update.curseforge]

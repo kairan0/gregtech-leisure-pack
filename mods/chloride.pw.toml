@@ -3,11 +3,12 @@ filename = "chloride-FORGE-mc1.20.1-v1.8.1.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "b42ae912055a962aeae80b97f08ee3517542026a"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "2fa5393ab4562bc94a938d72fd6045c5d99f81cfa90ed67e5ae09816447c27f974916b45506c0ba1456d07d30b0172c1d20ad089ec5eafcbb10ef278a29bffdd"
+mode = "url"
+url = "https://cdn.modrinth.com/data/yD9qW65f/versions/UDrXQjce/chloride-FORGE-mc1.20.1-v1.8.1.jar"
 
 [update]
-[update.curseforge]
-file-id = 8462759
-project-id = 931925
+[update.modrinth]
+mod-id = "yD9qW65f"
+version = "UDrXQjce"

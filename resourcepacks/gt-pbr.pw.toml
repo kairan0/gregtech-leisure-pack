@@ -1,0 +1,9 @@
+name = "GT PBR"
+filename = "GT-PBR.zip"
+side = "client"
+
+[download]
+hash-format = "sha256"
+hash = "68d34d23f521e9f2635a55ab91bfb7a41d00997113fa77175ea0eba28a38c494"
+mode = "url"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/resources-v1/gt-pbr.zip"

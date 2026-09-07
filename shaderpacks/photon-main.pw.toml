@@ -1,0 +1,9 @@
+name = "Photon Shader Main Snapshot"
+filename = "photon-main.zip"
+side = "client"
+
+[download]
+hash-format = "sha256"
+hash = "da6f7dc17052ada5d04fe5d7366af15c215a5619555ae87e8957d462ecf27684"
+mode = "url"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/resources-v1/photon-main.zip"

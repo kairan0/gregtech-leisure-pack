@@ -3,11 +3,12 @@ filename = "SkyblockBuilder-1.20.1-5.1.28.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e57a15c932a68d6106da929a8c39f678672708a5"
-mode = "metadata:curseforge"
+hash-format = "sha512"
+hash = "7656c09cf954af6d01015f46d0322b69ff931a1456acdfd906cc7dac15d2494280aaf09d73bad4261414fa2a4aad795396705fb8dee4296ef9455439c0e6ae81"
+mode = "url"
+url = "https://cdn.modrinth.com/data/por2AZc5/versions/DHc1A6v8/SkyblockBuilder-1.20.1-5.1.28.jar"
 
 [update]
-[update.curseforge]
-file-id = 7207347
-project-id = 446691
+[update.modrinth]
+mod-id = "por2AZc5"
+version = "DHc1A6v8"
