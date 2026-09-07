@@ -30,6 +30,14 @@ scripts/publish.sh
 
 YSM 的 `built`、`custom` 和 `cache` 不进入公开客户端包。发布脚本会把本地 `built/custom` 同步到 `office` 服务端，由服务端向客户端提供模型。`tlm_custom_pack` 由 Touhou Little Maid 自动下载默认内容，也不进入发行包。
 
+`office` 服务端的 `run.sh` 与 `start.sh` 在启动 Forge 前都会执行 `update-pack.sh`，从同一个 Pages 清单安装服务端所需文件。也可以在本地随时手动同步配置、YSM 模型并刷新服务端：
+
+```bash
+scripts/update-office-server.sh
+```
+
+更新失败会阻止服务器继续启动，避免以不完整版本运行。`packwiz-installer-bootstrap` 固定为官方 v0.0.3，并在执行前校验 SHA-256。
+
 ## 自托管模组
 
 无法从 Modrinth/CurseForge 精确取得的定制 JAR 使用 GitHub Release `assets-v1` 和 SHA-256 固定；本地定制资源包使用 `resources-v1`。更新这些文件时应发布新的 assets tag，并同步修改相应 `.pw.toml`，不要覆盖旧资产。

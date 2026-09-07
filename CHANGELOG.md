@@ -20,3 +20,4 @@
 - Excluded obsolete duplicate JAR versions and runtime caches from distributed packs.
 - Kept the existing GTL compatibility fixes and KubeJS recipe/unification changes in the published configuration.
 - Removed client-side YSM model payloads and auto-downloaded TLM packs from the public archive, reducing the `.mrpack` to about 7.6 MB with zero embedded JAR/ZIP payloads.
+- Added a SHA-256-pinned server updater shared by manual synchronization and both `office` server launch entry points.
