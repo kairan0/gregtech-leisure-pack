@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.5.1-kairan.5] - 2026-09-09
+
+### Added
+
+- Added 27 balanced GTCEu machine routes for AdvancedAE materials, network devices, and quantum crafting CPU components.
+
+### Fixed
+
+- Added NeoECO C4 CPU support for ExtendedAE Plus virtual crafting cards without suppressing outstanding real recipe outputs.
+
 ## [1.4.5.1-kairan.3] - 2026-09-07
 
 ### Fixed

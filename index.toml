@@ -5421,6 +5421,10 @@ file = "kubejs/server_scripts/advanced_ae_duplicate_filter.js"
 hash = "951721f5bacd0566d73a6fd19e30f94fdb96def2cb31cb765c97926485143836"
 
 [[files]]
+file = "kubejs/server_scripts/advanced_ae_gtceu.js"
+hash = "46f7debafb72bc2129eeeea95e71a4d8606130254d266f9b4300ab4792355599"
+
+[[files]]
 file = "kubejs/server_scripts/ae2.js"
 hash = "0acb38b3c9cb2c1651cec1dca8e5748f9fd3769a27daae32215eebfa2cb956d6"
 
@@ -5599,7 +5603,7 @@ metafile = true
 
 [[files]]
 file = "mods/extendedae-plus.pw.toml"
-hash = "ceac5507aba8ef771cca76d15850bcdd530429f3e346cfe9566992a1b9a63330"
+hash = "5549443ae1272e48330f763990d93fe08f18623b2b1e77bc2158ce6a212b60ce"
 metafile = true
 
 [[files]]
