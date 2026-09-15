@@ -1,8 +1,8 @@
-name = "ExtendedAE Plus NeoECO C4 Compat.1"
-filename = "extendedae_plus-1.5.5-neoeco-compat.1.jar"
+name = "ExtendedAE Plus NeoECO C4 Compat.3"
+filename = "extendedae_plus-1.5.5-neoeco-compat.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "cd47512a8b79cea991ba83191f9681d934b5803752ddb0d6630abdd081253078"
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v3/extendedae_plus-1.5.5-neoeco-compat.1.jar"
+hash = "f545acf40f3f1f6cf557a6c791c4654d2165a6a69e77fc447f59fad8fe0f613a"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v3/extendedae_plus-1.5.5-neoeco-compat.3.jar"

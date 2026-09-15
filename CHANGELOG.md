@@ -7,6 +7,7 @@
 - Removed Wildcard Pattern's six-condition limit in both filter and I/O configurators, with a bounded scrollable list and visible scrollbar.
 - Stabilized AE2LT Network Tool sidebars during the initial inventory synchronization without accepting later tool removal or a different-NBT replacement.
 - Let the AE2LT Lightning Simulation Chamber consume its local FE buffer first and fall back to correctly converted native ME-network power; lightning-key requirements remain unchanged.
+- Aligned the public pack manifest with the validated ExtendedAE Plus NeoECO C4 compat.3 build already used by the client and server.
 
 ## [1.4.5.1-kairan.5] - 2026-09-09
 
