@@ -5528,7 +5528,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2lt-gtlcore-compat.pw.toml"
-hash = "e100a978b2892937181f558bf6ca09eb20234d6af33aeb22d8c2dd71aa963687"
+hash = "f4a29cc0b96fadd10dc7ca52ff910eba39362991050c197a9ae91ac7b64d3fb6"
 metafile = true
 
 [[files]]
@@ -5978,7 +5978,7 @@ metafile = true
 
 [[files]]
 file = "mods/wildcard-pattern-compat.pw.toml"
-hash = "0a613b5201dce88cd99471b75e8b97fa91dc7c69040beb958590193afee76a5f"
+hash = "ddd816f14a8fbb8d22fe636703fe182e0a79a328b98798d84063bc1b0e073a6a"
 metafile = true
 
 [[files]]
