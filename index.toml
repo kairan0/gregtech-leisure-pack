@@ -5978,7 +5978,7 @@ metafile = true
 
 [[files]]
 file = "mods/wildcard-pattern-compat.pw.toml"
-hash = "ddd816f14a8fbb8d22fe636703fe182e0a79a328b98798d84063bc1b0e073a6a"
+hash = "817126c459b56ddd078cc77ee294b2e0ec5eb7e910a855250933e2e273bfa73e"
 metafile = true
 
 [[files]]
