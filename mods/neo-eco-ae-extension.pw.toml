@@ -1,14 +1,9 @@
-name = "Neo ECO AE Extension"
-filename = "neoecoae-20.4.2.jar"
+name = "Neo ECO AE Extension GTL Compat.2"
+filename = "neoecoae-20.4.2-gtl-compat.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha512"
-hash = "36ec97ef0d5b5226eaa58fa9e253a2fc24b8218207d12cd162ce913fb029be75bee8d2e4e352bbe64861c444e596bf50f5961b7c0bf028d86821544d2c2a1d8c"
+hash-format = "sha256"
+hash = "bd8f5472f2a83a2c8c0aa2e1e8e50d419df65b26cbac6d483d70b912c6b47f19"
 mode = "url"
-url = "https://cdn.modrinth.com/data/udZtKfzP/versions/Qm3GW128/neoecoae-20.4.2.jar"
-
-[update]
-[update.modrinth]
-mod-id = "udZtKfzP"
-version = "Qm3GW128"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v3/neoecoae-20.4.2-gtl-compat.2.jar"

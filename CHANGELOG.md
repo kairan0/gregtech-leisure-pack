@@ -4,6 +4,8 @@
 
 ### Fixed
 
+- Pinned NeoECO 20.4.2 GTL compat.2: cyclic crafting reserves first-step bootstrap inputs, validates fallback/missing previews, and preserves exact-input execution frontiers and ready batch sizes. Retains the exact 20.4.2 runtime declaration required by EAEP compatibility. Existing saved jobs are not automatically recalculated. Matching source snapshot: assets-v3/neoecoae-20.4.2-gtl-compat.2-source-3e5c5b73.tar.gz.
+
 - Published the in-game-validated GTLCore compat.3 cycle-safe AE2/NeoECO crafting fix; continuous pack updates now retain the same patch used by the client and dedicated server.
 
 ### Added
