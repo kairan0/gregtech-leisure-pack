@@ -5718,7 +5718,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlcore-custom.pw.toml"
-hash = "bb65d588f65acf7985f61eab59caef2b19bdd1df4fd909485a77ac4af2f48cf2"
+hash = "1819be23a8aa433ff67b7ac9fec9f8fb82cf69cae4691ca72207b474f94bca5d"
 metafile = true
 
 [[files]]

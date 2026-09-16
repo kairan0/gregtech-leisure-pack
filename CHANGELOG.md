@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Published the in-game-validated GTLCore compat.3 cycle-safe AE2/NeoECO crafting fix; continuous pack updates now retain the same patch used by the client and dedicated server.
+
 ### Added
 
 - Added New Visual Keybing 0.6.16 as a client-only, SHA-512-pinned Modrinth download; personal keybind-viewer preferences are not distributed.
