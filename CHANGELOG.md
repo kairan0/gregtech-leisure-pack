@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- Added New Visual Keybing 0.6.16 as a client-only, SHA-512-pinned Modrinth download; personal keybind-viewer preferences are not distributed.
+
+### Changed
+
+- Confirmed the AE2LT and Wildcard compat.3/compat.5 fixes passed in-game validation; the AE2LT source is preserved publicly as an unofficial community continuation with its original licenses and attribution.
+
 ## [1.4.5.1-kairan.6] - 2026-09-16
 
 ### Fixed

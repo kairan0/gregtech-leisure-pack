@@ -1,0 +1,12 @@
+name = "New Visual Keybing"
+filename = "New Visual Keybing-1.20.1-forge-0.6.16.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jUO7wMKn/versions/tLkMNrwQ/New%20Visual%20Keybing-1.20.1-forge-0.6.16.jar"
+hash-format = "sha512"
+hash = "15a82e60ae93c7c2c77c032686b35d0673ae716e0e9180363f0a7dd5dbf3d22b56d8c39b4921976fd758201db912bfda3394573a701d7c862e7ac3df5f9a43f7"
+
+[update.modrinth]
+mod-id = "jUO7wMKn"
+version = "tLkMNrwQ"

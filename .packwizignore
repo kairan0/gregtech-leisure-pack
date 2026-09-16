@@ -66,6 +66,7 @@
 /config/voicechat/player-volumes.properties
 /config/voicechat/username-cache.json
 /config/voicechat/voicechat-client.properties
+/config/newvisualkeybing/**
 /kubejs/.cache/**
 /kubejs/exported/**
 /kubejs/logs/**

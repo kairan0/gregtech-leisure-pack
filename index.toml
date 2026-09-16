@@ -5832,6 +5832,11 @@ hash = "29ca38d2e8bf0b5b540294dbaf98b1d5675547a5c2e8184cc11d0cbc2333dc34"
 metafile = true
 
 [[files]]
+file = "mods/new-visual-keybing.pw.toml"
+hash = "d50baebb0efc2e873f6920bd019675166c627861df8ff8a780ba2202ec87444e"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "f120f83168053c41fd62c0ffe5f6f5d96c86c805b759366de07535eff027c6bb"
 metafile = true

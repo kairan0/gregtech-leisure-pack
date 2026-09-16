@@ -61,6 +61,7 @@ config/voicechat/category-volumes.properties
 config/voicechat/player-volumes.properties
 config/voicechat/username-cache.json
 config/voicechat/voicechat-client.properties
+config/newvisualkeybing/
 
 # KubeJS/Probe generated output
 kubejs/.cache/
