@@ -5597,7 +5597,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "d7a6ee4d7e2ae1dc04b43b658f3cbd8e9e7d999058eaad46c0879bea49b146b1"
+hash = "6696c9f8fa6c37ca4b6164e0408786247620b9ae86e39c2a61aa6d7ce33a7d60"
 metafile = true
 
 [[files]]
