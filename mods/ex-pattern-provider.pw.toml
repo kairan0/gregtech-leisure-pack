@@ -1,14 +1,9 @@
 name = "ExtendedAE"
-filename = "ExtendedAE-1.20-1.4.12-forge.jar"
+filename = "ExtendedAE-1.20-1.4.12-forge-gtlcompat.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha512"
-hash = "9d6eddf6804bc7dac3b107797e6f19e5c9d1b024cf9a10ebe4cda0b3ac491857ef256b3063c445683a7ffbf05b21ace39b5da532bba4ad19ce4cf0899fd105ee"
+hash = "496e02472157f2952176578504965842c1df63b7165ad530dcea49197095308dec53700cb955bd87e183a36359370afd052fe93eb07ab2b0240e95294408cff0"
 mode = "url"
-url = "https://cdn.modrinth.com/data/JiOqfoFM/versions/leiXZvDb/ExtendedAE-1.20-1.4.12-forge.jar"
-
-[update]
-[update.modrinth]
-mod-id = "JiOqfoFM"
-version = "leiXZvDb"
+url = "https://github.com/kairan0/ExtendedAE/releases/download/1.20-1.4.12-forge-gtlcompat.1/ExtendedAE-1.20-1.4.12-forge-gtlcompat.1.jar"
