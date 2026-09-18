@@ -1,8 +1,8 @@
 name = "AE2 Lightning Tech GTLCore Compat"
-filename = "ae2lt-forge-1.20.1-2.1.0-beta.3-gtlcore-compat.5.jar"
+filename = "ae2lt-forge-1.20.1-2.1.0-beta.3-gtlcore-compat.14-tianshu-style-routing.jar"
 side = "both"
 
 [download]
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v4/ae2lt-forge-1.20.1-2.1.0-beta.3-gtlcore-compat.5.jar"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v5/ae2lt-forge-1.20.1-2.1.0-beta.3-gtlcore-compat.14-tianshu-style-routing.jar"
 hash-format = "sha256"
-hash = "8ce18d1c7656892debbf899b80981f57cc6ff9fc540d630b740409d273a1134f"
+hash = "8a0f88d4e0d90f85ef80b6b9ceca303f5c05b8d326eb890e7f9887c7513e1bc3"

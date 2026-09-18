@@ -2,6 +2,20 @@
 
 ## [Unreleased]
 
+## [1.4.5.1-kairan.9] - 2026-09-19
+
+### Fixed
+
+- Fixed standalone and Wireless Universal Terminal Tianshu screens being
+  redirected to the ordinary pattern-terminal style by GTLCore. Tianshu now
+  uses dedicated style entrypoints, while the validated AE2/AE2WTLib theme
+  compatibility fallback remains active.
+
+### Changed
+
+- Updated the community AE2 Lightning Tech build to compat.14 and published it
+  as an immutable `assets-v5` binary.
+
 ## [1.4.5.1-kairan.8] - 2026-09-18
 
 ### Fixed
