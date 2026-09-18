@@ -16,6 +16,8 @@
 请读取并执行 https://raw.githubusercontent.com/kairan0/gregtech-leisure-pack/main/CODEX_INSTALL.md
 ```
 
+从旧版升级时需检查改名后遗留的 JAR，尤其 ExtendedAE、LT、NeoECO，避免原版与 compat 双装。Codex 安装规程已包含可回滚归档和更新器重命名检查；新版 `.mrpack` 本身只包含当前唯一版本。
+
 ## 本地维护
 
 当前游戏目录就是唯一编辑源。修改模组、配置或 KubeJS 后：

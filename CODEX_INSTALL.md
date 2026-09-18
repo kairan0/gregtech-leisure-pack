@@ -60,6 +60,37 @@ releases for the client pack.
    manifest. Report the installed pack version, instance path, Java path, updater
    path, and whether the pre-launch hook is active.
 
+## Upgrade rename check (required for existing instances)
+
+An installer success message is not sufficient to rule out duplicate mods. In
+the validated 0.5.14 server update, changing a metafile's `filename` updated
+`cachedLocation` in `packwiz.json` but left the former ExtendedAE JAR active.
+Renamed LT and NeoECO builds require the same check when updating older clients.
+
+Before updating, retain the previous `packwiz.json` and its
+`cachedFiles[*].cachedLocation` / `linkedFileHash` records. After a successful
+update, compare these with the new records and verify each new canonical JAR
+against its published hash. Recoverably archive a superseded tracked JAR outside
+`mods` only when it is no longer any current canonical destination and its hash
+matches the previous record. Preserve locally modified/unrecognized files and
+request direction if they conflict; do not blindly delete other installed mods.
+Include this rename check in the generated updater so future renamed builds do
+not leave duplicate active JARs. A failed update must never retire the old copy.
+
+For upgrades to `1.4.5.1-kairan.7`, verify exactly one active JAR for each of:
+
+- ExtendedAE: `ExtendedAE-1.20-1.4.12-forge-gtlcompat.1.jar`
+- AE2 Lightning Tech: `ae2lt-forge-1.20.1-2.1.0-beta.3-gtlcore-compat.5.jar`
+- NeoECO: `neoecoae-20.4.2-gtl-compat.7.jar`
+
+Read the current `.pw.toml` downloads for later versions rather than keeping
+these filenames hard-coded. For an existing launcher import without prior
+packwiz state, inspect `META-INF/mods.toml` to identify duplicate mod IDs, verify
+the current canonical files, and archive only recognized superseded originals
+of these same mods. Do not move `.disabled` files, unrelated add-ons, player
+configuration or saves. Fresh `.7` imports already distribute only the canonical
+builds.
+
 ## Safety boundaries
 
 - Operate only on the selected GregTech Leisure instance.
