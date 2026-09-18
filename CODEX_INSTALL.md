@@ -77,9 +77,9 @@ request direction if they conflict; do not blindly delete other installed mods.
 Include this rename check in the generated updater so future renamed builds do
 not leave duplicate active JARs. A failed update must never retire the old copy.
 
-For upgrades to `1.4.5.1-kairan.7`, verify exactly one active JAR for each of:
+For upgrades to `1.4.5.1-kairan.8`, verify exactly one active JAR for each of:
 
-- ExtendedAE: `ExtendedAE-1.20-1.4.12-forge-gtlcompat.1.jar`
+- ExtendedAE: `ExtendedAE-1.20-1.4.12-forge-gtlcompat.2.jar`
 - AE2 Lightning Tech: `ae2lt-forge-1.20.1-2.1.0-beta.3-gtlcore-compat.5.jar`
 - NeoECO: `neoecoae-20.4.2-gtl-compat.7.jar`
 
@@ -88,8 +88,12 @@ these filenames hard-coded. For an existing launcher import without prior
 packwiz state, inspect `META-INF/mods.toml` to identify duplicate mod IDs, verify
 the current canonical files, and archive only recognized superseded originals
 of these same mods. Do not move `.disabled` files, unrelated add-ons, player
-configuration or saves. Fresh `.7` imports already distribute only the canonical
+configuration or saves. Fresh `.8` imports already distribute only the canonical
 builds.
+
+Version `.7`'s ExtendedAE compat.1 accidentally omitted generated recipes, tags,
+loot tables and advancements. Upgrade to `.8` / compat.2 for the complete original
+resource set and the same accepted GUI fix; do not add an original JAR alongside it.
 
 ## Safety boundaries
 

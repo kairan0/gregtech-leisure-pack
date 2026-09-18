@@ -1,9 +1,9 @@
 name = "ExtendedAE"
-filename = "ExtendedAE-1.20-1.4.12-forge-gtlcompat.1.jar"
+filename = "ExtendedAE-1.20-1.4.12-forge-gtlcompat.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha512"
-hash = "496e02472157f2952176578504965842c1df63b7165ad530dcea49197095308dec53700cb955bd87e183a36359370afd052fe93eb07ab2b0240e95294408cff0"
+hash = "a2705f41eb940f6fade79c4befb2e2d2e5e72d6c695429545fd7f436378c1333b8e6a69aaba52d0b29abfbd75bd3efb6620b208876322ff13ecefe3becb4f599"
 mode = "url"
-url = "https://github.com/kairan0/ExtendedAE/releases/download/1.20-1.4.12-forge-gtlcompat.1/ExtendedAE-1.20-1.4.12-forge-gtlcompat.1.jar"
+url = "https://github.com/kairan0/ExtendedAE/releases/download/1.20-1.4.12-forge-gtlcompat.2/ExtendedAE-1.20-1.4.12-forge-gtlcompat.2.jar"

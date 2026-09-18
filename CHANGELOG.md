@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [1.4.5.1-kairan.8] - 2026-09-18
+
+### Fixed
+
+- Restored all official ExtendedAE 1.4.12 data and assets in compat.2: 65 previously omitted recipes (including the Extended Pattern Provider), 23 block loot tables, 10 tags and 53 recipe advancements. Existing data files now match the original byte-for-byte too.
+- Preserved the accepted main-thread GUI registration fix. Releases now overlay only the entry class and explicit versions onto the hash-locked original JAR, with an entry-by-entry integrity gate and six packaging regression tests. No KubeJS workaround or second ExtendedAE JAR is required.
+- Kept LT compat.5, NeoECO compat.7, GTLCore compat.4 and all other accepted builds unchanged. Existing instances must recoverably retire the previous compat.1 JAR after verifying compat.2; fresh imports contain only compat.2.
+
 ## [1.4.5.1-kairan.7] - 2026-09-18
 
 ### Fixed
