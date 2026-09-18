@@ -2,6 +2,7 @@
 .DS_Store
 .abnormal
 .codexm/
+.codexm.before-*/
 .tools/
 backups/
 compat/

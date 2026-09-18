@@ -1,8 +1,8 @@
-name = "GTLCore fix1 GTL Compat.3"
+name = "GTLCore fix1 GTL Compat.4"
 filename = "gtlcore-1.2.3.1-fix1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v2/gtlcore-1.2.3.1-fix1-gtl-compat.3.jar"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v4/gtlcore-1.2.3.1-fix1-gtl-compat.4.jar"
 hash-format = "sha256"
-hash = "4a8f94ed2a2a1776662dd3a52a317a229a341e6888d7600f7730af206a556b0e"
+hash = "050c4d8fa89059233382851cbc9a969c997cf4f33be5f7b5c0165b46a7a6d2e6"

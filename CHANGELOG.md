@@ -2,19 +2,29 @@
 
 ## [Unreleased]
 
+## [1.4.5.1-kairan.7] - 2026-09-18
+
 ### Fixed
 
-- Pinned NeoECO 20.4.2 GTL compat.3: cyclic crafting reserves first-step bootstrap inputs, validates fallback/missing previews, and preserves exact-input execution frontiers and ready batch sizes. Retains the exact 20.4.2 runtime declaration required by EAEP compatibility and resolves inherited Minecraft runtime members. Existing saved jobs are not automatically recalculated. Matching source snapshot: assets-v3/neoecoae-20.4.2-gtl-compat.3-source-863ce653.tar.gz.
+- Replaced original ExtendedAE 1.4.12 with the in-game-validated compat.1 build: client screen/hotkey registration now runs on the main thread. Exactly one ExtendedAE is distributed; no Network Tool sidebar is added to screens that never implemented it upstream. Source: https://github.com/kairan0/ExtendedAE/releases/tag/1.20-1.4.12-forge-gtlcompat.1 .
 
-- Published the in-game-validated GTLCore compat.3 cycle-safe AE2/NeoECO crafting fix; continuous pack updates now retain the same patch used by the client and dedicated server.
+- Pinned the already deployed NeoECO compat.7 causal supplier planner, with executable first-step inventory and no synthetic startup top-up or forced-start workaround. Preserves exact runtime version 20.4.2 for EAEP integration. Existing saved jobs are not automatically recalculated.
+
+- Pinned the already deployed GTLCore compat.4, retaining dedicated-server GUI and adaptive AE2/NeoECO batching fixes while removing superseded ECO submission-plan/startup top-up workarounds.
+
+- Pinned the already deployed AE2LT compat.5, including unified FE/ME processing power and Network Tool GUI fixes. LT/ECO/GTLCore are downloaded from immutable assets-v4, with matching source/build snapshots, so continuous updates no longer downgrade the accepted builds.
 
 ### Added
 
 - Added New Visual Keybing 0.6.16 as a client-only, SHA-512-pinned Modrinth download; personal keybind-viewer preferences are not distributed.
 
+- Added four reloadable, balanced LT2 GTCEu processing routes through KubeJS. Ordinary crafting-table recipes and Lightning Assembly/Overload factory exclusive recipes remain unchanged.
+
 ### Changed
 
-- Confirmed the AE2LT and Wildcard compat.3/compat.5 fixes passed in-game validation; the AE2LT source is preserved publicly as an unofficial community continuation with its original licenses and attribution.
+- Retained Wildcard compat.5 and EAEP NeoECO compat.3; AE2LT is preserved as an unofficial community continuation with original licenses and attribution.
+
+- Excluded renamed Codex session backups as well as ordinary session data. Release builds use committed configuration, preserving uncommitted local preferences and runtime-generated files.
 
 ## [1.4.5.1-kairan.6] - 2026-09-16
 

@@ -1,9 +1,9 @@
-name = "Neo ECO AE Extension GTL Compat.3"
-filename = "neoecoae-20.4.2-gtl-compat.3.jar"
+name = "Neo ECO AE Extension GTL Compat.7"
+filename = "neoecoae-20.4.2-gtl-compat.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "7b8c38d83f40a1fb22d11e79a2db5f6ae6fc5508cde05a064c028c35dd8bc9de"
+hash = "8f00cffb89c4bb1acc67a69e901da1cedc7fe45d79906414aa79d540b39ecc5d"
 mode = "url"
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v3/neoecoae-20.4.2-gtl-compat.3.jar"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v4/neoecoae-20.4.2-gtl-compat.7.jar"

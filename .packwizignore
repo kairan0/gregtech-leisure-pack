@@ -2,6 +2,7 @@
 /.nojekyll
 /.github/**
 /.codexm/**
+/.codexm.before-*/**
 /.tools/**
 /scripts/**
 /README.md
