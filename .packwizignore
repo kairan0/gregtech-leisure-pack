@@ -5,6 +5,7 @@
 /.codexm.before-*/**
 /.tools/**
 /scripts/**
+/docs/**
 /README.md
 /CODEX_INSTALL.md
 /CHANGELOG.md

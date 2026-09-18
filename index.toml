@@ -5429,6 +5429,10 @@ file = "kubejs/server_scripts/ae2.js"
 hash = "0acb38b3c9cb2c1651cec1dca8e5748f9fd3769a27daae32215eebfa2cb956d6"
 
 [[files]]
+file = "kubejs/server_scripts/ae2lt_gtceu.js"
+hash = "b5924b5c026b8997af9a9534df87863e5ebba1096f0b872bf7a336a8d46a99fa"
+
+[[files]]
 file = "kubejs/server_scripts/avaritia.js"
 hash = "84667fd5b8e9540579210366f15f400d48b6f710507aa10a95adf46a69718fc0"
 
@@ -5528,7 +5532,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2lt-gtlcore-compat.pw.toml"
-hash = "f4a29cc0b96fadd10dc7ca52ff910eba39362991050c197a9ae91ac7b64d3fb6"
+hash = "7f1c329a50fdf5105d6d4614ed866a27a3b63d36abba30a7eb7381616cdd6592"
 metafile = true
 
 [[files]]
@@ -5718,7 +5722,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlcore-custom.pw.toml"
-hash = "1819be23a8aa433ff67b7ac9fec9f8fb82cf69cae4691ca72207b474f94bca5d"
+hash = "21bae5359d8c0e4a4ad879fc0c8ff57642b7d0e66f581a1e70eb3afd26eb9214"
 metafile = true
 
 [[files]]
@@ -5828,7 +5832,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "60cfa29e0bda98205e4ff21d8cac5995b0f49caab06a8531a043250a290777f9"
+hash = "f3a32d55172c0afdc40da2591a22e92605c73c5c015ba74603ab08db73afea01"
 metafile = true
 
 [[files]]
