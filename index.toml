@@ -5532,7 +5532,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2lt-gtlcore-compat.pw.toml"
-hash = "35ec859c207dfd9a8fe4a2d54fd4feae31acff1e7ecdc20ad493d42388b53d3e"
+hash = "01ca7e1f142a4c5d0c87ae0bd46bcaa59e835f003bc04ebace6a49734baeb961"
 metafile = true
 
 [[files]]
@@ -5957,7 +5957,7 @@ metafile = true
 
 [[files]]
 file = "mods/thunderbolt-gtlcore-compat.pw.toml"
-hash = "69d151e6795b749819a6834c47194d260dbd9d4a6e9603c77be2bedc976702f4"
+hash = "22c76c0d3fddef27808c339ba5c59aeead313ebe4623f1151ce190617f5e78b8"
 metafile = true
 
 [[files]]

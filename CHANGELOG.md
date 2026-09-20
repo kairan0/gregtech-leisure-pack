@@ -2,6 +2,23 @@
 
 ## [Unreleased]
 
+### Accepted provider update (2026-09-20)
+
+- Add ordinary and extended cable-mounted overloaded providers with paired
+  Thunderbolt Part-host support. Preserve existing Tianshu/GTL batching fixes.
+- Fix GTL configuration circuits incorrectly keeping overloaded providers blocked.
+- Match AE2 bright UI backgrounds, slot frames and text colors; restore the
+  ordinary cable provider's pink border and unify block/part display names.
+- Pin the locally accepted LT2 `27ce1446` and Thunderbolt `bf5735d` binaries,
+  without rebuilding. Matching source archives are in `assets-v5` as
+  `ae2lt-source-27ce1446.tar.gz` and `thunderbolt-source-bf5735d.tar.gz`.
+- Clients and server must update both mods together (LT2 protocol 4 / Thunderbolt
+  beta.4). Old-protocol clients cannot connect. EAEP channel-card support remains
+  deferred and is not part of this update.
+- Validation: LT2 788 unit tests and local player acceptance; prior Part/circuit
+  GameTests and Thunderbolt 490 unit tests. Production startup is not implied.
+  Continue the minimal assets/packwiz update; no new mrpack or pack-version bump.
+
 ### Added
 
 - Published the accepted LT2 build `4196ddf4`: Tianshu merges GTL physical
