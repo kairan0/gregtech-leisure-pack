@@ -1,8 +1,8 @@
 name = "AE2 Lightning Tech GTLCore Compat"
-filename = "ae2lt-forge-1.20.1-2.1.0-beta.3-local-e391878e-wildcard.jar"
+filename = "ae2lt-forge-1.20.1-2.1.0-beta.3-local-0f327c47-eaep-virtual.jar"
 side = "both"
 
 [download]
-url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v5/ae2lt-forge-1.20.1-2.1.0-beta.3-local-e391878e-wildcard.jar"
+url = "https://github.com/kairan0/gregtech-leisure-pack/releases/download/assets-v5/ae2lt-forge-1.20.1-2.1.0-beta.3-local-0f327c47-eaep-virtual.jar"
 hash-format = "sha256"
-hash = "c4410d5a49c08d7de89d7ab3ad16690cde59c5841b3d63eefa3be390f835ac69"
+hash = "0841af0e60f45c5743acc38994276b497ffad389efe8c277351129250ebea514"

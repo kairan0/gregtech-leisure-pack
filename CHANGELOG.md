@@ -2,6 +2,18 @@
 
 ## [Unreleased]
 
+### Accepted Tianshu EAEP virtual crafting fix (2026-09-21)
+
+- Tianshu honors confirmed EAEP virtual dispatches for terminal final outputs,
+  while retaining physical byproduct, container and reusable-seed recovery.
+- Pin the player-accepted LT2 `0f327c47` binary without rebuilding. Matching
+  source: `assets-v5/ae2lt-0f327c47-source.tar.gz`.
+- Existing stuck orders without virtual receipt history need cancellation and
+  resubmission. Other mods and the pack version remain unchanged; no new mrpack.
+- Validation: 806 unit tests passed, one environment test skipped; 35 minimal
+  GameTests and 18 installed-EAEP/EAE tests passed, followed by local gameplay
+  acceptance. Server files deployed; production startup is not claimed.
+
 ### Accepted Wildcard provider fix (2026-09-20)
 
 - Overloaded providers now advertise all concrete recipes from Wildcard Pattern
