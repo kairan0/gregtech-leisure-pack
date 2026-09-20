@@ -2,6 +2,26 @@
 
 ## [Unreleased]
 
+### Added
+
+- Published the accepted LT2 build `4196ddf4`: Tianshu merges GTL physical
+  processing inputs within reserved inventory, target capacity and dispatch budgets.
+  Local gameplay acceptance observed up to 10K inputs in one dispatch; edge cases
+  remain under continued gameplay observation. EAEP-only batching is not enabled.
+
+### Fixed
+
+- Restored LT2 crafting-planning priority when an online Tianshu enables an LT2
+  algorithm; otherwise preserve the existing ECO/GTL route. Included in the same JAR.
+
+### Changed
+
+- Minimal hotfix delivery through the existing asset channel, pinned by SHA-256.
+  The accepted binary keeps its original filename and internal version; no rebuild
+  or new part-provider development is included. Matching source archive:
+  `assets-v5/ae2lt-source-4196ddf4.tar.gz`. Validation: 766 unit tests, 24 required
+  GameTests, installed Mixin checks and local player acceptance.
+
 ## [1.4.5.1-kairan.9] - 2026-09-19
 
 ### Fixed
