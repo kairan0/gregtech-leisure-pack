@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+### Accepted Wildcard provider fix (2026-09-20)
+
+- Overloaded providers now advertise all concrete recipes from Wildcard Pattern
+  cards and keep independent adaptive batch histories for expanded recipes.
+- Pin the locally tested and player-accepted LT2 `e391878e` binary without
+  rebuilding. Matching source: `assets-v5/ae2lt-source-e391878e.tar.gz`.
+- Thunderbolt and Wildcard binaries are unchanged. No pack-version bump or mrpack.
+- Validation: 795 unit tests passed, one environment test skipped; 35 minimal
+  GameTests and a targeted real GT/Wildcard decoder test. Production startup and
+  exhaustive host/restart combinations are not implied by local acceptance.
+
 ### Accepted provider update (2026-09-20)
 
 - Add ordinary and extended cable-mounted overloaded providers with paired
