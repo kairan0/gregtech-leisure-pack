@@ -51,6 +51,17 @@ class ContentPolicyTest(unittest.TestCase):
             policy.require_path(path, 'repository')
             policy.require_path(path, 'pack')
 
+    def test_gitignore_only_excludes_root_calculator_data(self):
+        self.git('init')
+        shutil.copy2(Path(__file__).parents[2] / '.gitignore', self.root / '.gitignore')
+        for path, expected in (
+            ('gtcalcboard/calcboard_save.nbt', 0),
+            ('resourcepacks/GTCalcBoard-zh_cn/assets/gtcalcboard/lang/zh_cn.json', 1),
+        ):
+            result = subprocess.run(['git', 'check-ignore', '--no-index', path],
+                                    cwd=self.root, capture_output=True)
+            self.assertEqual(result.returncode, expected, path)
+
     def test_local_or_unreviewed_paths_blocked(self):
         for path in ('gtcalcboard/calcboard_save.nbt', 'gtcalcboard/client_preferences.json',
                      'gtcalcboard/servers/example.invalid/personal_board.nbt',
