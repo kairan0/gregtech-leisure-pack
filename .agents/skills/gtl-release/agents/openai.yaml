@@ -1,0 +1,6 @@
+interface:
+  display_name: "GTL 严格发布验收"
+  short_description: "按证据校验整包、更新源、安装升级及进服，明确区分部分交付与完整发布"
+  default_prompt: "使用 $gtl-release 执行本次 GTL 发布任务，先确认授权范围，再逐项验证并报告尚未通过的门禁。"
+policy:
+  allow_implicit_invocation: true

@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.4.5.1-kairan.10] - 2026-09-22
+
 ### Fixed
 
 - Verify exported download bytes and unique Forge mod IDs before publishing;
@@ -11,6 +13,8 @@
   locally modified duplicates fail the update instead of being silently removed.
 - Require exact public Pages contents and a byte-for-byte release download check;
   server deployment is now separate from publishing the client artifact.
+- Preserve existing LT2 common and Skyblock structure settings during updates,
+  including the server's 10-page provider capacity and permitted starship generation.
 
 ### Added
 

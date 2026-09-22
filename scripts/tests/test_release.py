@@ -68,6 +68,32 @@ class ReleaseTest(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, 'unpublished resource pack'):
             release.check(self.root, self.archive(), payload_root=self.root)
 
+    def test_changed_game_file_invalidates_gameplay_acceptance(self):
+        self.jar('new.jar', 'ae2lt')
+        accepted = self.archive()
+        changed = self.root / 'changed.mrpack'
+        with zipfile.ZipFile(accepted) as src, zipfile.ZipFile(changed, 'w') as out:
+            for name in src.namelist():
+                out.writestr(name, src.read(name))
+            out.writestr('overrides/config/changed.toml', 'changed=true')
+        with self.assertRaisesRegex(RuntimeError, 'Payload differs'):
+            release.compare_accepted(changed, accepted)
+
+    def test_zip_timestamp_and_generated_order_do_not_invalidate_acceptance(self):
+        self.jar('a.jar', 'a')
+        self.jar('b.jar', 'b')
+        accepted = self.archive()
+        rebuilt = self.root / 'rebuilt.mrpack'
+        with zipfile.ZipFile(accepted) as src, zipfile.ZipFile(rebuilt, 'w') as out:
+            for name in reversed(src.namelist()):
+                data = src.read(name)
+                if name == 'modrinth.index.json':
+                    parsed = json.loads(data)
+                    parsed['files'].reverse()
+                    data = json.dumps(parsed)
+                out.writestr(zipfile.ZipInfo(name, date_time=(2020,1,1,0,0,0)), data)
+        release.compare_accepted(rebuilt, accepted)
+
 
 if __name__ == '__main__':
     unittest.main()

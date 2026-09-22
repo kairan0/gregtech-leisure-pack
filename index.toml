@@ -67,6 +67,7 @@ hash = "c9eb24be4077d4d336efa86940fb0ad5a1a5e025b61e78268ee92ca2dd92528f"
 [[files]]
 file = "config/ae2lt-common.toml"
 hash = "321430e441d40fbc3dc2f92df89a9a688c5429b1d081b7dee003c38b7977903a"
+preserve = true
 
 [[files]]
 file = "config/akatzumaworldedit-common.toml"
@@ -663,6 +664,7 @@ hash = "be9efcff31a13ab7af4ca91b475f30d49cd3f9bf0b4db3a00848bde672d8e85c"
 [[files]]
 file = "config/skyblockbuilder/structures.json5"
 hash = "5466cc02aab4b5066197fd5d0b689615f060060b261337697029041a25c6b992"
+preserve = true
 
 [[files]]
 file = "config/skyblockbuilder/templates.json5"

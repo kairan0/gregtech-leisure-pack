@@ -1,4 +1,6 @@
 # Repository/development files
+/AGENTS.md
+/.agents/**
 /.nojekyll
 /.github/**
 /.codexm/**

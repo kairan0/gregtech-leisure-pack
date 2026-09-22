@@ -48,7 +48,7 @@ def check(root, archive, public=False, payload_root=None):
             path = cache / f['hashes']['sha512']
             if payload_root and (payload_root / f['path']).is_file():
                 path = payload_root / f['path']
-            if not path.exists():
+            if public or not path.exists():
                 with urllib.request.urlopen(download['url'], timeout=120) as response:
                     data = response.read()
             else:
@@ -117,6 +117,34 @@ def bundle(root, archive):
         z.writestr('overrides/gtl-import-jars.json', json.dumps(original, indent=2))
 
 
+def payload_manifest(archive):
+    result = {}
+    with zipfile.ZipFile(archive) as z:
+        if len(z.namelist()) != len(set(z.namelist())):
+            raise RuntimeError('Duplicate ZIP entries in accepted artifact comparison')
+        for name in z.namelist():
+            if name.endswith('/'):
+                continue
+            data = z.read(name)
+            # Export order is nondeterministic; only these generated sets are unordered.
+            if name == 'modrinth.index.json':
+                parsed = json.loads(data)
+                parsed['files'].sort(key=lambda f: f['path'])
+                data = json.dumps(parsed, sort_keys=True).encode()
+            elif name == 'overrides/gtl-import-jars.json':
+                data = json.dumps(sorted(json.loads(data), key=lambda f: f['path']), sort_keys=True).encode()
+            result[name] = hashlib.sha256(data).hexdigest()
+    return result
+
+
+def compare_accepted(archive, accepted):
+    current, previous = payload_manifest(archive), payload_manifest(accepted)
+    changed = sorted(k for k in current.keys() | previous.keys() if current.get(k) != previous.get(k))
+    if changed:
+        raise RuntimeError('Payload differs from accepted candidate: ' + ', '.join(changed))
+    print('Accepted candidate payload matches exactly (ignoring ZIP metadata and generated set order).')
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('archive', type=Path)
@@ -124,11 +152,14 @@ if __name__ == '__main__':
     parser.add_argument('--bundle', action='store_true')
     parser.add_argument('--public', action='store_true')
     parser.add_argument('--payload-root', type=Path, help='Optional hash-verified local download cache')
+    parser.add_argument('--accepted-artifact', type=Path, help='Candidate already accepted in game')
     args = parser.parse_args()
     try:
         if args.bundle:
             bundle(args.root, args.archive)
         check(args.root, args.archive, args.public, args.payload_root)
+        if args.accepted_artifact:
+            compare_accepted(args.archive, args.accepted_artifact)
     except Exception as exc:
         print('RELEASE CHECK FAILED:', exc, file=sys.stderr)
         sys.exit(1)

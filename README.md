@@ -20,6 +20,10 @@
 
 更新器会验证当前 JAR，并将哈希可确认的旧版本移到 `backups/`；未知或被改动的重复包会阻止更新，交由用户处理。`options.txt` 不受在线更新覆盖。自动更新需在启动器中明确配置为等待执行并在失败时停止启动，单纯导入包不会自动启用此钩子。
 
+已有 `config/ae2lt-common.toml` 和 `config/skyblockbuilder/structures.json5` 使用 packwiz
+`preserve` 保留，防止实例页数及空岛结构设置被更新还原；新实例仍取得包内默认值。
+若以后需要迁移这些配置，必须单独设计和验收迁移，不能假设清单会覆盖已有文件。
+
 ## 本地维护
 
 发布应在独立干净 checkout 中构建，避免将游戏运行中产生的配置改动意外打包。修改模组、配置或 KubeJS 后：
@@ -30,7 +34,8 @@ scripts/export-mrpack.sh --preview
 git add <reviewed-files>
 git commit -m "chore: update modpack"
 git push
-scripts/publish.sh
+# 先保留已完成游戏内验收的候选附件，再交给发布入口比较载荷。
+scripts/publish.sh --accepted-artifact /absolute/path/to/accepted.mrpack
 ```
 
 `.tools/packwiz` 是本地构建工具，不提交到 Git。`mods/*.jar`、存档、日志、缓存和本地兼容构建档案也不会进入仓库。
