@@ -51,6 +51,16 @@ class ReleaseTest(unittest.TestCase):
         self.jar('new.jar', 'ae2lt')
         release.check(self.root, self.archive(), payload_root=self.root)
 
+    def test_personal_data_blocks_before_public_downloads(self):
+        self.jar('new.jar', 'ae2lt')
+        archive = self.archive()
+        with zipfile.ZipFile(archive, 'a') as z:
+            z.writestr('overrides/gtcalcboard/save.nbt', b'private fixture')
+        with patch.object(release, 'fetch') as fetch:
+            with self.assertRaisesRegex(RuntimeError, 'Unapproved pack path'):
+                release.check(self.root, archive, public=True)
+            fetch.assert_not_called()
+
     def test_two_jars_for_one_mod_rejected(self):
         self.jar('old.jar', 'ae2lt')
         self.jar('new.jar', 'ae2lt')

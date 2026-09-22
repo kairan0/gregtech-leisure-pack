@@ -11,6 +11,11 @@ import urllib.error
 import time
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
+import importlib.util
+
+_policy_spec = importlib.util.spec_from_file_location('content_policy', Path(__file__).with_name('content_policy.py'))
+content_policy = importlib.util.module_from_spec(_policy_spec)
+_policy_spec.loader.exec_module(content_policy)
 
 
 def fetch(url):
@@ -43,6 +48,7 @@ def metadata(root):
 
 
 def check(root, archive, public=False, payload_root=None):
+    content_policy.check_archive(archive)
     expected = metadata(root)
     pack = tomllib.loads((root / 'pack.toml').read_text())
     with zipfile.ZipFile(archive) as z:

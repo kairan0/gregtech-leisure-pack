@@ -3,6 +3,9 @@
 .abnormal
 .codexm/
 .codexm.before-*/
+.codex-trace/
+.codex/
+gtcalcboard/
 .tools/
 backups/
 compat/
@@ -57,6 +60,7 @@ dist/
 task_plan.md
 findings.md
 progress.md
+/docs/release-install-*.md
 
 # Server-distributed or runtime-generated model content
 config/yes_steve_model/cache/

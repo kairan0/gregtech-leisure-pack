@@ -8,12 +8,14 @@ gtl_output="$gtl_output_dir/GregTech-Leisure-$gtl_version.mrpack"
 
 mkdir -p "$gtl_output_dir"
 cd "$gtl_root"
+"${GTL_PYTHON:-python3.11}" scripts/content_policy.py
 if [[ "${1:-}" != "--preview" && -n "$(git status --porcelain)" ]]; then
   echo "Refusing release export from a dirty checkout; commit reviewed changes or use --preview." >&2
   exit 1
 fi
 "${GTL_PYTHON:-python3.11}" -m unittest discover -s scripts/tests -p 'test_*.py'
 "$gtl_root/scripts/packwiz-command.sh" refresh
+"${GTL_PYTHON:-python3.11}" scripts/content_policy.py
 if [[ "${1:-}" != "--preview" && -n "$(git status --porcelain)" ]]; then
   echo "Refresh changed metadata; review and commit it before release export." >&2
   exit 1

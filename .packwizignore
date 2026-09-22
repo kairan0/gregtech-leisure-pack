@@ -5,6 +5,8 @@
 /.github/**
 /.codexm/**
 /.codexm.before-*/**
+/.codex-trace/**
+/.codex/**
 /.tools/**
 /scripts/**
 /docs/**

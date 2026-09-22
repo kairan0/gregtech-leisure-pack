@@ -24,6 +24,7 @@ python3.11 scripts/release-check.py "dist/GregTech-Leisure-$gtl_version.mrpack" 
 
 | 门禁 | PASS 的具体证据 |
 | --- | --- |
+| 公开内容 | 完整 staged Git 树、packwiz 索引及实际 mrpack 通过 content_policy；逐项审查提交目的，无玩家运行数据或临时过程记录；源码公开范围和安装范围分别核验 |
 | 输入身份 | 干净构建提交、pack 版本、已验收 JAR 的哈希和源码对应关系；无意外降级 |
 | 导出内容 | release-check 成功记录；mrpack 索引和字节通过校验；每个顶层模组 ID 唯一 |
 | 全新安装 | 仅从本次 mrpack 安装的副本，所有目标下载哈希一致，受管模组无缺少／重复／额外旧版 |
@@ -82,5 +83,4 @@ python3.11 scripts/release-check.py "dist/GregTech-Leisure-$gtl_version.mrpack" 
 | 新 Release 已公开，进服失败 | 已公开但不可验收，报告具体故障和下一步；不能宣布可用 |
 
 现有官方 Release 发布时间不会因往旧 assets tag 添加附件而变成新整包发布。
-核对时间时标明时区。历史问题详情只在诊断同类故障时读取仓库
-`docs/release-install-20260922.md`，不把某次文件名或补丁号固化为后续最新值。
+核对时间时标明时区；历史调查证据仅从本地忽略目录按需读取，不作为默认公开文档。
