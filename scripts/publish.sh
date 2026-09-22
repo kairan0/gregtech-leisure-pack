@@ -8,8 +8,8 @@ gtl_mrpack="$gtl_root/dist/GregTech-Leisure-$gtl_version.mrpack"
 gtl_repo="kairan0/gregtech-leisure-pack"
 
 cd "$gtl_root"
-if [[ "$#" != 2 || "$1" != "--accepted-artifact" || ! -f "$2" ]]; then
-  echo "Usage: scripts/publish.sh --accepted-artifact /absolute/path/to/accepted.mrpack" >&2
+if [[ ( "$#" != 2 && "$#" != 3 ) || "$1" != "--accepted-artifact" || ! -f "$2" || ( "$#" == 3 && "$3" != "--resume-checked-build" ) ]]; then
+  echo "Usage: scripts/publish.sh --accepted-artifact /absolute/path/to/accepted.mrpack [--resume-checked-build]" >&2
   exit 1
 fi
 gtl_accepted=$(cd "$(dirname "$2")" && pwd)/$(basename "$2")
@@ -26,7 +26,14 @@ if ! gh release view resources-v1 --repo kairan0/gregtech-leisure-pack >/dev/nul
   exit 1
 fi
 
-"$gtl_root/scripts/export-mrpack.sh"
+if [[ "${3:-}" == "--resume-checked-build" ]]; then
+  if [[ ! -f "$gtl_mrpack" || "$(git rev-parse HEAD)" != "$(git ls-remote origin refs/heads/main | cut -f1)" ]]; then
+    echo "Resume requires an existing checked artifact and HEAD already on public main." >&2
+    exit 1
+  fi
+else
+  "$gtl_root/scripts/export-mrpack.sh"
+fi
 
 if [[ -n "$(git status --short)" ]]; then
   echo "Commit and push the refreshed pack metadata before publishing." >&2
@@ -38,7 +45,9 @@ if [[ -n "${GTL_PAYLOAD_ROOT:-}" ]]; then
   gtl_check_args+=(--payload-root "$GTL_PAYLOAD_ROOT")
 fi
 "${GTL_PYTHON:-python3.11}" scripts/release-check.py "$gtl_mrpack" "${gtl_check_args[@]}"
-git push origin HEAD:main
+if [[ "${3:-}" != "--resume-checked-build" ]]; then
+  git push origin HEAD:main
+fi
 # Pages must serve the exact reviewed source, not merely report git push success.
 "${GTL_PYTHON:-python3.11}" scripts/release-check.py "$gtl_mrpack" --public "${gtl_check_args[@]}"
 gtl_commit=$(git rev-parse HEAD)

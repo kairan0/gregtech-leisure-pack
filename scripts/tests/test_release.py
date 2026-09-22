@@ -5,6 +5,9 @@ from pathlib import Path
 import tempfile
 import unittest
 import zipfile
+from unittest.mock import patch
+import urllib.error
+import io
 
 spec = importlib.util.spec_from_file_location('release', Path(__file__).parents[1] / 'release-check.py')
 release = importlib.util.module_from_spec(spec)
@@ -93,6 +96,21 @@ class ReleaseTest(unittest.TestCase):
                     data = json.dumps(parsed)
                 out.writestr(zipfile.ZipInfo(name, date_time=(2020,1,1,0,0,0)), data)
         release.compare_accepted(rebuilt, accepted)
+
+    def test_transient_public_download_is_retried_without_cache_fallback(self):
+        error = urllib.error.HTTPError('https://example.test', 503, 'unavailable', {}, None)
+        with patch.object(release.urllib.request, 'urlopen', side_effect=[error, io.BytesIO(b'actual network')]) as get, \
+                patch.object(release.time, 'sleep'):
+            self.assertEqual(release.fetch('https://example.test'), b'actual network')
+            self.assertEqual(get.call_count, 2)
+
+    def test_public_download_retry_is_bounded(self):
+        error = urllib.error.HTTPError('https://example.test', 503, 'unavailable', {}, None)
+        with patch.object(release.urllib.request, 'urlopen', side_effect=error) as get, \
+                patch.object(release.time, 'sleep'):
+            with self.assertRaisesRegex(RuntimeError, 'after 3 attempts'):
+                release.fetch('https://example.test')
+            self.assertEqual(get.call_count, 3)
 
 
 if __name__ == '__main__':

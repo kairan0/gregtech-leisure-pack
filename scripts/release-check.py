@@ -7,8 +7,24 @@ from pathlib import Path
 import sys
 import tomllib
 import urllib.request
+import urllib.error
+import time
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
+
+
+def fetch(url):
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(url, timeout=120) as response:
+                return response.read()
+        except (urllib.error.URLError, TimeoutError) as exc:
+            if isinstance(exc, urllib.error.HTTPError) and exc.code not in (429, 500, 502, 503, 504):
+                raise RuntimeError('Public download failed: ' + url + ': ' + str(exc)) from exc
+            if attempt == 2:
+                raise RuntimeError('Public download failed after 3 attempts: ' + url + ': ' + str(exc)) from exc
+            print('Retrying public download:', url, 'attempt', attempt + 2, flush=True)
+            time.sleep(2 * (attempt + 1))
 
 
 def metadata(root):
@@ -49,8 +65,7 @@ def check(root, archive, public=False, payload_root=None):
             if payload_root and (payload_root / f['path']).is_file():
                 path = payload_root / f['path']
             if public or not path.exists():
-                with urllib.request.urlopen(download['url'], timeout=120) as response:
-                    data = response.read()
+                data = fetch(download['url'])
             else:
                 data = path.read_bytes()
             for algo, digest in f['hashes'].items():
@@ -96,8 +111,7 @@ def check(root, archive, public=False, payload_root=None):
         targets = ['pack.toml', 'index.toml'] + [e['file'] for e in index_data['files']]
         def compare(path):
             from urllib.parse import quote
-            with urllib.request.urlopen(base + quote(path), timeout=60) as response:
-                actual = response.read()
+            actual = fetch(base + quote(path))
             if actual != (root / path).read_bytes():
                 raise RuntimeError('Public Pages differs from release source: ' + path)
         with ThreadPoolExecutor(max_workers=8) as pool:
