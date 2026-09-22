@@ -1,0 +1,1289 @@
+[
+  {
+    "path": "mods/1.20.1-maid_storage_manager-1.15.6.jar",
+    "hashes": {
+      "sha1": "bc1d147663446679735728f77c7b1179eccf2837",
+      "sha512": "589c1a48e99b5a7b43eba135603e8b3f4f728467a80b8f1c2ebc523da6fa7e8f309ff3f9d91f4a46e0c4fe45a2fbc35cb5fb06a077cd28b9afece76dd915be70"
+    }
+  },
+  {
+    "path": "mods/AdvancedAE-1.3.5-1.20.1.jar",
+    "hashes": {
+      "sha1": "a1e43dd39a9a3de6df1dbe412ccc19adc729ac9c",
+      "sha512": "2340740ab143d70131aea03047483bb6239031be8d019a7e7a3806ed2bb2191bae01640187dbefe2e86b0ea196fe285036dd8bb71eca5edc97944e437f8da344"
+    }
+  },
+  {
+    "path": "mods/Cell4-1.20.1-1.0.3+datapack-0.0.1.jar",
+    "hashes": {
+      "sha1": "64dbaed20166cb059ac36feecbf98bfd8ace209f",
+      "sha512": "37815eeda2db1e24a567aab94412ab9b895cfc40d165e136902e5ed08ce511f55e10027fac9bddbb5b79042601e789c6619684283bce1e31d2a99d0fec55ea0a"
+    }
+  },
+  {
+    "path": "mods/ExtendedAE-1.20-1.4.12-forge-gtlcompat.2.jar",
+    "hashes": {
+      "sha1": "9e807eb7a71490b0c6e0f03a988a014ceb148e0b",
+      "sha512": "a2705f41eb940f6fade79c4befb2e2d2e5e72d6c695429545fd7f436378c1333b8e6a69aaba52d0b29abfbd75bd3efb6620b208876322ff13ecefe3becb4f599"
+    }
+  },
+  {
+    "path": "mods/FastFurnace-1.20.1-8.0.2.jar",
+    "hashes": {
+      "sha1": "b144b8599acd3fac3f8f9d31fa217a4a5b942f61",
+      "sha512": "4f11c4871ba88d10c07a295b84632e97ce417489c091c69873bc749dd11947413e907a55125e1529bd3a7a859dd8b8ba44857693fbbef74154ff14fb8d3d1c2e"
+    }
+  },
+  {
+    "path": "mods/FastLeafDecay-32.jar",
+    "hashes": {
+      "sha1": "4a76af4ca71dd9939d3c21206792c0d5f75b93a7",
+      "sha512": "77d0702385672b6e26e0c605555e096973f712584e10a80271e76efffd4660d4a5eb766e8f64a3ee9a46a8fc87585e0ad8b9a7be42282c493370f1ad9e9b64a1"
+    }
+  },
+  {
+    "path": "mods/FastSuite-1.20.1-5.1.2.jar",
+    "hashes": {
+      "sha1": "32ea4495b0e646f8f060e4e97d17044dd9fdefbd",
+      "sha512": "5c41292a26c7a42ba462d92005afef0df80ce62714d3d47034be4a488c4632dcbf41d647a7825980008bf3970a14dd3cf181063f511231a8d55c235be0db1729"
+    }
+  },
+  {
+    "path": "mods/FastWorkbench-1.20.1-8.0.4.jar",
+    "hashes": {
+      "sha1": "1a322a85e7c7024b8a0715c12d27b5ed0930d729",
+      "sha512": "c30dccece03fa9fa8de7bf0ec3b4988e7b2b0c214b5ab2142f13bcdced89c4ca8509244b9767df0903d55776ae2ada29b483af8dec649339b3f0c687ea18df76"
+    }
+  },
+  {
+    "path": "mods/FramedBlocks-9.4.3.jar",
+    "hashes": {
+      "sha1": "740c0feaab75455f32df7e137389f77c83fb490c",
+      "sha512": "19a098bbf9ee7ee39f6b785bbce5f87b9dca58a491fa16eba2f38cfa106f37ee90c1ce56686a50adef8f5d3086e3c22a6127ed02bdf3f80d57297c8f7c1b49fc"
+    }
+  },
+  {
+    "path": "mods/GTMAdvancedHatch-1.20.1-0.1.10 fix2.jar",
+    "hashes": {
+      "sha1": "0d5879de74770b7846fb193597b5c042e645d86f",
+      "sha512": "ac20677583a1c56e988850d248a2daef12553c40f0c538c18a005fd07ac1062559a39b7202b970f38e3520e3e508712ebd367043ebda14d7d19748bc97fe9d0d"
+    }
+  },
+  {
+    "path": "mods/Glodium-1.20-1.5-forge.jar",
+    "hashes": {
+      "sha1": "c7534db3248adfcf39a6158b423dfc9bfc99a378",
+      "sha512": "57ba996845f588191b12f5e4c578b6f33a2b431facd54176dc61abba0f08f86cbc03c39cf795c7d5dea4926a923ec88e646a25d1a9a3a5bb9508fcb79a661a5e"
+    }
+  },
+  {
+    "path": "mods/Industrial Platform-1.20.1-1.8.0.jar",
+    "hashes": {
+      "sha1": "5f291f96a2cb7001978529ab9944769ed1433af3",
+      "sha512": "23ba06425f2ad8e1ae4743bfe8e3e7ee1433289e44c2b55bc47f39ab2d4fdfd963b73808ed9f12438489c6a7be8005d53a6e15d943dc1264b2065c0088e4ed1f"
+    }
+  },
+  {
+    "path": "mods/Jade-1.20.1-Forge-11.13.3.jar",
+    "hashes": {
+      "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+      "sha512": "72025c4ad6d26522bafe3d5d6ac9d4702c006a868312cb34df8a7a2398a4618205839607b129c167fd176e58cb7655f08e3afbf1993925c80d4fcc559c45a037"
+    }
+  },
+  {
+    "path": "mods/JustEnoughResources-1.20.1-1.4.0.247.jar",
+    "hashes": {
+      "sha1": "2747c58f439c37a01139d35cab59ca1a54114009",
+      "sha512": "4e26378531cab5b96440106c26ba28811fc309e91067dbead0e2929f5f7aad0ee0a7c9293efa7425f86417d718a282906e8c7e477f97e4e94135fd33fb59fcb0"
+    }
+  },
+  {
+    "path": "mods/LibX-1.20.1-5.0.14.jar",
+    "hashes": {
+      "sha1": "d75610b0c34626cea8b1155a47d28333cc1f58a2",
+      "sha512": "af096d18c3bb1ee5e0fc765ccbe5e63882865f16884e005f23a537f14009edf0f8dcd82254fcbc76081757430abc3a825001f89e120a7415aa1dbe2772f7a922"
+    }
+  },
+  {
+    "path": "mods/ModernUI-Forge-1.20.1-3.12.0.1-universal.jar",
+    "hashes": {
+      "sha1": "fcebe51e3c2ca34793f9b132fa05b5494ffc76a4",
+      "sha512": "cf9a1bfa25f956a9277639da833a86d59a6a55bc690b6c03d4292bb240cb775c32ecf7ae253db7779757e2c74c5adf2c272c4ecdb35b907027de3ec7534bbd27"
+    }
+  },
+  {
+    "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "hashes": {
+      "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c",
+      "sha512": "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb"
+    }
+  },
+  {
+    "path": "mods/New Visual Keybing-1.20.1-forge-0.6.16.jar",
+    "hashes": {
+      "sha1": "0775e470dd82434ba00168df74af8bad39313057",
+      "sha512": "15a82e60ae93c7c2c77c032686b35d0673ae716e0e9180363f0a7dd5dbf3d22b56d8c39b4921976fd758201db912bfda3394573a701d7c862e7ac3df5f9a43f7"
+    }
+  },
+  {
+    "path": "mods/PackMenu-1.20.1-6.1.2.jar",
+    "hashes": {
+      "sha1": "f9949cf20abb021bcdc6a5865ccae47940c4fd1a",
+      "sha512": "4064269ef04c6aa64ebeeb39651fb6ba72e507c2702b32ab46531a34b10ca30fd390c64482e556994c726801f74d13b7b79134c57563f4f115a2ca10a4ffa4a1"
+    }
+  },
+  {
+    "path": "mods/Placebo-1.20.1-8.6.3.jar",
+    "hashes": {
+      "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+      "sha512": "c23990465e26336f476c3b05a897bcf0c8660ae7338756b325f6bf81d0dee34b609474c62293f394acac818637ab03f92c776d104c8b8e86f3786395f5c4d623"
+    }
+  },
+  {
+    "path": "mods/Re-Avaritia-forged-1.20.1-1.3.8.3.jar",
+    "hashes": {
+      "sha1": "fad339987fa94b2bb23bf958dd28c281823a74dd",
+      "sha512": "77f85c4c88cd677fc99b40f2d60c9f0d691dd5319ba021a139cafb56c23bcb737bcaea72209bd43cdc914ef9c9e88f24a1c1154e188935e685a6197209ddef53"
+    }
+  },
+  {
+    "path": "mods/Shrink-1.20.1-1.4.5.jar",
+    "hashes": {
+      "sha1": "f14fb093062f193d758cd90acffae0ce1c461dc2",
+      "sha512": "51d61d7b0c77a615352e28a0bcfddbeffc212d88cee16b728530f572e01850904803005564539f185553530a5aa4fdd98d354f1427818d84ac1688a043983880"
+    }
+  },
+  {
+    "path": "mods/SkyblockBuilder-1.20.1-5.1.28.jar",
+    "hashes": {
+      "sha1": "e57a15c932a68d6106da929a8c39f678672708a5",
+      "sha512": "7656c09cf954af6d01015f46d0322b69ff931a1456acdfd906cc7dac15d2494280aaf09d73bad4261414fa2a4aad795396705fb8dee4296ef9455439c0e6ae81"
+    }
+  },
+  {
+    "path": "mods/ToolBelt-1.20.1-1.20.03.jar",
+    "hashes": {
+      "sha1": "486038e2b0e075c48f325a7665ad0f3149f7632c",
+      "sha512": "a295339bf029b8155cb60077b1e0a2e2bd665df0c8f70b37195d5459c50d64417089d2d1a70ce4be56c50b8f228f9b868c31b72245ed0ca43a4fc9045835099f"
+    }
+  },
+  {
+    "path": "mods/TravelAnchors-1.20.1-5.0.1.jar",
+    "hashes": {
+      "sha1": "255b95facb3f2c4d2f886634b3d8746b00b580dd",
+      "sha512": "3aa0729cbfeb05d7f9a42532afde1918adf983738203ace74059710c343aee6170c6f5e23226bf92197e26ae957cd105dcf599a63ea2d4b624d30d8158e10580"
+    }
+  },
+  {
+    "path": "mods/WorldComment-0.3.2+1.20.1.jar",
+    "hashes": {
+      "sha1": "b31298d6553bba84b3f811c185f49a9a467b8434",
+      "sha512": "f28de50e5b968cd182f3100898e95078812970bcb72a91b8167eba485fa181734d7aa9f7fa32964b4c09cc820b939045d0f033cc9364a9327021f5eade83d0c7"
+    }
+  },
+  {
+    "path": "mods/[Custom-亚空间]gtladditions-3.2Custom_SubSpace.jar",
+    "hashes": {
+      "sha1": "5bf2c2ae760f870309e8fedb037830c23cf32df9",
+      "sha512": "637c27c14dee3e482a1d41ceb630f298ced7ad4de6712897556d34078fd9375292b5f5161d41de6df55b9d09eee014a28963a578128d13fa235eaceb3ed7847b"
+    }
+  },
+  {
+    "path": "mods/[化学结构式显示]gtmoldraw-1.2coldfix1.jar",
+    "hashes": {
+      "sha1": "1e00587632c0722bcdc82100c71215373aec1b84",
+      "sha512": "fe0257fb4808a9073147089786eb88cd3dfba37487e06988e2ac72bf52cc9e7f4092b2384d8cde6d662d2cc92a523d0989328e4ff4ed9f509a92a0d042a92eff"
+    }
+  },
+  {
+    "path": "mods/[星门之旅] Stargate Journey-1.20.1-0.6.44.jar",
+    "hashes": {
+      "sha1": "e6fd269effa2f9ea13a0faa0d5ea6e0424b8d8ff",
+      "sha512": "431a62c73b53f09585f9f958366d82fa040d798a2e6a8cac77dd8bc0c955b7d850c5983e31aa7d517da4ac184a35f83d0f803a15226538ceb667292d26a494de"
+    }
+  },
+  {
+    "path": "mods/[简易磁铁] simplemagnets-1.1.12-forge-mc1.20.1.jar",
+    "hashes": {
+      "sha1": "dafa61e94f9a97507223f3fe46e1c95ab22f02aa",
+      "sha512": "3d75d79cfa07d8270aca50c2de29d3405fed4b5182c3e6b0d51832cbe83b75659ffdf201b57312503fa2803398f0d59d9ed9516669b3883303a8451bfdce7613"
+    }
+  },
+  {
+    "path": "mods/[通用拼音搜索] jecharacters-1.20.1-forge-4.6.4.jar",
+    "hashes": {
+      "sha1": "38367ae9f513bb2e82bd925df454f2e30ad1e801",
+      "sha512": "7e3e0aa6341a4e94cec04b158d760d62a452604160a562d92bd75af7fe6cb0cf8e58935cd6a5a2bc592a8853ec0a0b01140a9e7089a21fa8f3a1ef72d66a3225"
+    }
+  },
+  {
+    "path": "mods/ad_astra-forge-1.20.1-1.15.20.jar",
+    "hashes": {
+      "sha1": "537ac3e358a97efd7b03648a9bfd7b11f1ae7ff7",
+      "sha512": "c7337add217258cea0cb7d9f9136b5a7c8a17600bc2cc9c722321af838690b6c285628dcaebfccedb3e1274683591ef7a45a3514094e5a3bcd8fe1c1f25626bf"
+    }
+  },
+  {
+    "path": "mods/ad_astra_rocketed-forge-1.20.1-1.0.5.jar",
+    "hashes": {
+      "sha1": "98fc9803159d69612168211ed690683b4ce5e9fb",
+      "sha512": "27e5583958d8c1c3112e6674d9c9d60a8521d6f619dccae14436d33ccaf9a92c47df1efdcf173b4fc55cc5e5ed6adebd4347e059fa7f2bf217b5c48ed31f5733"
+    }
+  },
+  {
+    "path": "mods/ae2_ftbquest_detector-1.1-SNAPSHOT.jar",
+    "hashes": {
+      "sha1": "e966d7f38f4891aa29f58afac777dd0e22f6c2cf",
+      "sha512": "f2d4e1d265b143def262a0b6bea07f5c8d0efaa433ad88c843ee9407c3b9eedc8ad7e3517a874ec98aea6822932275f65bc18e26cef2366ea52b32b909501c50"
+    }
+  },
+  {
+    "path": "mods/ae2cs-1.20.1-1.2.0.jar",
+    "hashes": {
+      "sha1": "bc40f81af8c47fc35a6ba2a84fef433125036804",
+      "sha512": "b77abf6936ca5352c54c9569bd3bcb94487dc126ee578176d20b2f8259c4dd9befdf6f4c515b0824211728be19d4e0e108852de5cac946fd904aa9b54a2ae787"
+    }
+  },
+  {
+    "path": "mods/ae2ct-1.20.1-1.1.1.jar",
+    "hashes": {
+      "sha1": "e6c9d9c2cd9c52aec6364d87e78924f6165b7998",
+      "sha512": "962bc5ff0421a959a0ddac6684e8b97bbcdb84b963c26b983283b1d3750221ae31dd5ff7a7db8aa794a62f29f50be6ce659e71de093a674775bb34f2918d3737"
+    }
+  },
+  {
+    "path": "mods/ae2lt-forge-1.20.1-2.1.0-beta.3-gtlcore-compat.14-tianshu-style-routing.jar",
+    "hashes": {
+      "sha1": "16f844abb80cae845f61264bb1ed706bc5e65ba2",
+      "sha512": "1d850ec8b674e6a0822980efe898d38fc54333bef8ce22e496aefbce245f30eab104fa7aceec7f5419e267327c5df16925784e891887494000b6cf12503aa0fd"
+    }
+  },
+  {
+    "path": "mods/ae2wtlib-15.3.3-forge.jar",
+    "hashes": {
+      "sha1": "1a546af04844677542b6914191783c7de15364fc",
+      "sha512": "f036f278e6d1360147b04f2090829154e75e456f3b2c0af7571b537bf0fd13e97f29211f7a044f9437a171a1c525195737860895118eab70b2b4af54485367d4"
+    }
+  },
+  {
+    "path": "mods/almostunified-forge-1.20.1-0.11.0.jar",
+    "hashes": {
+      "sha1": "24943e5efe95c10367259a7bbd13874ca56ebf0a",
+      "sha512": "fcd7da643e84d7779e32af6916c6f8e808559d4724d565cc6d23fc96527f3bf50ea0b686eca1916c5dfeac146d836cf593a85374b6f04b60215f748aa00e3824"
+    }
+  },
+  {
+    "path": "mods/appliedenergistics2-forge-15.4.10.jar",
+    "hashes": {
+      "sha1": "ac255a120499f79f8deade474da09e3c00ff9bad",
+      "sha512": "edc08a999b57e80426c737efa5b50c6d19ab40cb03f752bc26e2912fe12b989cefd5feff519ce0d87a4717a74c22a99242263ee4de63c1c84f91306d156134ee"
+    }
+  },
+  {
+    "path": "mods/architectury-9.2.14-forge.jar",
+    "hashes": {
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
+    }
+  },
+  {
+    "path": "mods/botarium-forge-1.20.1-2.3.4.jar",
+    "hashes": {
+      "sha1": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b",
+      "sha512": "aa3530dde50966e47958690b02a343c4de3782d32ae3b2cb75b2155eebb76e172a292768d846b8d14a97bc9ebe18f1f655eaa3469fce13b2b4b15b16af0aba01"
+    }
+  },
+  {
+    "path": "mods/buildinggadgets2-1.0.8.jar",
+    "hashes": {
+      "sha1": "d06a806e8ca84a9e96a69c32da4b43226a51e0c9",
+      "sha512": "130261b9e77c7fb968711d377d6cb2b849e172277f996c6f982ab5caa6b891c4d1c8bffd7fac3b79953f47e28d05809647c69675d994201114737d98084ed3c6"
+    }
+  },
+  {
+    "path": "mods/chloride-FORGE-mc1.20.1-v1.8.1.jar",
+    "hashes": {
+      "sha1": "b42ae912055a962aeae80b97f08ee3517542026a",
+      "sha512": "2fa5393ab4562bc94a938d72fd6045c5d99f81cfa90ed67e5ae09816447c27f974916b45506c0ba1456d07d30b0172c1d20ad089ec5eafcbb10ef278a29bffdd"
+    }
+  },
+  {
+    "path": "mods/cloth-config-11.1.136-forge.jar",
+    "hashes": {
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef"
+    }
+  },
+  {
+    "path": "mods/constructionwand-1.20.1-2.11.jar",
+    "hashes": {
+      "sha1": "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a",
+      "sha512": "a029f801dbcfacd230650fd018f7424535454fb2062d796cbe9cd622a9fe4ae80cb0d7883faa2775c27ed73a21dffbadb44ddc32ce1293ec098654393e7b1c95"
+    }
+  },
+  {
+    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+    "hashes": {
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87"
+    }
+  },
+  {
+    "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+    "hashes": {
+      "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+      "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9"
+    }
+  },
+  {
+    "path": "mods/extendedae_plus-1.5.5-neoeco-compat.3.jar",
+    "hashes": {
+      "sha1": "ea06946e6851791dc6a769ae8bd236cdf69ff573",
+      "sha512": "9fe9c33c74bff235c7c55869aebc55889563bb4d93f07eaf0317c5730196c390f482f380ff2da187dcd3e1e0078279cb50a367f1587454c45582f8ccce4e4501"
+    }
+  },
+  {
+    "path": "mods/extendedae_plus_gtladd-1.0.2.jar",
+    "hashes": {
+      "sha1": "0a2eae6573c44aedbd1163b55ebbf6e6184dc919",
+      "sha512": "99d1f69bfca1518c6e6f570f9c22de9c878a88c8cae357ca3b5000f9fe2c515d3da7a55df49bd69633a25af19c7706435c0baf039ddb7faea31bb0d11d696873"
+    }
+  },
+  {
+    "path": "mods/ferritecore-6.0.1-forge.jar",
+    "hashes": {
+      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+      "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c"
+    }
+  },
+  {
+    "path": "mods/ftb-chunks-forge-2001.3.8.jar",
+    "hashes": {
+      "sha1": "ee2d0cdac6d2ca31f43da30f76dff8c6bae9d687",
+      "sha512": "a00ca6b6053a0e3b0d29fc787656d5ac35a7b6bc1818eb75082af427c42ef8a31b5f2c7e0833e6e79763b0080e44662e7bac977269894898812ff74ebc63bd3c"
+    }
+  },
+  {
+    "path": "mods/ftb-essentials-forge-2001.2.4.jar",
+    "hashes": {
+      "sha1": "4f898578e3cc321397dbc59a0c44e2927000bd32",
+      "sha512": "8c06ff74bc922d4b48c4ef30245ce2d6f608219b62eb56d793419aee3db27cfd4c0f3d2c0324a9985933ac1d4e327d06bbb380cc0362b5a144e209c21269b3d6"
+    }
+  },
+  {
+    "path": "mods/ftb-library-forge-2001.2.13.jar",
+    "hashes": {
+      "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e",
+      "sha512": "433c890fc64b31f140cdb92c6f03f78400bcc105229d1026dbbecb027ff75a8e2f94af5b1eef083d7cf3d37a9afa176731bc59cfeb771d01738353f9f1c113bf"
+    }
+  },
+  {
+    "path": "mods/ftb-quests-forge-2001.4.22.jar",
+    "hashes": {
+      "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa",
+      "sha512": "7ffec667d4bb73e33e1815655361c93a7564d9040af937b26035bfa3cc26f6125962f173c623eb71cf949b0b0a49181a0459648007b3054e97150bd72fcc0bf8"
+    }
+  },
+  {
+    "path": "mods/ftb-teams-forge-2001.3.2.jar",
+    "hashes": {
+      "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e",
+      "sha512": "45f8980fa1cfcb7cd772f6a03abb0ac680f7c502dc569839e325553dcaa9105148a2c27a214cd1f1131f6b06bca957f8dd01dfb4a1ccb8e13d49502513480cae"
+    }
+  },
+  {
+    "path": "mods/ftb-ultimine-forge-2001.1.8.jar",
+    "hashes": {
+      "sha1": "c2a1eb72c36ad067faafbff4e1618c4db906de74",
+      "sha512": "57e04a50f96e533d9f92aaa26861ec78709681faf98812b666f7240cb265140f6ac0c5f28025adc4961d8e51b22f65c3eead17bdba2ea7f2929815cafbfc65e5"
+    }
+  },
+  {
+    "path": "mods/ftb-xmod-compat-forge-2.1.3.jar",
+    "hashes": {
+      "sha1": "0584f628d2bc6a612d79dee368324357ebae1423",
+      "sha512": "4eb5aba1aff66721d19e54ceb40863684d0caab0735a9dcc04df86804ffcc19454f88ff89eb000db166aae2c1ef53ddbdadf61a62814db227638a8e86d37f2b9"
+    }
+  },
+  {
+    "path": "mods/ftbbackups2-forge-1.20-1.0.23.jar",
+    "hashes": {
+      "sha1": "4b100de40338247a3fbf4d1fd1846257c5338189",
+      "sha512": "90243464bb9c8384af316e1462de0b71b4e6fc307c5c2b54d6c9c195da6e9d5e9d15104120b501d7520aa26ff4590663694713eed6f6acf480f221d969c12ae5"
+    }
+  },
+  {
+    "path": "mods/functionalstorage-1.20.1-1.2.14.jar",
+    "hashes": {
+      "sha1": "e651d29acc8f7d56c124a75afa6ff0d0ecea4854",
+      "sha512": "f561c2fd4f223e22f485e192aa505ee29f7f4c3a7802c68ae90c698e70ab2c443d1407e0f35051a645926d03fc92380c2b9fa47f7edd5dcd604abfe8858bb486"
+    }
+  },
+  {
+    "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+    "hashes": {
+      "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+      "sha512": "443a321a293e3cb92fbbc3c97a38b179a45d1db703cd7bdb123270a9e04e7b7d67d5b06cd8e77a6d4d9139e033e901b9660cccf53ad5f9beaae6d06eae68febf"
+    }
+  },
+  {
+    "path": "mods/gpumemleakfix-1.20.1-1.8.jar",
+    "hashes": {
+      "sha1": "54301c2db5467e0f9f5c504887436f358335331f",
+      "sha512": "6e513fa050f21d7f43f1c8a698d3702e08836ef1dfcdc5fdd20ad9dc51f25d3934b11149095240899adb88eec2602cb858ce23dc32f770b118e9438fd68561cb"
+    }
+  },
+  {
+    "path": "mods/gtcalcboard-1.20.1-2.2.0-alpha.2.jar",
+    "hashes": {
+      "sha1": "26c8436f36ad566d5781e522d12e08e2b1e3f0c6",
+      "sha512": "0a538b02446a97c46d07cf9536193b9218400d6e3c0e55a274bf324b5461721bd3eed25aecc08703e09d7051ae3feeda370ff5b272046896fff974e5dfd20e4b"
+    }
+  },
+  {
+    "path": "mods/gtceu-1.20.1-1.4.4.jar",
+    "hashes": {
+      "sha1": "ac965814b9aa85fc60e688454d9bf07a1ea3f8f3",
+      "sha512": "5f9d3c7422064e5aa9dce89d188ba385c4833e653a03dcffb3464ecbceb4ebfb86d49ab119747ad36acd242a2b6944db84412a0c73cd04c6eff58b96032fad85"
+    }
+  },
+  {
+    "path": "mods/gtl_extend-3.2.1-NoPlanetaryEngine-pre1.jar",
+    "hashes": {
+      "sha1": "443ae64ddf2051dcd191eb45a5c9fa0524a10bd4",
+      "sha512": "75187e8e23fec543eb0ac41cd9dfa504e5a9055579e1c1436e25e8fc72a89ca11bc67a3e5024c832b8fdd8371896f9482aacc32371bfebdcac827d9c70ac2a66"
+    }
+  },
+  {
+    "path": "mods/gtlcore-1.2.3.1-fix1.jar",
+    "hashes": {
+      "sha1": "e77ce0ce4ed837fd8cf011bf4f3404bc3deba5ae",
+      "sha512": "bc7bf09f0ea817e0095b932876167ff4fd003a36a4aa634373582e537a5d1dbcfd682870db4f9e652f1837bacda15475a2f918ff48b77217894b13808d2ca6d7"
+    }
+  },
+  {
+    "path": "mods/gtmthings-1.3.5.b.jar",
+    "hashes": {
+      "sha1": "3626c6c6bfb9161439a0c5898313b17e0a4a107c",
+      "sha512": "61a09c1e9eb042532f19c966f921b954a92927db81347e83af1b0d2e2632e9c9a954a1367b1ed9d0a433f8f9c2cc934fd4e0c506bcddd16e01bb08d25c96fbb9"
+    }
+  },
+  {
+    "path": "mods/guideme-20.1.14.jar",
+    "hashes": {
+      "sha1": "57d883148f04989128505a1bd8919629440f714f",
+      "sha512": "15311cb0607205d2da3eb369499b8523bd0d8fa41e30c87c0b0e5756df5ea2123389262e6883f66e6c7b1d43d68e20cdfec73b31c202df8fbb99fa80d4fe7b1d"
+    }
+  },
+  {
+    "path": "mods/invtweaks-1.20.1-1.2.2.jar",
+    "hashes": {
+      "sha1": "37e62b3aebc73aa8830407cfaed588d582b28fc1",
+      "sha512": "8a3802b080a900f111d205f6ada25c05c86ea8069f0befe83ec5b428a42b1eac76eda81df26750c78a68a4971a539892025c6ec213c6371993f379b7b0fdcaeb"
+    }
+  },
+  {
+    "path": "mods/jei-1.20.1-forge-15.20.0.129.jar",
+    "hashes": {
+      "sha1": "eba88424bd28c8bce0e49da13ada71cd47148b47",
+      "sha512": "280dff664abf3c04ecdf9e13a49619a25b7ba1c1f9d0f5c47394a4f9f71dc96628cf2e73de2143b75a16955e820de11dd87e06a6902088f2fbc4a48da92555a4"
+    }
+  },
+  {
+    "path": "mods/jeiintegration_1.20.1-10.0.0.jar",
+    "hashes": {
+      "sha1": "0aa9c598105938ee0be35f1c1b31ab5d936b0ef6",
+      "sha512": "792d384da6e9b7971f70fd6dbc5c2e61112a9bba5dc1fef9ce3718523634894980aecebe6835a81afe63f8437e1b26bacc3d367c28c168b1d149164eeeaeb5b7"
+    }
+  },
+  {
+    "path": "mods/kubejs-forge-2001.6.5-build.16.jar",
+    "hashes": {
+      "sha1": "93fcf0eacc5dc08a4f719eaaed1dc93f0dc80f66",
+      "sha512": "819f730d2a9d980bb246d30d67793f06f6a1608381c7ce3577cf25e70dd3d595271f8fcfbf3ae037168842f660e79e49846756bd18c79793b310ff18ab826cbd"
+    }
+  },
+  {
+    "path": "mods/laserio-uel-1.5.0.jar",
+    "hashes": {
+      "sha1": "1bc52bd6a94164b2558f2017bd5b4a78cef1725e",
+      "sha512": "bdee3022c6ae2cd4ccc4151a78feb2bc3ca62f5b75278d761bdece8e9df049a91c5f58fbc511bf6215625dd7c65806dca213cc288b6f69ac14b78b7b6241a820"
+    }
+  },
+  {
+    "path": "mods/ldlib-forge-1.20.1-1.0.33.b.jar",
+    "hashes": {
+      "sha1": "3a15e25a0faeb841e94d708807babbf8926daf2d",
+      "sha512": "dc35720db23003c41d5df7c8365c5a2962e952b45da1349f3e3896864aa1b9c6b5871eb8d2e662583c5297ee1539c914f6530e845e9a015f6eaf97c67e4dd602"
+    }
+  },
+  {
+    "path": "mods/mae2-2.0.0-beta.d.jar",
+    "hashes": {
+      "sha1": "89010618e856b356dbd95bbc1825ea2633359215",
+      "sha512": "2ccb5f0e50e514c209509b7a320c7a4c411b75ecada00eb4f24a185f350c759ad27c9b05883fd0cbc5e8acdf428368f5953ccb63e908f2c6fce4d03c45539088"
+    }
+  },
+  {
+    "path": "mods/merequester-forge-1.20.1-1.1.5.jar",
+    "hashes": {
+      "sha1": "24e6611df470afd957eafd16c43890b7214e3da9",
+      "sha512": "cc2ed5b2b947bf9327778c4bf4cd5324490060386169fe1a0b09fb78f4b4a46117c07a2355eaccd40abf834ce65c88b5e53a10ca3c374aa684d5ccb83457993f"
+    }
+  },
+  {
+    "path": "mods/modernfix-forge-5.27.77+mc1.20.1.jar",
+    "hashes": {
+      "sha1": "d24cc3c4252614bd7fa1b508cbe92f0264cfa785",
+      "sha512": "a8f1d38313524acf010c976550f25ea4b023fb2fc6a38e834ef821c0b3dfd11008bca74a9c9c114d7952a1bf0f1ca186628c5f321f396e994f67b1c19515d120"
+    }
+  },
+  {
+    "path": "mods/neoecoae-20.4.2-gtl-compat.7.jar",
+    "hashes": {
+      "sha1": "0dfc55b13e18f151c664769ef0b30137189492e1",
+      "sha512": "9421016ffb12d3a24be6c1307039bbd53fcfa658d6f8dd785784d0d54beb0684b77e1e84e0f5c844d591632524d0848b7f6ff84f75f1d3aceb45cc44d1f963f8"
+    }
+  },
+  {
+    "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+    "hashes": {
+      "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+      "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5"
+    }
+  },
+  {
+    "path": "mods/openysm-forge-2.6.6.6.jar",
+    "hashes": {
+      "sha1": "1c0cb0c1d88609b7b3cd306bb16caf82bb586666",
+      "sha512": "0a206802a2dd59e7dc27e2aab76a37d63cbb72bb279eaded37fe7b4b6c1271c1de16192c756f61c696528b6a552fbd2fa18a0342be6879598a66f6e1296a0e9a"
+    }
+  },
+  {
+    "path": "mods/pipez-forge-1.20.1-1.2.26.jar",
+    "hashes": {
+      "sha1": "1c32e2fff406f1e8ee6b0689eca257f6bc28e4c7",
+      "sha512": "2d72cfd7dc19cda80a02189c560dca6629a40ddb4f47172f53f5d89eeedb5b1b9229ca1cec6d2f0533350415ba62b3a268eba384c0bc17051b6f861b33fdd8bd"
+    }
+  },
+  {
+    "path": "mods/polylib-forge-2000.0.3-build.143.jar",
+    "hashes": {
+      "sha1": "bf49919adc9e9109196762ff20030f823790e2db",
+      "sha512": "1ffce7fff08e63002effa2b8fe4aa63e1efe2717ed062644693c084194610cd24e3001e2b81824c218380c5bd5c7bd78de99882bac35c325879c1fa1f09c5c00"
+    }
+  },
+  {
+    "path": "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+    "hashes": {
+      "sha1": "f5f5f792473bb7b85ec221f75c5afb3740afb13a",
+      "sha512": "7b59c491d72801257c740626faab8c14ed580db28493c474147341531bca3de5ea822d4042d3786ae619449b6f6ffc1001a1cdc1b9276ec900e57ab17dd8989a"
+    }
+  },
+  {
+    "path": "mods/redirector-5.0.0.jar",
+    "hashes": {
+      "sha1": "0b246b2648a2e463f243852fdd1ef8c2931da19c",
+      "sha512": "ba00e39e30c255be0db2baa81fa876d349f9f7d7c4d49505c95cb56c13b90dfb654c63797d24208314422f6f632b74f58ab8caa65e02a15123aff8c24c6dbe10"
+    }
+  },
+  {
+    "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+    "hashes": {
+      "sha1": "597d40920dcc935f963842c817dcc4901862ab14",
+      "sha512": "2e05fe27529d00d7808a83dbe0c475a0fb96a20ebfd5c9767f4cc8dcd9a865e20a18de41fb9ed710e5cd2e0211c30303b43c1f22702af1d50ee7212ad83a54d3"
+    }
+  },
+  {
+    "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+    "hashes": {
+      "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa",
+      "sha512": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820"
+    }
+  },
+  {
+    "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+    "hashes": {
+      "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+      "sha512": "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58"
+    }
+  },
+  {
+    "path": "mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+    "hashes": {
+      "sha1": "bb422d5626bf69841e444a3e545c8e71b6928cf8",
+      "sha512": "4067ef8d94fd4022a5f4feb02250d86c96ab10867f526c64e7e02a409ac6d46fbc32e87ffd735b1203f328d147c291e4a8dda1288c1deb3e232a1e5cb13701fb"
+    }
+  },
+  {
+    "path": "mods/sophisticatedbackpacks-1.20.1-3.24.67.2109.jar",
+    "hashes": {
+      "sha1": "c8545de2e15e79ca1511417a8346ec8c107c40d7",
+      "sha512": "e292771f4975f2cf41e15e6eadc3fabc937774c03b54f447c9894d1bead0d0f1dc461a0f90d41614d067233b134765e30bef483dce445a3f042f5f189e66a40a"
+    }
+  },
+  {
+    "path": "mods/sophisticatedcore-1.20.1-1.3.84.2308.jar",
+    "hashes": {
+      "sha1": "b77d093e3312a660594a08b043cf4966bfa3ba96",
+      "sha512": "4647794789dc3cecc4260a90673aca294e01db48d391522d53048937d28f5b21998ec0ca0df13f24a3835a01955a41fd7e0d02ac703e57e561423b7514b69296"
+    }
+  },
+  {
+    "path": "mods/sophisticatedstorage-1.20.1-1.4.86.2131.jar",
+    "hashes": {
+      "sha1": "0140b377ccba3b932fd30386263e78413a0b96a9",
+      "sha512": "23d794f70ce9b0d82025475061a9c626bc992e1db4aa8d80304c7f53d153a143d2d6ab73bbace6ecd015041b97206c46ee71998385448149d773ee9736114777"
+    }
+  },
+  {
+    "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "hashes": {
+      "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+      "sha512": "476595aacc7c66a0cf7bcd56143975122ea54ae4c5b61a232d3b0b9b1e3c013575efcc05de31a5d2c4e129542bfd8ae255a25d1486a4e08961cc4a303940fd19"
+    }
+  },
+  {
+    "path": "mods/supermartijn642corelib-1.1.24a-forge-mc1.20.1.jar",
+    "hashes": {
+      "sha1": "3d0171588c7d1e4d1ab741dd864763b25dfcd75f",
+      "sha512": "7e4e6f5b9e12e48dfc47500fa9e6773e6ff43e81a11eda3ac10924fc0f011f7d8a025bb5a333718e7865560aaa8a8422a79bf700ae346686f9d6308eac492c88"
+    }
+  },
+  {
+    "path": "mods/thunderbolt-forge-1.20.1-2.0.0-beta.3-gtlcore-compat.2.jar",
+    "hashes": {
+      "sha1": "b9e4ba9ba7e7e8c4196e81981a57dfd294a0ff5f",
+      "sha512": "a95d7b609b3e21e6f61da99ee548c0288fec73e98ddf10debf0b3d5b3d321ddc4b3fd2315742fa25a5f5608aa74d2249afe4b2e5f823bfc8557dd142bee9c326"
+    }
+  },
+  {
+    "path": "mods/titanium-1.20.1-3.8.35.jar",
+    "hashes": {
+      "sha1": "5f62877e68fb326c35cf847e615512d7dd801b20",
+      "sha512": "d15b0595b75156509c302aac481803068e4c2dca66dbe3808141879d66b41baa270d3b752c86da5308bcf80bfd2e387cb337ad1743eda81b2dff77c283025a3f"
+    }
+  },
+  {
+    "path": "mods/touhoulittlemaid-1.5.3-forge+mc1.20.1.jar",
+    "hashes": {
+      "sha1": "9097a2a57e7ed639bca072dd62e4a9257e86db89",
+      "sha512": "12f29c14e806bf3aeb4f8399ac02199b419426905a27c3b9c7e019ef9daace09bc40d9b2c5c41ee730ce4b67eda5d0e93e8a8f32879b96b70e6003952c651716"
+    }
+  },
+  {
+    "path": "mods/usclb-0.0.26.jar",
+    "hashes": {
+      "sha1": "aed2d2203857482732f4bd6a2b2569410ec493c5",
+      "sha512": "37871068b529e1e21231774469ca213d64c32c6b61ad948cce66ed9b6f0f86a7189162ffeaca04ccf2d910deb26ee51778f4b8be6304a7e521ee45150d57afb4"
+    }
+  },
+  {
+    "path": "mods/voicechat-forge-1.20.1-2.6.23.jar",
+    "hashes": {
+      "sha1": "5011f8ffbd8d405136f3a0a0cdf400a85fb9f5fe",
+      "sha512": "79573f6070ee52e39e2c55466cc77ea6ddaed27cbbf1e115d003cd0982ea302fa184e945da2dcbbab563c02b130d59e79237d18c57e71c8985292ec813f14433"
+    }
+  },
+  {
+    "path": "mods/wildcard_pattern-0.1.2-gtl-ae2lt-compat.5.jar",
+    "hashes": {
+      "sha1": "6611e39e6596ee9e23b99988b612fe678bdf7594",
+      "sha512": "440f4e10414c600f460089f3b649eb3b4ea89b8f50667fbf69b49889b6eb09fa23b8d965ea9cae79247e96aad9fdf62710837ec5e219096337c47d1ce5b5285c"
+    }
+  },
+  {
+    "path": "mods/ad_astra_rocketed-forge-1.20.1-1.0.5.jar",
+    "hashes": {
+      "sha1": "98fc9803159d69612168211ed690683b4ce5e9fb"
+    }
+  },
+  {
+    "path": "mods/ad_astra-forge-1.20.1-1.15.20.jar",
+    "hashes": {
+      "sha512": "c7337add217258cea0cb7d9f9136b5a7c8a17600bc2cc9c722321af838690b6c285628dcaebfccedb3e1274683591ef7a45a3514094e5a3bcd8fe1c1f25626bf"
+    }
+  },
+  {
+    "path": "mods/AdvancedAE-1.3.5-1.20.1.jar",
+    "hashes": {
+      "sha512": "2340740ab143d70131aea03047483bb6239031be8d019a7e7a3806ed2bb2191bae01640187dbefe2e86b0ea196fe285036dd8bb71eca5edc97944e437f8da344"
+    }
+  },
+  {
+    "path": "mods/ae2ct-1.20.1-1.1.1.jar",
+    "hashes": {
+      "sha1": "e6c9d9c2cd9c52aec6364d87e78924f6165b7998"
+    }
+  },
+  {
+    "path": "mods/ae2cs-1.20.1-1.2.0.jar",
+    "hashes": {
+      "sha512": "b77abf6936ca5352c54c9569bd3bcb94487dc126ee578176d20b2f8259c4dd9befdf6f4c515b0824211728be19d4e0e108852de5cac946fd904aa9b54a2ae787"
+    }
+  },
+  {
+    "path": "mods/ae2_ftbquest_detector-1.1-SNAPSHOT.jar",
+    "hashes": {
+      "sha1": "e966d7f38f4891aa29f58afac777dd0e22f6c2cf"
+    }
+  },
+  {
+    "path": "mods/ae2lt-forge-1.20.1-2.1.0-beta.3-local-0f327c47-eaep-virtual.jar",
+    "hashes": {
+      "sha256": "0841af0e60f45c5743acc38994276b497ffad389efe8c277351129250ebea514"
+    }
+  },
+  {
+    "path": "mods/almostunified-forge-1.20.1-0.11.0.jar",
+    "hashes": {
+      "sha512": "fcd7da643e84d7779e32af6916c6f8e808559d4724d565cc6d23fc96527f3bf50ea0b686eca1916c5dfeac146d836cf593a85374b6f04b60215f748aa00e3824"
+    }
+  },
+  {
+    "path": "mods/ae2wtlib-15.3.3-forge.jar",
+    "hashes": {
+      "sha512": "f036f278e6d1360147b04f2090829154e75e456f3b2c0af7571b537bf0fd13e97f29211f7a044f9437a171a1c525195737860895118eab70b2b4af54485367d4"
+    }
+  },
+  {
+    "path": "mods/appliedenergistics2-forge-15.4.10.jar",
+    "hashes": {
+      "sha512": "edc08a999b57e80426c737efa5b50c6d19ab40cb03f752bc26e2912fe12b989cefd5feff519ce0d87a4717a74c22a99242263ee4de63c1c84f91306d156134ee"
+    }
+  },
+  {
+    "path": "mods/architectury-9.2.14-forge.jar",
+    "hashes": {
+      "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
+    }
+  },
+  {
+    "path": "mods/botarium-forge-1.20.1-2.3.4.jar",
+    "hashes": {
+      "sha512": "aa3530dde50966e47958690b02a343c4de3782d32ae3b2cb75b2155eebb76e172a292768d846b8d14a97bc9ebe18f1f655eaa3469fce13b2b4b15b16af0aba01"
+    }
+  },
+  {
+    "path": "mods/buildinggadgets2-1.0.8.jar",
+    "hashes": {
+      "sha1": "d06a806e8ca84a9e96a69c32da4b43226a51e0c9"
+    }
+  },
+  {
+    "path": "mods/Cell4-1.20.1-1.0.3+datapack-0.0.1.jar",
+    "hashes": {
+      "sha256": "0ae83d2b0eadea1117abce5b649961858a4bc31d41d65ce34fe2557daf56578e"
+    }
+  },
+  {
+    "path": "mods/chloride-FORGE-mc1.20.1-v1.8.1.jar",
+    "hashes": {
+      "sha512": "2fa5393ab4562bc94a938d72fd6045c5d99f81cfa90ed67e5ae09816447c27f974916b45506c0ba1456d07d30b0172c1d20ad089ec5eafcbb10ef278a29bffdd"
+    }
+  },
+  {
+    "path": "mods/cloth-config-11.1.136-forge.jar",
+    "hashes": {
+      "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef"
+    }
+  },
+  {
+    "path": "mods/constructionwand-1.20.1-2.11.jar",
+    "hashes": {
+      "sha512": "a029f801dbcfacd230650fd018f7424535454fb2062d796cbe9cd622a9fe4ae80cb0d7883faa2775c27ed73a21dffbadb44ddc32ce1293ec098654393e7b1c95"
+    }
+  },
+  {
+    "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+    "hashes": {
+      "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87"
+    }
+  },
+  {
+    "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+    "hashes": {
+      "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9"
+    }
+  },
+  {
+    "path": "mods/ExtendedAE-1.20-1.4.12-forge-gtlcompat.2.jar",
+    "hashes": {
+      "sha512": "a2705f41eb940f6fade79c4befb2e2d2e5e72d6c695429545fd7f436378c1333b8e6a69aaba52d0b29abfbd75bd3efb6620b208876322ff13ecefe3becb4f599"
+    }
+  },
+  {
+    "path": "mods/extendedae_plus_gtladd-1.0.2.jar",
+    "hashes": {
+      "sha256": "03e067b086985f6f6b2bcffd8e75c264afd020da2a598adecfa64e3b2c4d36f9"
+    }
+  },
+  {
+    "path": "mods/extendedae_plus-1.5.5-neoeco-compat.3.jar",
+    "hashes": {
+      "sha256": "f545acf40f3f1f6cf557a6c791c4654d2165a6a69e77fc447f59fad8fe0f613a"
+    }
+  },
+  {
+    "path": "mods/FastLeafDecay-32.jar",
+    "hashes": {
+      "sha1": "4a76af4ca71dd9939d3c21206792c0d5f75b93a7"
+    }
+  },
+  {
+    "path": "mods/FastFurnace-1.20.1-8.0.2.jar",
+    "hashes": {
+      "sha512": "4f11c4871ba88d10c07a295b84632e97ce417489c091c69873bc749dd11947413e907a55125e1529bd3a7a859dd8b8ba44857693fbbef74154ff14fb8d3d1c2e"
+    }
+  },
+  {
+    "path": "mods/FastSuite-1.20.1-5.1.2.jar",
+    "hashes": {
+      "sha512": "5c41292a26c7a42ba462d92005afef0df80ce62714d3d47034be4a488c4632dcbf41d647a7825980008bf3970a14dd3cf181063f511231a8d55c235be0db1729"
+    }
+  },
+  {
+    "path": "mods/FastWorkbench-1.20.1-8.0.4.jar",
+    "hashes": {
+      "sha512": "c30dccece03fa9fa8de7bf0ec3b4988e7b2b0c214b5ab2142f13bcdced89c4ca8509244b9767df0903d55776ae2ada29b483af8dec649339b3f0c687ea18df76"
+    }
+  },
+  {
+    "path": "mods/ferritecore-6.0.1-forge.jar",
+    "hashes": {
+      "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c"
+    }
+  },
+  {
+    "path": "mods/gpumemleakfix-1.20.1-1.8.jar",
+    "hashes": {
+      "sha1": "54301c2db5467e0f9f5c504887436f358335331f"
+    }
+  },
+  {
+    "path": "mods/FramedBlocks-9.4.3.jar",
+    "hashes": {
+      "sha512": "19a098bbf9ee7ee39f6b785bbce5f87b9dca58a491fa16eba2f38cfa106f37ee90c1ce56686a50adef8f5d3086e3c22a6127ed02bdf3f80d57297c8f7c1b49fc"
+    }
+  },
+  {
+    "path": "mods/ftbbackups2-forge-1.20-1.0.23.jar",
+    "hashes": {
+      "sha1": "4b100de40338247a3fbf4d1fd1846257c5338189"
+    }
+  },
+  {
+    "path": "mods/ftb-chunks-forge-2001.3.8.jar",
+    "hashes": {
+      "sha1": "ee2d0cdac6d2ca31f43da30f76dff8c6bae9d687"
+    }
+  },
+  {
+    "path": "mods/ftb-essentials-forge-2001.2.4.jar",
+    "hashes": {
+      "sha1": "4f898578e3cc321397dbc59a0c44e2927000bd32"
+    }
+  },
+  {
+    "path": "mods/ftb-library-forge-2001.2.13.jar",
+    "hashes": {
+      "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e"
+    }
+  },
+  {
+    "path": "mods/ftb-quests-forge-2001.4.22.jar",
+    "hashes": {
+      "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
+    }
+  },
+  {
+    "path": "mods/ftb-teams-forge-2001.3.2.jar",
+    "hashes": {
+      "sha1": "c49023f5d471aa1ba7fc624d2565fe9e82b7117e"
+    }
+  },
+  {
+    "path": "mods/ftb-ultimine-forge-2001.1.8.jar",
+    "hashes": {
+      "sha1": "c2a1eb72c36ad067faafbff4e1618c4db906de74"
+    }
+  },
+  {
+    "path": "mods/ftb-xmod-compat-forge-2.1.3.jar",
+    "hashes": {
+      "sha1": "0584f628d2bc6a612d79dee368324357ebae1423"
+    }
+  },
+  {
+    "path": "mods/functionalstorage-1.20.1-1.2.14.jar",
+    "hashes": {
+      "sha512": "f561c2fd4f223e22f485e192aa505ee29f7f4c3a7802c68ae90c698e70ab2c443d1407e0f35051a645926d03fc92380c2b9fa47f7edd5dcd604abfe8858bb486"
+    }
+  },
+  {
+    "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+    "hashes": {
+      "sha512": "443a321a293e3cb92fbbc3c97a38b179a45d1db703cd7bdb123270a9e04e7b7d67d5b06cd8e77a6d4d9139e033e901b9660cccf53ad5f9beaae6d06eae68febf"
+    }
+  },
+  {
+    "path": "mods/Glodium-1.20-1.5-forge.jar",
+    "hashes": {
+      "sha512": "57ba996845f588191b12f5e4c578b6f33a2b431facd54176dc61abba0f08f86cbc03c39cf795c7d5dea4926a923ec88e646a25d1a9a3a5bb9508fcb79a661a5e"
+    }
+  },
+  {
+    "path": "mods/gtcalcboard-1.20.1-2.2.0-alpha.2.jar",
+    "hashes": {
+      "sha1": "26c8436f36ad566d5781e522d12e08e2b1e3f0c6"
+    }
+  },
+  {
+    "path": "mods/gtceu-1.20.1-1.4.4.jar",
+    "hashes": {
+      "sha512": "5f9d3c7422064e5aa9dce89d188ba385c4833e653a03dcffb3464ecbceb4ebfb86d49ab119747ad36acd242a2b6944db84412a0c73cd04c6eff58b96032fad85"
+    }
+  },
+  {
+    "path": "mods/gtl_extend-3.2.1-NoPlanetaryEngine-pre1.jar",
+    "hashes": {
+      "sha256": "a018e4d0136b575cb05bafc9b76e1805bf02a26c4508b6c677c565adb0426cec"
+    }
+  },
+  {
+    "path": "mods/[Custom-亚空间]gtladditions-3.2Custom_SubSpace.jar",
+    "hashes": {
+      "sha256": "9f0e5d54f711712efd1276da3242e970fa4d53c109a530c5f4088d787e1b8bd2"
+    }
+  },
+  {
+    "path": "mods/gtlcore-1.2.3.1-fix1.jar",
+    "hashes": {
+      "sha256": "050c4d8fa89059233382851cbc9a969c997cf4f33be5f7b5c0165b46a7a6d2e6"
+    }
+  },
+  {
+    "path": "mods/GTMAdvancedHatch-1.20.1-0.1.10 fix2.jar",
+    "hashes": {
+      "sha256": "e5351799eac5ab70a61696e073557293e6e3921c2e3eb9253d33791c40701a68"
+    }
+  },
+  {
+    "path": "mods/[化学结构式显示]gtmoldraw-1.2coldfix1.jar",
+    "hashes": {
+      "sha256": "e8f85f65a55f6a9fecec9e8149cf8bcef2e4c14253befc54f8adbfddadae16e8"
+    }
+  },
+  {
+    "path": "mods/gtmthings-1.3.5.b.jar",
+    "hashes": {
+      "sha256": "b230de569b0f4601c36153d668e3fee76728982ad9c1baef0ee32e69ad3349e4"
+    }
+  },
+  {
+    "path": "mods/guideme-20.1.14.jar",
+    "hashes": {
+      "sha512": "15311cb0607205d2da3eb369499b8523bd0d8fa41e30c87c0b0e5756df5ea2123389262e6883f66e6c7b1d43d68e20cdfec73b31c202df8fbb99fa80d4fe7b1d"
+    }
+  },
+  {
+    "path": "mods/Industrial Platform-1.20.1-1.8.0.jar",
+    "hashes": {
+      "sha1": "5f291f96a2cb7001978529ab9944769ed1433af3"
+    }
+  },
+  {
+    "path": "mods/invtweaks-1.20.1-1.2.2.jar",
+    "hashes": {
+      "sha1": "37e62b3aebc73aa8830407cfaed588d582b28fc1"
+    }
+  },
+  {
+    "path": "mods/Jade-1.20.1-Forge-11.13.3.jar",
+    "hashes": {
+      "sha512": "72025c4ad6d26522bafe3d5d6ac9d4702c006a868312cb34df8a7a2398a4618205839607b129c167fd176e58cb7655f08e3afbf1993925c80d4fcc559c45a037"
+    }
+  },
+  {
+    "path": "mods/jeiintegration_1.20.1-10.0.0.jar",
+    "hashes": {
+      "sha1": "0aa9c598105938ee0be35f1c1b31ab5d936b0ef6"
+    }
+  },
+  {
+    "path": "mods/jei-1.20.1-forge-15.20.0.129.jar",
+    "hashes": {
+      "sha512": "280dff664abf3c04ecdf9e13a49619a25b7ba1c1f9d0f5c47394a4f9f71dc96628cf2e73de2143b75a16955e820de11dd87e06a6902088f2fbc4a48da92555a4"
+    }
+  },
+  {
+    "path": "mods/[通用拼音搜索] jecharacters-1.20.1-forge-4.6.4.jar",
+    "hashes": {
+      "sha512": "7e3e0aa6341a4e94cec04b158d760d62a452604160a562d92bd75af7fe6cb0cf8e58935cd6a5a2bc592a8853ec0a0b01140a9e7089a21fa8f3a1ef72d66a3225"
+    }
+  },
+  {
+    "path": "mods/JustEnoughResources-1.20.1-1.4.0.247.jar",
+    "hashes": {
+      "sha1": "2747c58f439c37a01139d35cab59ca1a54114009"
+    }
+  },
+  {
+    "path": "mods/kubejs-forge-2001.6.5-build.16.jar",
+    "hashes": {
+      "sha512": "819f730d2a9d980bb246d30d67793f06f6a1608381c7ce3577cf25e70dd3d595271f8fcfbf3ae037168842f660e79e49846756bd18c79793b310ff18ab826cbd"
+    }
+  },
+  {
+    "path": "mods/laserio-uel-1.5.0.jar",
+    "hashes": {
+      "sha1": "1bc52bd6a94164b2558f2017bd5b4a78cef1725e"
+    }
+  },
+  {
+    "path": "mods/ldlib-forge-1.20.1-1.0.33.b.jar",
+    "hashes": {
+      "sha512": "dc35720db23003c41d5df7c8365c5a2962e952b45da1349f3e3896864aa1b9c6b5871eb8d2e662583c5297ee1539c914f6530e845e9a015f6eaf97c67e4dd602"
+    }
+  },
+  {
+    "path": "mods/LibX-1.20.1-5.0.14.jar",
+    "hashes": {
+      "sha512": "af096d18c3bb1ee5e0fc765ccbe5e63882865f16884e005f23a537f14009edf0f8dcd82254fcbc76081757430abc3a825001f89e120a7415aa1dbe2772f7a922"
+    }
+  },
+  {
+    "path": "mods/1.20.1-maid_storage_manager-1.15.6.jar",
+    "hashes": {
+      "sha512": "589c1a48e99b5a7b43eba135603e8b3f4f728467a80b8f1c2ebc523da6fa7e8f309ff3f9d91f4a46e0c4fe45a2fbc35cb5fb06a077cd28b9afece76dd915be70"
+    }
+  },
+  {
+    "path": "mods/merequester-forge-1.20.1-1.1.5.jar",
+    "hashes": {
+      "sha512": "cc2ed5b2b947bf9327778c4bf4cd5324490060386169fe1a0b09fb78f4b4a46117c07a2355eaccd40abf834ce65c88b5e53a10ca3c374aa684d5ccb83457993f"
+    }
+  },
+  {
+    "path": "mods/mae2-2.0.0-beta.d.jar",
+    "hashes": {
+      "sha1": "89010618e856b356dbd95bbc1825ea2633359215"
+    }
+  },
+  {
+    "path": "mods/ModernUI-Forge-1.20.1-3.12.0.1-universal.jar",
+    "hashes": {
+      "sha512": "cf9a1bfa25f956a9277639da833a86d59a6a55bc690b6c03d4292bb240cb775c32ecf7ae253db7779757e2c74c5adf2c272c4ecdb35b907027de3ec7534bbd27"
+    }
+  },
+  {
+    "path": "mods/modernfix-forge-5.27.77+mc1.20.1.jar",
+    "hashes": {
+      "sha512": "a8f1d38313524acf010c976550f25ea4b023fb2fc6a38e834ef821c0b3dfd11008bca74a9c9c114d7952a1bf0f1ca186628c5f321f396e994f67b1c19515d120"
+    }
+  },
+  {
+    "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+    "hashes": {
+      "sha512": "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb"
+    }
+  },
+  {
+    "path": "mods/neoecoae-20.4.2-gtl-compat.7.jar",
+    "hashes": {
+      "sha256": "8f00cffb89c4bb1acc67a69e901da1cedc7fe45d79906414aa79d540b39ecc5d"
+    }
+  },
+  {
+    "path": "mods/New Visual Keybing-1.20.1-forge-0.6.16.jar",
+    "hashes": {
+      "sha512": "15a82e60ae93c7c2c77c032686b35d0673ae716e0e9180363f0a7dd5dbf3d22b56d8c39b4921976fd758201db912bfda3394573a701d7c862e7ac3df5f9a43f7"
+    }
+  },
+  {
+    "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+    "hashes": {
+      "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5"
+    }
+  },
+  {
+    "path": "mods/openysm-forge-2.6.6.6.jar",
+    "hashes": {
+      "sha512": "0a206802a2dd59e7dc27e2aab76a37d63cbb72bb279eaded37fe7b4b6c1271c1de16192c756f61c696528b6a552fbd2fa18a0342be6879598a66f6e1296a0e9a"
+    }
+  },
+  {
+    "path": "mods/PackMenu-1.20.1-6.1.2.jar",
+    "hashes": {
+      "sha1": "f9949cf20abb021bcdc6a5865ccae47940c4fd1a"
+    }
+  },
+  {
+    "path": "mods/pipez-forge-1.20.1-1.2.26.jar",
+    "hashes": {
+      "sha1": "1c32e2fff406f1e8ee6b0689eca257f6bc28e4c7"
+    }
+  },
+  {
+    "path": "mods/Placebo-1.20.1-8.6.3.jar",
+    "hashes": {
+      "sha512": "c23990465e26336f476c3b05a897bcf0c8660ae7338756b325f6bf81d0dee34b609474c62293f394acac818637ab03f92c776d104c8b8e86f3786395f5c4d623"
+    }
+  },
+  {
+    "path": "mods/polylib-forge-2000.0.3-build.143.jar",
+    "hashes": {
+      "sha512": "1ffce7fff08e63002effa2b8fe4aa63e1efe2717ed062644693c084194610cd24e3001e2b81824c218380c5bd5c7bd78de99882bac35c325879c1fa1f09c5c00"
+    }
+  },
+  {
+    "path": "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+    "hashes": {
+      "sha512": "7b59c491d72801257c740626faab8c14ed580db28493c474147341531bca3de5ea822d4042d3786ae619449b6f6ffc1001a1cdc1b9276ec900e57ab17dd8989a"
+    }
+  },
+  {
+    "path": "mods/Re-Avaritia-forged-1.20.1-1.3.8.3.jar",
+    "hashes": {
+      "sha512": "77f85c4c88cd677fc99b40f2d60c9f0d691dd5319ba021a139cafb56c23bcb737bcaea72209bd43cdc914ef9c9e88f24a1c1154e188935e685a6197209ddef53"
+    }
+  },
+  {
+    "path": "mods/redirector-5.0.0.jar",
+    "hashes": {
+      "sha1": "0b246b2648a2e463f243852fdd1ef8c2931da19c"
+    }
+  },
+  {
+    "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+    "hashes": {
+      "sha512": "2e05fe27529d00d7808a83dbe0c475a0fb96a20ebfd5c9767f4cc8dcd9a865e20a18de41fb9ed710e5cd2e0211c30303b43c1f22702af1d50ee7212ad83a54d3"
+    }
+  },
+  {
+    "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+    "hashes": {
+      "sha512": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820"
+    }
+  },
+  {
+    "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+    "hashes": {
+      "sha512": "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58"
+    }
+  },
+  {
+    "path": "mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+    "hashes": {
+      "sha512": "4067ef8d94fd4022a5f4feb02250d86c96ab10867f526c64e7e02a409ac6d46fbc32e87ffd735b1203f328d147c291e4a8dda1288c1deb3e232a1e5cb13701fb"
+    }
+  },
+  {
+    "path": "mods/[星门之旅] Stargate Journey-1.20.1-0.6.44.jar",
+    "hashes": {
+      "sha512": "431a62c73b53f09585f9f958366d82fa040d798a2e6a8cac77dd8bc0c955b7d850c5983e31aa7d517da4ac184a35f83d0f803a15226538ceb667292d26a494de"
+    }
+  },
+  {
+    "path": "mods/Shrink-1.20.1-1.4.5.jar",
+    "hashes": {
+      "sha512": "51d61d7b0c77a615352e28a0bcfddbeffc212d88cee16b728530f572e01850904803005564539f185553530a5aa4fdd98d354f1427818d84ac1688a043983880"
+    }
+  },
+  {
+    "path": "mods/[简易磁铁] simplemagnets-1.1.12-forge-mc1.20.1.jar",
+    "hashes": {
+      "sha512": "3d75d79cfa07d8270aca50c2de29d3405fed4b5182c3e6b0d51832cbe83b75659ffdf201b57312503fa2803398f0d59d9ed9516669b3883303a8451bfdce7613"
+    }
+  },
+  {
+    "path": "mods/voicechat-forge-1.20.1-2.6.23.jar",
+    "hashes": {
+      "sha512": "79573f6070ee52e39e2c55466cc77ea6ddaed27cbbf1e115d003cd0982ea302fa184e945da2dcbbab563c02b130d59e79237d18c57e71c8985292ec813f14433"
+    }
+  },
+  {
+    "path": "mods/SkyblockBuilder-1.20.1-5.1.28.jar",
+    "hashes": {
+      "sha512": "7656c09cf954af6d01015f46d0322b69ff931a1456acdfd906cc7dac15d2494280aaf09d73bad4261414fa2a4aad795396705fb8dee4296ef9455439c0e6ae81"
+    }
+  },
+  {
+    "path": "mods/sophisticatedbackpacks-1.20.1-3.24.67.2109.jar",
+    "hashes": {
+      "sha1": "c8545de2e15e79ca1511417a8346ec8c107c40d7"
+    }
+  },
+  {
+    "path": "mods/sophisticatedcore-1.20.1-1.3.84.2308.jar",
+    "hashes": {
+      "sha1": "b77d093e3312a660594a08b043cf4966bfa3ba96"
+    }
+  },
+  {
+    "path": "mods/sophisticatedstorage-1.20.1-1.4.86.2131.jar",
+    "hashes": {
+      "sha1": "0140b377ccba3b932fd30386263e78413a0b96a9"
+    }
+  },
+  {
+    "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+    "hashes": {
+      "sha512": "476595aacc7c66a0cf7bcd56143975122ea54ae4c5b61a232d3b0b9b1e3c013575efcc05de31a5d2c4e129542bfd8ae255a25d1486a4e08961cc4a303940fd19"
+    }
+  },
+  {
+    "path": "mods/supermartijn642corelib-1.1.24a-forge-mc1.20.1.jar",
+    "hashes": {
+      "sha512": "7e4e6f5b9e12e48dfc47500fa9e6773e6ff43e81a11eda3ac10924fc0f011f7d8a025bb5a333718e7865560aaa8a8422a79bf700ae346686f9d6308eac492c88"
+    }
+  },
+  {
+    "path": "mods/thunderbolt-forge-1.20.1-2.0.0-beta.4-local-bf5735d-part-hosts.jar",
+    "hashes": {
+      "sha256": "9b47b6b2e9c34aa5d664cb1b170332370247470d0f0cac3f6098cc33a11e2ef9"
+    }
+  },
+  {
+    "path": "mods/titanium-1.20.1-3.8.35.jar",
+    "hashes": {
+      "sha512": "d15b0595b75156509c302aac481803068e4c2dca66dbe3808141879d66b41baa270d3b752c86da5308bcf80bfd2e387cb337ad1743eda81b2dff77c283025a3f"
+    }
+  },
+  {
+    "path": "mods/ToolBelt-1.20.1-1.20.03.jar",
+    "hashes": {
+      "sha1": "486038e2b0e075c48f325a7665ad0f3149f7632c"
+    }
+  },
+  {
+    "path": "mods/touhoulittlemaid-1.5.3-forge+mc1.20.1.jar",
+    "hashes": {
+      "sha512": "12f29c14e806bf3aeb4f8399ac02199b419426905a27c3b9c7e019ef9daace09bc40d9b2c5c41ee730ce4b67eda5d0e93e8a8f32879b96b70e6003952c651716"
+    }
+  },
+  {
+    "path": "mods/TravelAnchors-1.20.1-5.0.1.jar",
+    "hashes": {
+      "sha1": "255b95facb3f2c4d2f886634b3d8746b00b580dd"
+    }
+  },
+  {
+    "path": "mods/usclb-0.0.26.jar",
+    "hashes": {
+      "sha1": "aed2d2203857482732f4bd6a2b2569410ec493c5"
+    }
+  },
+  {
+    "path": "mods/wildcard_pattern-0.1.2-gtl-ae2lt-compat.5.jar",
+    "hashes": {
+      "sha256": "4bbaa17336bdeda34d61acf9ceda82c9060c99226a78dec74762d79a08c90bbc"
+    }
+  },
+  {
+    "path": "mods/WorldComment-0.3.2+1.20.1.jar",
+    "hashes": {
+      "sha512": "f28de50e5b968cd182f3100898e95078812970bcb72a91b8167eba485fa181734d7aa9f7fa32964b4c09cc820b939045d0f033cc9364a9327021f5eade83d0c7"
+    }
+  }
+]

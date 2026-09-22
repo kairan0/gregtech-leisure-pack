@@ -27,6 +27,13 @@ hmclversion.cfg
 manifest.json
 modpack.cfg
 options.txt
+!client-defaults/options.txt
+__pycache__/
+.gtl-update-lock/
+.gtl-update-history.json*
+packwiz.json
+packwiz-installer*.jar
+gtl-import-jars.json
 patchouli_data.json
 rhino.local.properties
 servers.dat*
