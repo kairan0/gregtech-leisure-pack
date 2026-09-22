@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "client-defaults/options.txt"
+hash = "d618c244639b2ae267f2955b55ae4d7afe9c87c45eaf0d0ce861861851416d7c"
+
+[[files]]
 file = "config/ModernUI/bootstrap.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -823,6 +827,14 @@ hash = "a3777b5d0c2fc29d3d6ec42956bb573e4c0edeb369d268f0b3fb05fb5c155364"
 [[files]]
 file = "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
 hash = "a16630bdc2fbecab73b939d2adb903481b3c1f84bf1bd02cc2bed1d1189f9770"
+
+[[files]]
+file = "gtl-known-jars.json"
+hash = "2057374f8f828337a018ded826888a01b29c7781c11bfef21e996bd5f5f2e3b2"
+
+[[files]]
+file = "gtl-update.py"
+hash = "9f38654d3450496548684a708c72a523f1c3c96d5daafccd5284224af816df40"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -6097,3 +6109,11 @@ metafile = true
 [[files]]
 file = "shaderpacks/photon_v1.2a.zip.txt"
 hash = "2ebb0dcca0f704d99272c2323d31589be9578107f9d96b8b599a9c75bf8a2c12"
+
+[[files]]
+file = "update-gtl.bat"
+hash = "40dd290b9ed7bcfe2a588ca188fa816f9934f2dc6e6c1d09f88e6b07d5823c35"
+
+[[files]]
+file = "update-gtl.sh"
+hash = "242949c1fa94db223dd3c312cc330a4df80f1d6122fe6e7370a734a4050f09a8"

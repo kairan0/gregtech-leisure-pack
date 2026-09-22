@@ -6,7 +6,9 @@
 
 1. 在 GitHub Releases 下载最新的 `GregTech-Leisure-*.mrpack`。
 2. 使用支持 Modrinth 整合包格式的 PCL 或 HMCL 导入。
-3. 使用 Java 17 启动。
+3. 新实例会使用维护者的材质包顺序、按键和其他 options 预设。使用 Java 17 启动。
+4. 在线更新使用包内 `update-gtl.sh`（Windows 为 `update-gtl.bat`），需 Python 3.11+；
+   可通过 `GTL_JAVA`、`GTL_PYTHON` 指定解释器。首次导入新包本身不需要 Python。
 
 包内固定 Minecraft 1.20.1 与 Forge 47.4.16。每次更新都会发布新的 `.mrpack`；服务器从同一份 packwiz 清单同步 `server`/`both` 文件。
 
@@ -16,15 +18,16 @@
 请读取并执行 https://raw.githubusercontent.com/kairan0/gregtech-leisure-pack/main/CODEX_INSTALL.md
 ```
 
-从旧版升级时需检查改名后遗留的 JAR，尤其 ExtendedAE、LT、NeoECO，避免原版与 compat 双装。Codex 安装规程已包含可回滚归档和更新器重命名检查；新版 `.mrpack` 本身只包含当前唯一版本。
+更新器会验证当前 JAR，并将哈希可确认的旧版本移到 `backups/`；未知或被改动的重复包会阻止更新，交由用户处理。`options.txt` 不受在线更新覆盖。自动更新需在启动器中明确配置为等待执行并在失败时停止启动，单纯导入包不会自动启用此钩子。
 
 ## 本地维护
 
-当前游戏目录就是唯一编辑源。修改模组、配置或 KubeJS 后：
+发布应在独立干净 checkout 中构建，避免将游戏运行中产生的配置改动意外打包。修改模组、配置或 KubeJS 后：
 
 ```bash
-scripts/export-mrpack.sh
-git add pack.toml index.toml mods config defaultconfigs kubejs ldlib packmenu patchouli_books resourcepacks shaderpacks skyblockbuilder scripts
+scripts/export-mrpack.sh --preview
+# 只提交已审查的改动；检查 refresh 更新的清单。
+git add <reviewed-files>
 git commit -m "chore: update modpack"
 git push
 scripts/publish.sh
@@ -36,7 +39,7 @@ scripts/publish.sh
 
 模组来源按 SHA-512 精确匹配优先使用 Modrinth，其次使用已验证的 CurseForge CDN；只有修改版/定制 JAR 使用 GitHub Release。资源包和光影同样通过下载元数据分发，不直接嵌入 `.mrpack`。
 
-YSM 的 `built`、`custom` 和 `cache` 不进入公开客户端包。发布脚本会把本地 `built/custom` 同步到 `office` 服务端，由服务端向客户端提供模型。`tlm_custom_pack` 由 Touhou Little Maid 自动下载默认内容，也不进入发行包。
+YSM 的 `built`、`custom` 和 `cache` 不进入公开客户端包。单独运行服务器部署脚本时，会把本地 `built/custom` 同步到 `office` 服务端，由服务端向客户端提供模型。`tlm_custom_pack` 由 Touhou Little Maid 自动下载默认内容，也不进入发行包。发布客户端不再自动部署服务器。
 
 `office` 服务端的 `run.sh` 与 `start.sh` 在启动 Forge 前都会执行 `update-pack.sh`，从同一个 Pages 清单安装服务端所需文件。也可以在本地随时手动同步配置、YSM 模型并刷新服务端：
 
@@ -45,6 +48,11 @@ scripts/update-office-server.sh
 ```
 
 更新失败会阻止服务器继续启动，避免以不完整版本运行。`packwiz-installer-bootstrap` 固定为官方 v0.0.3，并在执行前校验 SHA-256。
+
+发布门禁包括：导出包逐项匹配当前元数据、下载内容哈希、唯一模组 ID、options 引用的资源包完整、Pages 与当前提交逐文件一致、GitHub 草稿附件重新下载后逐字节一致。Pages 尚未更新时会明确失败，稍后重试；上传成功不等于整条链验收完成。
+
+回归测试：`python3.11 -m unittest discover -s scripts/tests -p 'test_*.py'`。
+本次问题和避免复发的规则见 [发布安装故障记录](docs/release-install-20260922.md)。
 
 ## 自托管模组
 

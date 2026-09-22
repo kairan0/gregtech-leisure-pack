@@ -2,6 +2,23 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Verify exported download bytes and unique Forge mod IDs before publishing;
+  rebuild the client pack with the accepted LT2 0f327c47 and Thunderbolt bf5735d.
+- Archive recognized superseded JARs after updates, including first-time adoption
+  of launcher imports and renamed targets already present on disk. Unknown or
+  locally modified duplicates fail the update instead of being silently removed.
+- Require exact public Pages contents and a byte-for-byte release download check;
+  server deployment is now separate from publishing the client artifact.
+
+### Added
+
+- Ship kairan's resource-pack order, key bindings and other client options for
+  new installations. Online updates preserve existing players' options.txt.
+- Include a shared client/server verified updater (Python 3.11+ and Java 17),
+  persistent rename history, recoverable backups, and regression tests.
+
 ### Accepted Tianshu EAEP virtual crafting fix (2026-09-21)
 
 - Tianshu honors confirmed EAEP virtual dispatches for terminal final outputs,

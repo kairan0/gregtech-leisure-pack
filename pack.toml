@@ -1,12 +1,12 @@
 name = "GregTech Leisure"
 author = "kairan0"
-version = "1.4.5.1-kairan.9"
+version = "1.4.5.1-kairan.10"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5994974047b64ba9cc71c11b58dec1eaa7f51f00a89473446dd1cb6013819d50"
+hash = "05bb3e09380ef63c1048678f8f87b60cc74abfa24f28b15a889d40cb044c950d"
 
 [versions]
 forge = "47.4.16"
